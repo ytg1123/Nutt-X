@@ -1,0 +1,1 @@
+cmd_drivers/sunxi_flash/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o drivers/sunxi_flash/built-in.o drivers/sunxi_flash/sunxi_flash.o drivers/sunxi_flash/sdmmc.o drivers/sunxi_flash/nand.o drivers/sunxi_flash/spinor.o 

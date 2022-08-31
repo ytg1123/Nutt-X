@@ -1,0 +1,7 @@
+crc7.o: crc7.c /home/taga/NuttX/u-boot-sunxi/include/linux/types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/posix_types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/stddef.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/posix_types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/crc7.h

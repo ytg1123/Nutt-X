@@ -1,0 +1,6 @@
+rsb.c:74:12:rsb_await_trans	24	static
+rsb.c:123:12:rsb_do_trans	0	static
+rsb.c:57:5:rsb_init	16	static
+rsb.c:132:5:rsb_set_device_address	0	static
+rsb.c:144:5:rsb_write	0	static
+rsb.c:157:5:rsb_read	8	static

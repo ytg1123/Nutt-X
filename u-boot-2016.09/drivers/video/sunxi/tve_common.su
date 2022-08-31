@@ -1,0 +1,2 @@
+tve_common.c:15:6:tvencoder_mode_set	0	static
+tve_common.c:82:6:tvencoder_enable	0	static

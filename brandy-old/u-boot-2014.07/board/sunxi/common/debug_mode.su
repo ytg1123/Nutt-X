@@ -1,0 +1,3 @@
+debug_mode.c:264:5:debug_mode_get	0	static
+debug_mode.c:269:5:debug_mode_set	0	static
+debug_mode.c:274:6:debug_mode_update_info	0	static

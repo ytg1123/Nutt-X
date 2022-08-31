@@ -1,0 +1,5 @@
+pmic_bus.c:29:5:pmic_bus_init	8	static
+pmic_bus.c:61:5:pmic_bus_read	0	static
+pmic_bus.c:78:5:pmic_bus_write	0	static
+pmic_bus.c:95:5:pmic_bus_setbits	24	static
+pmic_bus.c:108:5:pmic_bus_clrbits	24	static

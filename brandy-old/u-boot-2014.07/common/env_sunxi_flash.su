@@ -1,0 +1,6 @@
+env_sunxi_flash.c:70:7:env_get_char_spec	0	static
+env_sunxi_flash.c:75:5:env_init	0	static
+env_sunxi_flash.c:100:5:saveenv	393296	static
+env_sunxi_flash.c:145:5:recover_env	16	static
+env_sunxi_flash.c:175:13:flash_env_relocate_spec	262184	static
+env_sunxi_flash.c:277:6:env_relocate_spec	0	static

@@ -1,0 +1,6 @@
+default_eink.c:114:12:EINK_user_defined_func	0	static
+default_eink.c:70:12:EINK_close_flow	8	static
+default_eink.c:98:13:EINK_power_off	8	static
+default_eink.c:78:13:EINK_power_on	8	static
+default_eink.c:63:12:EINK_open_flow	8	static
+default_eink.c:6:13:EINK_cfg_panel_info	168	static

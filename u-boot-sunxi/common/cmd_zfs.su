@@ -1,0 +1,3 @@
+cmd_zfs.c:139:5:zfs_print	8	static
+cmd_zfs.c:49:12:do_zfs_load	184	static
+cmd_zfs.c:149:12:do_zfs_ls	120	static

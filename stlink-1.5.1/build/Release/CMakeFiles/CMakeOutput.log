@@ -1,0 +1,497 @@
+The system is: Linux - 4.4.0-166-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_973fa/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_973fa.dir/build.make CMakeFiles/cmTC_973fa.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_973fa.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_973fa.dir/testCCompiler.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_973fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_973fa.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_973fa.dir/testCCompiler.c.o  -o cmTC_973fa -rdynamic 
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7bd6a/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_7bd6a.dir/build.make CMakeFiles/cmTC_7bd6a.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7bd6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bd6a.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o  -o cmTC_7bd6a -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7bd6a' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnqH4bn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7bd6a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7bd6a/fast"]
+  ignore line: [make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7bd6a.dir/build.make CMakeFiles/cmTC_7bd6a.dir/build]
+  ignore line: [make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [Building C object CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7bd6a]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7bd6a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o  -o cmTC_7bd6a -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7bd6a' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccnqH4bn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_7bd6a /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccnqH4bn.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7bd6a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_7bd6a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_828b6/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_828b6.dir/build.make CMakeFiles/cmTC_828b6.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_828b6.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_828b6.dir/feature_tests.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_828b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_828b6.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_828b6.dir/feature_tests.c.o  -o cmTC_828b6 -rdynamic 
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_427eb/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_427eb.dir/build.make CMakeFiles/cmTC_427eb.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_427eb.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_427eb.dir/feature_tests.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_427eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_427eb.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_427eb.dir/feature_tests.c.o  -o cmTC_427eb -rdynamic 
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_902e4/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_902e4.dir/build.make CMakeFiles/cmTC_902e4.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_902e4.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_902e4.dir/feature_tests.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/feature_tests.c
+Linking C executable cmTC_902e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_902e4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_902e4.dir/feature_tests.c.o  -o cmTC_902e4 -rdynamic 
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test C_SUPPORTS_STD_GNU99 succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_457e5/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_457e5.dir/build.make CMakeFiles/cmTC_457e5.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_457e5.dir/src.c.o
+/usr/bin/cc    -DC_SUPPORTS_STD_GNU99   -std=gnu99 -o CMakeFiles/cmTC_457e5.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_457e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_457e5.dir/link.txt --verbose=1
+/usr/bin/cc   -DC_SUPPORTS_STD_GNU99    CMakeFiles/cmTC_457e5.dir/src.c.o  -o cmTC_457e5 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WALL succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84029/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_84029.dir/build.make CMakeFiles/cmTC_84029.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84029.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -DC_SUPPORTS_WALL   -Wall -o CMakeFiles/cmTC_84029.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_84029
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84029.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -DC_SUPPORTS_WALL    CMakeFiles/cmTC_84029.dir/src.c.o  -o cmTC_84029 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WEXTRA succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed694/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ed694.dir/build.make CMakeFiles/cmTC_ed694.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed694.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -DC_SUPPORTS_WEXTRA   -Wextra -o CMakeFiles/cmTC_ed694.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ed694
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed694.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -DC_SUPPORTS_WEXTRA    CMakeFiles/cmTC_ed694.dir/src.c.o  -o cmTC_ed694 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WSHADOW succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e796d/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e796d.dir/build.make CMakeFiles/cmTC_e796d.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e796d.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -DC_SUPPORTS_WSHADOW   -Wshadow -o CMakeFiles/cmTC_e796d.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e796d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e796d.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -DC_SUPPORTS_WSHADOW    CMakeFiles/cmTC_e796d.dir/src.c.o  -o cmTC_e796d -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_D_FORTIFY_SOURCE_2 succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b3d1/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2b3d1.dir/build.make CMakeFiles/cmTC_2b3d1.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b3d1.dir/src.c.o
+/usr/bin/cc  -D_FORTIFY_SOURCE=2  -std=gnu99 -Wall -Wextra -Wshadow -DC_SUPPORTS_D_FORTIFY_SOURCE_2   -o CMakeFiles/cmTC_2b3d1.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2b3d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b3d1.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -DC_SUPPORTS_D_FORTIFY_SOURCE_2    CMakeFiles/cmTC_2b3d1.dir/src.c.o  -o cmTC_2b3d1 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87845/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_87845.dir/build.make CMakeFiles/cmTC_87845.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87845.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -DC_SUPPORTS_FSTRICT_ALIASING   -fstrict-aliasing -o CMakeFiles/cmTC_87845.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_87845
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87845.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -DC_SUPPORTS_FSTRICT_ALIASING    CMakeFiles/cmTC_87845.dir/src.c.o  -o cmTC_87845 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WUNDEF succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4896/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c4896.dir/build.make CMakeFiles/cmTC_c4896.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4896.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -DC_SUPPORTS_WUNDEF   -Wundef -o CMakeFiles/cmTC_c4896.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c4896
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4896.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -DC_SUPPORTS_WUNDEF    CMakeFiles/cmTC_c4896.dir/src.c.o  -o cmTC_c4896 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WFORMAT succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4af9/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f4af9.dir/build.make CMakeFiles/cmTC_f4af9.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4af9.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -DC_SUPPORTS_WFORMAT   -Wformat -o CMakeFiles/cmTC_f4af9.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f4af9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4af9.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -DC_SUPPORTS_WFORMAT    CMakeFiles/cmTC_f4af9.dir/src.c.o  -o cmTC_f4af9 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WFORMAT_SECURITY succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce336/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ce336.dir/build.make CMakeFiles/cmTC_ce336.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce336.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -DC_SUPPORTS_WFORMAT_SECURITY   -Wformat-security -o CMakeFiles/cmTC_ce336.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ce336
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce336.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -DC_SUPPORTS_WFORMAT_SECURITY    CMakeFiles/cmTC_ce336.dir/src.c.o  -o cmTC_ce336 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WMAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dbafc/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dbafc.dir/build.make CMakeFiles/cmTC_dbafc.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbafc.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -DC_SUPPORTS_WMAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTC_dbafc.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dbafc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbafc.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -DC_SUPPORTS_WMAYBE_UNINITIALIZED    CMakeFiles/cmTC_dbafc.dir/src.c.o  -o cmTC_dbafc -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WIMPLICIT_FUNCTION_DECLARATION succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7fed/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f7fed.dir/build.make CMakeFiles/cmTC_f7fed.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7fed.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -DC_SUPPORTS_WIMPLICIT_FUNCTION_DECLARATION   -Wimplicit-function-declaration -o CMakeFiles/cmTC_f7fed.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f7fed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7fed.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -DC_SUPPORTS_WIMPLICIT_FUNCTION_DECLARATION    CMakeFiles/cmTC_f7fed.dir/src.c.o  -o cmTC_f7fed -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WREDUNDANT_DECLS succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4c611/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4c611.dir/build.make CMakeFiles/cmTC_4c611.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c611.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -DC_SUPPORTS_WREDUNDANT_DECLS   -Wredundant-decls -o CMakeFiles/cmTC_4c611.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4c611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c611.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -DC_SUPPORTS_WREDUNDANT_DECLS    CMakeFiles/cmTC_4c611.dir/src.c.o  -o cmTC_4c611 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_544db/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_544db.dir/build.make CMakeFiles/cmTC_544db.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_544db.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -DC_SUPPORTS_FPIC   -fPIC -o CMakeFiles/cmTC_544db.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_544db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_544db.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -DC_SUPPORTS_FPIC    CMakeFiles/cmTC_544db.dir/src.c.o  -o cmTC_544db -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_O2 succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a4d74/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a4d74.dir/build.make CMakeFiles/cmTC_a4d74.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4d74.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -DC_SUPPORTS_O2   -O2 -o CMakeFiles/cmTC_a4d74.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a4d74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4d74.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -DC_SUPPORTS_O2    CMakeFiles/cmTC_a4d74.dir/src.c.o  -o cmTC_a4d74 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR succeeded with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_763a8/fast"
+make[1]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_763a8.dir/build.make CMakeFiles/cmTC_763a8.dir/build
+make[2]: Entering directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_763a8.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -DC_SUPPORTS_WERROR   -Werror -o CMakeFiles/cmTC_763a8.dir/src.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_763a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_763a8.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -DC_SUPPORTS_WERROR    CMakeFiles/cmTC_763a8.dir/src.c.o  -o cmTC_763a8 -rdynamic 
+make[2]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9001/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_c9001.dir/build.make CMakeFiles/cmTC_c9001.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c9001.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -Werror    -o CMakeFiles/cmTC_c9001.dir/CheckIncludeFile.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c9001
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9001.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -Werror     CMakeFiles/cmTC_c9001.dir/CheckIncludeFile.c.o  -o cmTC_c9001 -rdynamic 
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c1f5a/fast"
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/make -f CMakeFiles/cmTC_c1f5a.dir/build.make CMakeFiles/cmTC_c1f5a.dir/build
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_c1f5a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -Werror    -o CMakeFiles/cmTC_c1f5a.dir/CheckIncludeFile.c.o   -c /home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c1f5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c1f5a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -Werror     CMakeFiles/cmTC_c1f5a.dir/CheckIncludeFile.c.o  -o cmTC_c1f5a -rdynamic 
+make[2]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/stlink-1.5.1/build/Release/CMakeFiles/CMakeTmp' から出ます
+
+

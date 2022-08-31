@@ -1,0 +1,1 @@
+cmd_usb_sunxi/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o usb_sunxi/built-in.o usb_sunxi/usb_mass.o usb_sunxi/usb_efex.o usb_sunxi/usb_fastboot.o usb_sunxi/buf_queue.o usb_sunxi/efex_queue.o usb_sunxi/usb_burn.o usb_sunxi/usb_base_common.o usb_sunxi/usb_base_platform.o usb_sunxi/usb_dma_control.o 

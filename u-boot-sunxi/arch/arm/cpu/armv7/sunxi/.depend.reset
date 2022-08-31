@@ -1,0 +1,1 @@
+reset.o: reset.S /home/taga/NuttX/u-boot-sunxi/include/asm/arch/cpu.h

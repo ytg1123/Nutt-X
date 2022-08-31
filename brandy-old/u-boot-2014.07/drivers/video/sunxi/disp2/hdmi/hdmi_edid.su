@@ -1,0 +1,10 @@
+hdmi_edid.c:444:12:hdmi_edid_parse_vdb_and_check_vic_support	64	dynamic
+hdmi_edid.c:683:12:hdmi_edid_get_dt_support	40	static
+hdmi_edid.c:493:12:hdmi_edid_get_vdb_support_vic	72	static
+hdmi_edid.c:524:12:hdmi_edid_parse_vdb_and_get_tx_support_vic	40	static
+hdmi_edid.c:410:5:hdmi_edid_parse	32	static
+hdmi_edid.c:770:5:hdmi_edid_check_init_vic_and_get_supported_vic	40	static
+hdmi_edid.c:844:5:hdmi_get_edid_dt_timing_info	72	static
+hdmi_edid.c:903:5:hdmi_edid_is_hdmi	0	static
+hdmi_edid.c:908:5:hdmi_edid_is_yuv	0	static
+hdmi_edid.c:913:11:hdmi_edid_get_data	0	static

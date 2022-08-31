@@ -1,0 +1,20 @@
+/home/taga/NuttX/u-boot-sunxi/spl/lib/string.o: string.c \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/posix_types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/stddef.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/posix_types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/string.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/string.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_cmd_defaults.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_defaults.h \
+ /home/taga/NuttX/u-boot-sunxi/include/configs/sun4i.h \
+ /home/taga/NuttX/u-boot-sunxi/include/configs/sunxi-common.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/arch/cpu.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_fallbacks.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_uncmd_spl.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/ctype.h \
+ /home/taga/NuttX/u-boot-sunxi/include/malloc.h

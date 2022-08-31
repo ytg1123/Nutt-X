@@ -1,0 +1,1 @@
+/usr/bin/cc   -std=gnu99 -Wall -Wextra -Wshadow -D_FORTIFY_SOURCE=2 -fstrict-aliasing -Wundef -Wformat -Wformat-security -Wmaybe-uninitialized -Wimplicit-function-declaration -Wredundant-decls -fPIC -O2 -Werror -O3 -DNDEBUG   CMakeFiles/st-info.dir/src/tools/info.c.o  -o st-info -rdynamic libstlink.so.1.5.1 -lusb-1.0 -Wl,-rpath,/home/taga/NuttX/stlink-1.5.1/build/Release: 

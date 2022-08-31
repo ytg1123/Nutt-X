@@ -1,0 +1,11 @@
+sprite_verify.c:216:13:__mbr_map_dump	48	static
+sprite_verify.c:54:6:add_sum	12	static
+sprite_verify.c:107:6:sunxi_sprite_part_rawdata_verify	32	static
+sprite_verify.c:188:6:sunxi_sprite_part_sparsedata_verify	0	static
+sprite_verify.c:193:6:sunxi_sprite_generate_checksum	0	static
+sprite_verify.c:198:5:sunxi_sprite_verify_checksum	0	static
+sprite_verify.c:258:5:sunxi_sprite_verify_mbr	24	static
+sprite_verify.c:293:5:sunxi_sprite_get_one_valid_mbr	24	static
+sprite_verify.c:324:5:sunxi_sprite_read_mbr	16	static
+sprite_verify.c:346:5:sunxi_sprite_verify_mbr_from_flash	16	static
+sprite_verify.c:395:5:sunxi_sprite_verify_dlmap	8	static

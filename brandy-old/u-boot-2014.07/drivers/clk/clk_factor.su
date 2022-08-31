@@ -1,0 +1,12 @@
+clk_factor.c:265:12:sunxi_clk_fators_is_enabled	0	static
+clk_factor.c:276:22:sunxi_clk_factors_recalc_rate	24	static
+clk_factor.c:328:13:sunxi_clk_factors_round_rate	32	static
+clk_factor.c:39:12:sunxi_clk_is_lock	24	static
+clk_factor.c:10:12:sunxi_clk_disable_plllock	16	static
+clk_factor.c:420:12:sunxi_clk_factors_set_rate	32	static
+clk_factor.c:114:12:sunxi_clk_fators_enable	16	static
+clk_factor.c:234:13:sunxi_clk_fators_disable	0	static
+clk_factor.c:502:6:sunxi_clk_get_factors_ops	0	static
+clk_factor.c:518:5:sunxi_clk_register_factors	40	static
+clk_factor.c:561:5:sunxi_clk_get_common_factors	8	static
+clk_factor.c:618:5:sunxi_clk_com_ftr_sr	40	static

@@ -1,0 +1,4 @@
+swab.h:112:48:__fswab32	0	static
+swab.h:126:48:__fswab64	16	static
+zfs_fletcher.c:47:1:fletcher_2_endian	72	static
+zfs_fletcher.c:69:1:fletcher_4_endian	64	static

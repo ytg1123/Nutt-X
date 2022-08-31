@@ -1,0 +1,13 @@
+sunxi_pwm_enhance.c:130:5:sunxi_pwm_set_polarity	0	static
+sunxi_pwm_enhance.c:107:12:sunxi_pwm_pin_set_state	48	static
+sunxi_pwm_enhance.c:151:12:get_pccr_reg_offset	8	static
+sunxi_pwm_enhance.c:342:13:sunxi_pwm_disable	32	static
+sunxi_pwm_enhance.c:307:12:sunxi_pwm_enable	32	static
+sunxi_pwm_enhance.c:182:5:sunxi_pwm_config	136	static
+sunxi_pwm_enhance.c:406:6:sunxi_pwm_init	0	static
+sunxi_pwm_enhance.c:410:5:pwm_config	8	static
+sunxi_pwm_enhance.c:425:5:pwm_enable	8	static
+sunxi_pwm_enhance.c:439:5:pwm_disable	16	static
+sunxi_pwm_enhance.c:453:5:pwm_set_polarity	24	static
+sunxi_pwm_enhance.c:467:5:pwm_init	0	static
+sunxi_pwm_enhance.c:472:5:pwm_request	144	static

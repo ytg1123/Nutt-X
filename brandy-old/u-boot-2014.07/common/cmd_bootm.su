@@ -1,0 +1,4 @@
+cmd_bootm.c:239:5:do_bootd	8	static
+cmd_bootm.c:99:13:update_bootargs	1160	static
+cmd_bootm.c:129:5:do_bootm	48	static
+cmd_bootm.c:178:5:bootm_maybe_autostart	24	static

@@ -1,0 +1,13 @@
+dev_disp.c:173:13:drv_lcd_close_callback	24	static
+dev_disp.c:112:13:drv_lcd_open_callback	24	static
+dev_disp.c:581:12:disp_blank	24	static
+dev_disp.c:36:11:disp_getprop_regbase	176	static
+dev_disp.c:67:5:disp_getprop_irq	176	static
+dev_disp.c:222:5:disp_set_hdmi_func	0	static
+dev_disp.c:227:5:disp_set_hdmi_detect	0	static
+dev_disp.c:243:5:disp_tv_register	0	static
+dev_disp.c:294:5:drv_disp_init	40	static
+dev_disp.c:534:5:drv_disp_exit	8	static
+dev_disp.c:546:5:sunxi_disp_get_source_ops	8	static
+dev_disp.c:603:6:disp_ioctl	240	static
+dev_disp.c:1169:5:drv_disp_standby	24	static

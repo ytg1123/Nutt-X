@@ -1,0 +1,6 @@
+sunxi_key.c:38:12:sunxi_key_clock_open	0	static
+sunxi_key.c:43:12:sunxi_key_clock_close	0	static
+sunxi_key.c:48:5:sunxi_key_init	8	static
+sunxi_key.c:75:5:sunxi_key_exit	8	static
+sunxi_key.c:90:5:sunxi_key_read	8	static
+sunxi_key.c:134:5:do_key_test	8	static

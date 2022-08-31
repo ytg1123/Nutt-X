@@ -1,0 +1,23 @@
+ns16550.o: ns16550.c /home/taga/NuttX/u-boot-sunxi/include/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_cmd_defaults.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_defaults.h \
+ /home/taga/NuttX/u-boot-sunxi/include/configs/sun4i.h \
+ /home/taga/NuttX/u-boot-sunxi/include/configs/sunxi-common.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/arch/cpu.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_fallbacks.h \
+ /home/taga/NuttX/u-boot-sunxi/include/config_uncmd_spl.h \
+ /home/taga/NuttX/u-boot-sunxi/include/ns16550.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/config.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/posix_types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/stddef.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/posix_types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/types.h \
+ /home/taga/NuttX/u-boot-sunxi/include/watchdog.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/io.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/byteorder.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/byteorder/little_endian.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/byteorder/swab.h \
+ /home/taga/NuttX/u-boot-sunxi/include/linux/byteorder/generic.h \
+ /home/taga/NuttX/u-boot-sunxi/include/asm/memory.h

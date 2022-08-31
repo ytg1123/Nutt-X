@@ -1,0 +1,7 @@
+axp_gpio.c:21:11:axp_get_gpio_ctrl_reg	0	static
+axp_gpio.c:81:12:axp_gpio_get_value	16	static
+axp_gpio.c:146:12:gpio_axp_probe	8	static
+axp_gpio.c:114:12:axp_gpio_set_value	8	static
+axp_gpio.c:54:12:axp_gpio_direction_output	16	static
+axp_gpio.c:36:12:axp_gpio_direction_input	8	static
+axp_gpio.c:164:5:axp_gpio_init	16	static

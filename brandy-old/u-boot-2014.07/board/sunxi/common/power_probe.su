@@ -1,0 +1,2 @@
+power_probe.c:33:6:power_limit_init	0	static
+power_probe.c:39:6:power_limit_for_vbus	0	static

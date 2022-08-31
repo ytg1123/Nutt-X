@@ -1,0 +1,12 @@
+bin/gnu_cxxinitialize.o: gnu/gnu_cxxinitialize.c \
+ /home/taga/NuttX/nuttx/include/nuttx/config.h \
+ /home/taga/NuttX/nuttx/include/debug.h \
+ /home/taga/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/taga/NuttX/nuttx/include/syslog.h \
+ /home/taga/NuttX/nuttx/include/stdint.h \
+ /home/taga/NuttX/nuttx/include/arch/types.h \
+ /home/taga/NuttX/nuttx/include/limits.h \
+ /home/taga/NuttX/nuttx/include/arch/limits.h \
+ /home/taga/NuttX/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include/stdarg.h \
+ /home/taga/NuttX/nuttx/include/stdbool.h \
+ /home/taga/NuttX/apps/include/platform/cxxinitialize.h

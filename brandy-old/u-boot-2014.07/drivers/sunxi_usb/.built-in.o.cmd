@@ -1,0 +1,1 @@
+cmd_drivers/sunxi_usb/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o drivers/sunxi_usb/built-in.o drivers/sunxi_usb/usbc.o drivers/sunxi_usb/usbc_dev.o drivers/sunxi_usb/usbc_dma.o drivers/sunxi_usb/usbc_host.o drivers/sunxi_usb/usbc_phy.o 

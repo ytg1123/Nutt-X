@@ -1,0 +1,5 @@
+cmd_sunxi_flash.c:43:12:get_partition_flash_info	24	static
+cmd_sunxi_flash.c:19:27:nand_uboot_init_force_sprite	0	static
+cmd_sunxi_flash.c:23:27:sunxi_sprite_download_boot0	0	static
+cmd_sunxi_flash.c:27:27:spinor_download_boot0	0	static
+cmd_sunxi_flash.c:142:5:do_sunxi_flash	48	static

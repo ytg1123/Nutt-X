@@ -1,0 +1,7 @@
+spi_sunxi_common.c:248:14:sunxi_dma_isr	0	static
+spi_sunxi_common.c:158:13:1	16	static
+spi_sunxi_common.c:64:12:9	8	static
+spi_sunxi_common.c:253:5:spic_init	56	static
+spi_sunxi_common.c:305:5:spic_rw	24	static
+spi_sunxi_common.c:480:5:spic_exit	8	static
+spi_sunxi_common.c:491:6:spic_config_dual_mode	0	static

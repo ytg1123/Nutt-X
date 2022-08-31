@@ -1,0 +1,7 @@
+axp20_supply.c:703:12:axp20_set_gpio0ldo	32	static
+axp20_supply.c:794:12:12	40	static
+axp20_supply.c:844:12:16	24	static
+axp20_supply.c:862:5:axp20_set_supply_status	0	static
+axp20_supply.c:895:5:axp20_set_supply_status_byname	32	static
+axp20_supply.c:921:5:axp20_probe_supply_status	0	static
+axp20_supply.c:926:5:axp20_probe_supply_status_byname	0	static

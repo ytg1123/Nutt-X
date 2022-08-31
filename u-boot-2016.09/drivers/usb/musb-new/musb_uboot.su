@@ -1,0 +1,4 @@
+musb_uboot.c:373:5:usb_gadget_handle_interrupts	0	static
+musb_uboot.c:382:5:usb_gadget_register_driver	16	static
+musb_uboot.c:412:5:usb_gadget_unregister_driver	8	static
+musb_uboot.c:422:14:musb_register	8	static

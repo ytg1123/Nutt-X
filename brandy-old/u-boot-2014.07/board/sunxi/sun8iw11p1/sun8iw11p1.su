@@ -1,0 +1,12 @@
+sun8iw11p1.c:36:6:enable_smp	0	static
+sun8iw11p1.c:61:5:board_init	8	static
+sun8iw11p1.c:101:6:dram_init_banksize	0	static
+sun8iw11p1.c:122:5:dram_init	8	static
+sun8iw11p1.c:145:5:board_mmc_init	8	static
+sun8iw11p1.c:152:6:board_mmc_pre_init	0	static
+sun8iw11p1.c:162:5:board_mmc_get_num	0	static
+sun8iw11p1.c:168:6:board_mmc_set_num	0	static
+sun8iw11p1.c:185:5:cpu0_set_detected_paras	0	static
+sun8iw11p1.c:190:7:get_spare_head_size	0	static
+sun8iw11p1.c:207:5:platform_axp_probe	8	static
+sun8iw11p1.c:229:7:board_hardware_info	0	static

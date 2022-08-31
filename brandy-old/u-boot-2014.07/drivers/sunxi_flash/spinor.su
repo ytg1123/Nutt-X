@@ -1,0 +1,12 @@
+spinor.c:41:1:sunxi_flash_spinor_read	0	static
+spinor.c:88:1:sunxi_flash_spinor_flush	0	static
+spinor.c:59:1:sunxi_flash_spinor_size	0	static
+spinor.c:64:12:sunxi_flash_spinor_erase	0	static
+spinor.c:95:1:sunxi_sprite_spinor_write	0	static
+spinor.c:76:1:sunxi_flash_spinor_exit	0	static
+spinor.c:70:1:sunxi_flash_spinor_init	0	static
+spinor.c:49:1:sunxi_flash_spinor_write	0	static
+spinor.c:117:5:sunxi_sprite_setdata_finish	0	static
+spinor.c:123:5:spinor_init_for_boot	8	static
+spinor.c:139:6:spinor_init_for_sprite	8	static
+spinor.c:160:5:spinor_get_boot0_size	4112	static

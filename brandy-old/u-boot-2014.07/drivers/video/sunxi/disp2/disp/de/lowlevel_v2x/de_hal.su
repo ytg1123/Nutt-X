@@ -1,0 +1,12 @@
+de_hal.c:7:5:de_update_device_fps	0	static
+de_hal.c:17:5:de_update_clk_rate	8	static
+de_hal.c:27:5:de_get_clk_rate	0	static
+de_hal.c:219:5:de_al_lyr_apply_direct_show	64	static
+de_hal.c:312:5:de_al_lyr_apply	1832	static
+de_hal.c:628:5:de_al_mgr_apply_color	72	static
+de_hal.c:650:5:de_al_mgr_apply	72	static
+de_hal.c:692:5:de_al_mgr_sync	0	static
+de_hal.c:698:5:de_al_mgr_update_regs	8	static
+de_hal.c:712:5:de_al_query_irq	0	static
+de_hal.c:717:5:de_al_enable_irq	0	static
+de_hal.c:722:5:de_al_init	16	static

@@ -1,0 +1,3 @@
+cpu_info.c:42:6:sunxi_get_sram_id	0	static
+cpu_info.c:56:5:print_cpuinfo	8	static
+cpu_info.c:138:5:sunxi_get_sid	0	static

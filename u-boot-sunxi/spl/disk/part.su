@@ -1,0 +1,7 @@
+part.c:74:19:get_dev	24	static
+part.c:139:6:dev_print	48	static
+part.c:255:6:init_part	8	static
+part.c:329:6:print_part	8	static
+part.c:384:5:get_partition_info	8	static
+part.c:452:5:get_device	32	static
+part.c:477:5:get_device_and_partition	128	static

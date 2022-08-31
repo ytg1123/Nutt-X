@@ -1,0 +1,510 @@
+Archive member included because of file (symbol)
+
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+                              /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o (__aeabi_llsl)
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+                              /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o (__aeabi_uldivmod)
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+                              /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+                              /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+                              /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o) (__divdi3)
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                              /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o) (__udivdi3)
+/home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+                              /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o) (__aeabi_uidiv)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+LOAD /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.head           0x00000000      0x2f8
+ main/boot0_head.o(.rodata)
+ .rodata        0x00000000      0x2f8 main/boot0_head.o
+                0x00000000                BT0_head
+
+.hash           0x000002f8       0x40
+ main/boot0_hash.o(.data)
+ .data          0x000002f8       0x40 main/boot0_hash.o
+                0x000002f8                boot0_hash_value
+                0x00000338                . = ALIGN (0x1)
+
+.text           0x00000338     0x51c0
+ main/boot0_entry.o(.text)
+ .text          0x00000338       0x70 main/boot0_entry.o
+                0x00000338                _start
+ *(.text)
+ .text          0x000003a8     0x1af4 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                0x000003a8                local_delay
+                0x000003ac                paraconfig
+                0x000003b8                set_master_priority
+                0x000003dc                auto_set_timing_para
+                0x00000a00                ccm_set_pll_ddr_clk
+                0x00000a34                ccm_set_pll_ddr1_clk
+                0x00000a6c                mctl_sys_init
+                0x00000cc4                mctl_com_init
+                0x00000d68                mctl_channel_init
+                0x00001300                DRAMC_get_dram_size
+                0x00001328                auto_detect_dram_size
+                0x00001494                init_DRAM
+                0x0000161c                mctl_init
+                0x00001688                binding_chip_id
+                0x0000172c                sunxi_rsb_init
+                0x000018cc                sunxi_rsb_config
+                0x00001a04                sunxi_rsb_exit
+                0x00001a08                sunxi_rsb_read
+                0x00001b9c                sunxi_rsb_write
+                0x00001d30                set_ddr_voltage
+                0x00001e48                get_axp_chip_id
+ .text          0x00001e9c      0x290 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+                0x00001e9c                check_magic
+                0x00001eb2                check_sum
+                0x00001f24                check_file
+                0x00001f4c                verify_addsum
+                0x00001fbc                BOOT_NandGetPara
+                0x00001fd0                get_page_buf
+                0x00001fd8                g_mod
+                0x00001ffc                set_dram_para
+                0x00002018                cpu_init_s
+                0x00002028                mmu_setup
+                0x000020a0                mmu_turn_off
+                0x000020d0                raise
+                0x000020d4                __aeabi_unwind_cpp_pr0
+                0x000020d8                set_debugmode_flag
+ .text          0x0000212c       0x76 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+                0x0000212c                bias_calibration
+                0x0000212e                AXP22X_setDLDO1
+                0x0000216e                AXP22_closeDLDO1
+ *fill*         0x000021a2        0x2 00
+ .text          0x000021a4      0xcd4 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+                0x000021a4                rtc_region_probe_fel_flag
+                0x000021dc                rtc_region_clear_fel_flag
+                0x000021e8                timer_init
+                0x00002224                __msdelay
+                0x0000223c                __usdelay
+                0x00002254                timer_exit
+                0x00002256                get_ticks
+                0x00002264                boot_set_gpio
+                0x000024ec                boot_set_one_gpio
+                0x0000261c                sunxi_serial_init
+                0x00002688                sunxi_serial_putc
+                0x0000269c                sunxi_serial_getc
+                0x000026b0                sunxi_serial_tstc
+                0x000026c0                set_pll
+                0x00002780                reset_pll
+                0x0000279c                set_gpio_gate
+                0x000027bc                set_ccmu_normal
+                0x000027c8                sw2001_verify
+                0x00002890                iDeviceInit
+                0x000028a8                iDeviceDeInit
+                0x000028b2                iWriteByte
+                0x000028d4                iReadByte
+                0x000028f0                iSleep
+                0x000028f4                iWriteData
+                0x00002920                iReadData
+                0x0000295e                iSetBits
+                0x00002990                iClearBits
+                0x000029c4                iCheckBits
+                0x00002b28                set_i2c_clock
+                0x00002b5c                i2c_init
+                0x00002c7c                i2c_exit
+                0x00002c8c                i2c_read
+                0x00002dc4                i2c_write
+                0x00002e54                axp_i2c_read
+                0x00002e62                axp_i2c_write
+ .text          0x00002e78      0x3b0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                0x00002ea2                int_to_string_dec
+                0x00002f02                int_to_string_hex
+                0x00002f24                vsprintf
+                0x00002fc2                puts
+                0x00002fd6                sprintf
+                0x00002fee                printf
+                0x00003020                strcpy
+                0x00003030                strncpy
+                0x00003044                strcat
+                0x00003060                strncat
+                0x0000308c                strcmp
+                0x000030a2                strncmp
+                0x000030c0                strchr
+                0x000030d8                strlen
+                0x000030e8                strrchr
+                0x00003108                strnlen
+                0x0000311e                strspn
+                0x00003142                memset
+                0x00003150                memcpy
+                0x00003162                memmove
+                0x0000319a                memcmp
+                0x000031b6                memscan
+                0x000031ce                strstr
+                0x00003202                memchr
+                0x0000321c                boot0_jump
+ .text          0x00003228     0x17d8 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+                0x00003734                sunxi_clock_get_pll6
+                0x0000390c                set_mmc_para
+                0x00003944                sunxi_mmc_init
+                0x00003adc                sunxi_mmc_exit
+                0x00003b14                mmc_send_cmd
+                0x00003b1e                mmc_send_status
+                0x00003ba0                mmc_set_blocklen
+                0x00003bc4                find_mmc_device
+                0x00003be4                mmc_read_blocks
+                0x00003c78                mmc_bread
+                0x00003d18                mmc_go_idle
+                0x00003d58                sd_send_op_cond
+                0x00003e58                mmc_send_op_cond
+                0x00003f50                mmc_send_ext_csd
+                0x00003f94                mmc_update_phase
+                0x00003f9e                mmc_switch
+                0x00003ffc                mmc_change_freq
+                0x000040bc                mmc_switch_part
+                0x000040e6                sd_switch
+                0x0000412c                sd_change_freq
+                0x00004288                mmc_set_ios
+                0x00004292                mmc_set_clock
+                0x000042ae                mmc_set_bus_mode
+                0x000042ba                mmc_set_bus_width
+                0x000042c6                mmc_startup
+                0x000048a8                mmc_send_if_cond
+                0x00004904                mmc_init
+                0x000049d0                mmc_register
+                0x000049f0                mmc_unregister
+ .text          0x00004a00      0x158 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+                0x00004a00                load_boot1_from_sdmmc
+                0x00004b38                load_boot1
+ .text          0x00004b58       0x18 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+                0x00004b58                __ashldi3
+                0x00004b58                __aeabi_llsl
+ .text          0x00004b70       0x2c /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+                0x00004b70                __aeabi_uldivmod
+ .text          0x00004b9c        0xc /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+                0x00004b9c                __aeabi_ldiv0
+                0x00004b9c                __aeabi_idiv0
+ .text          0x00004ba8       0x5c /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+                0x00004ba8                __gnu_ldivmod_helper
+                0x00004bd8                __gnu_uldivmod_helper
+ .text          0x00004c04      0x360 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+                0x00004c04                __divdi3
+ .text          0x00004f64      0x31c /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                0x00004f64                __udivdi3
+ .text          0x00005280      0x278 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+                0x00005280                __udivsi3
+                0x00005280                __aeabi_uidiv
+                0x000054dc                __aeabi_uidivmod
+ .text          0x000054f8        0x0 main/boot0_head.o
+ .text          0x000054f8        0x0 main/boot0_hash.o
+
+.glue_7         0x000054f8        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x000054f8        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x000054f8        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x000054f8        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x000054f8        0x0
+ .iplt          0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+
+.text.startup   0x000054f8      0x1ec
+ .text.startup  0x000054f8      0x1ec /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+                0x000054f8                main
+                0x000056f0                . = ALIGN (0x10)
+
+.rodata         0x000056f0       0xbc
+ *(.rodata)
+ .rodata        0x000056f0       0x48 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .rodata        0x00005738       0x11 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ *fill*         0x00005749        0x3 00
+ .rodata        0x0000574c       0x60 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+
+.rodata.str1.1  0x000057ac     0x175a
+ .rodata.str1.1
+                0x000057ac      0x93a /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                                0x93b (size before relaxing)
+ .rodata.str1.1
+                0x000060e6       0x20 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+                                 0x28 (size before relaxing)
+ .rodata.str1.1
+                0x00006106      0x145 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .rodata.str1.1
+                0x0000624b       0x4e /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+                                 0x50 (size before relaxing)
+ .rodata.str1.1
+                0x00006299      0xb44 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+                                0xb64 (size before relaxing)
+ .rodata.str1.1
+                0x00006ddd      0x129 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+
+.ARM.extab      0x00006f06        0x0
+ .ARM.extab     0x00006f06        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .ARM.extab     0x00006f06        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .ARM.extab     0x00006f06        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+
+.ARM.exidx      0x00006f08       0x28
+ .ARM.exidx     0x00006f08       0x10 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .ARM.exidx     0x00006f18        0x8 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00006f20       0x10 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+                                  0x8 (size before relaxing)
+
+.rel.dyn        0x00006f30        0x0
+ .rel.iplt      0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                0x00006f30                . = ALIGN (0x10)
+
+.data           0x00006f30      0x174
+ *(.data)
+ .data          0x00006f30       0x2c /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .data          0x00006f5c        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .data          0x00006f5c        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .data          0x00006f5c      0x144 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+                0x00006f5c                pt_table
+                0x00006ffc                ct_table
+ .data          0x000070a0        0x4 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                0x000070a0                debug_mode
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .data          0x000070a4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .data          0x000070a4        0x0 main/boot0_head.o
+ .data          0x000070a4        0x0 main/boot0_entry.o
+
+.igot.plt       0x000070a4        0x0
+ .igot.plt      0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                0x000070a4                . = ALIGN (0x4)
+
+.bss            0x000070a8      0x30c
+                0x000070a8                __bss_start = .
+ *(.bss)
+ .bss           0x000070a8        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .bss           0x000070a8        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .bss           0x000070a8        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .bss           0x000070a8        0x5 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+                0x000070ac                SLAVE_ADDR
+ .bss           0x000070ad        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ *fill*         0x000070ad        0x3 00
+ .bss           0x000070b0      0x304 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+                0x000070b0                mmc_host
+                0x00007138                mmc_dev
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .bss           0x000073b4        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .bss           0x000073b4        0x0 main/boot0_head.o
+ .bss           0x000073b4        0x0 main/boot0_hash.o
+ .bss           0x000073b4        0x0 main/boot0_entry.o
+                0x000073b4                . = ALIGN (0x4)
+                0x000073b4                __bss_end = .
+                0x000073b4                _end = .
+OUTPUT(boot0_sdcard.axf elf32-littlearm)
+
+.comment        0x00000000       0x64
+ .comment       0x00000000       0x64 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                                0x12f (size before relaxing)
+ .comment       0x00000000      0x1f9 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .comment       0x00000000       0x65 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .comment       0x00000000      0x328 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .comment       0x00000000      0x12f /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .comment       0x00000000       0xca /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .comment       0x00000000       0x65 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .comment       0x00000000       0x65 main/boot0_head.o
+ .comment       0x00000000       0x65 main/boot0_hash.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x00000000        0x0 main/boot0_head.o
+ .note.GNU-stack
+                0x00000000        0x0 main/boot0_hash.o
+
+.ARM.attributes
+                0x00000000       0x3f
+ .ARM.attributes
+                0x00000000       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .ARM.attributes
+                0x0000003b       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .ARM.attributes
+                0x00000076       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .ARM.attributes
+                0x000000b1       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .ARM.attributes
+                0x000000ec       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .ARM.attributes
+                0x00000127       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .ARM.attributes
+                0x00000162       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .ARM.attributes
+                0x0000019d       0x23 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x000001c0       0x23 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x000001e3       0x23 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000206       0x35 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x0000023b       0x35 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000270       0x35 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x000002a5       0x23 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000002c8       0x3b main/boot0_head.o
+ .ARM.attributes
+                0x00000303       0x3b main/boot0_hash.o
+ .ARM.attributes
+                0x0000033e       0x2d main/boot0_entry.o
+
+.debug_aranges  0x00000000      0x308
+ .debug_aranges
+                0x00000000       0x60 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_aranges
+                0x00000060       0xa0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .debug_aranges
+                0x00000100       0x28 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_aranges
+                0x00000128      0x100 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_aranges
+                0x00000228       0x60 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_aranges
+                0x00000288       0x40 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .debug_aranges
+                0x000002c8       0x20 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .debug_aranges
+                0x000002e8       0x20 main/boot0_entry.o
+
+.debug_info     0x00000000     0x97b7
+ .debug_info    0x00000000     0x14be /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_info    0x000014be     0x1223 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .debug_info    0x000026e1      0x679 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_info    0x00002d5a     0x1f96 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_info    0x00004cf0      0xa7d /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_info    0x0000576d     0x353c /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .debug_info    0x00008ca9      0x691 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .debug_info    0x0000933a      0x378 main/boot0_head.o
+ .debug_info    0x000096b2       0x95 main/boot0_hash.o
+ .debug_info    0x00009747       0x70 main/boot0_entry.o
+
+.debug_abbrev   0x00000000     0x220a
+ .debug_abbrev  0x00000000      0x579 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_abbrev  0x00000579      0x3eb /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .debug_abbrev  0x00000964      0x1db /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_abbrev  0x00000b3f      0x9b8 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_abbrev  0x000014f7      0x32b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_abbrev  0x00001822      0x7c9 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .debug_abbrev  0x00001feb      0x11f /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .debug_abbrev  0x0000210a       0x9f main/boot0_head.o
+ .debug_abbrev  0x000021a9       0x4d main/boot0_hash.o
+ .debug_abbrev  0x000021f6       0x14 main/boot0_entry.o
+
+.debug_line     0x00000000     0x2ba1
+ .debug_line    0x00000000      0xa5e /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_line    0x00000a5e      0x57c /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .debug_line    0x00000fda      0x1a4 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_line    0x0000117e      0xa0e /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_line    0x00001b8c      0x402 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_line    0x00001f8e      0x971 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .debug_line    0x000028ff      0x160 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .debug_line    0x00002a5f       0xbd main/boot0_head.o
+ .debug_line    0x00002b1c       0x2d main/boot0_hash.o
+ .debug_line    0x00002b49       0x58 main/boot0_entry.o
+
+.debug_frame    0x00000000     0x10cc
+ .debug_frame   0x00000000      0x28c /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_frame   0x0000028c      0x18c /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .debug_frame   0x00000418       0x78 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_frame   0x00000490      0x438 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_frame   0x000008c8      0x2c0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_frame   0x00000b88      0x414 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .debug_frame   0x00000f9c       0x4c /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+ .debug_frame   0x00000fe8       0x54 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(bpabi.o)
+ .debug_frame   0x0000103c       0x38 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_divdi3.o)
+ .debug_frame   0x00001074       0x38 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivdi3.o)
+ .debug_frame   0x000010ac       0x20 /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/libgcc.a(_udivsi3.o)
+
+.debug_str      0x00000000     0x1b34
+ .debug_str     0x00000000      0x647 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                                0x937 (size before relaxing)
+ .debug_str     0x00000647      0x3fb /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+                                0xd94 (size before relaxing)
+ .debug_str     0x00000a42      0x15a /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+                                0x40b (size before relaxing)
+ .debug_str     0x00000b9c      0x659 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+                                0xf60 (size before relaxing)
+ .debug_str     0x000011f5      0x180 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                                0x44c (size before relaxing)
+ .debug_str     0x00001375      0x71b /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+                                0xd66 (size before relaxing)
+ .debug_str     0x00001a90       0x8a /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+                                0x4c3 (size before relaxing)
+ .debug_str     0x00001b1a        0xd main/boot0_head.o
+                                0x2ec (size before relaxing)
+ .debug_str     0x00001b27        0xd main/boot0_hash.o
+                                0x105 (size before relaxing)
+
+.debug_loc      0x00000000     0x8183
+ .debug_loc     0x00000000     0x2882 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_loc     0x00002882      0x55e /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/libs/libgeneric.o
+ .debug_loc     0x00002de0      0x212 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_loc     0x00002ff2     0x1eed /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_loc     0x00004edf      0xb52 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_loc     0x00005a31     0x26a1 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o
+ .debug_loc     0x000080d2       0xb1 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/load_mmc/libloadmmc.o
+
+.debug_ranges   0x00000000      0x6b0
+ .debug_ranges  0x00000000      0x1f8 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_ranges  0x000001f8       0x18 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/main/libmain.o
+ .debug_ranges  0x00000210      0x120 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/boot0/spl/libsource_spl.o
+ .debug_ranges  0x00000330      0x380 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/mmc/libmmc.o

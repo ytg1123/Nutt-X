@@ -1,0 +1,11 @@
+swab.h:112:48:__fswab32	0	static
+cmd_bootm.c:1058:5:do_bootd	8	static
+image.h:381:1:image_get_size	0	static
+cmd_bootm.c:1389:12:do_bootm_rtems	8	static
+cmd_bootm.c:1278:12:do_bootm_netbsd	40	static
+cmd_bootm.c:193:12:9	48	static
+cmd_bootm.c:317:12:10	40	static
+cmd_bootm.c:164:6:__arch_preboot_os	0	static
+cmd_bootm.c:477:5:do_bootm_subcommand	72	static
+cmd_bootm.c:586:5:do_bootm	104	static
+cmd_bootm.c:719:5:bootm_maybe_autostart	24	static

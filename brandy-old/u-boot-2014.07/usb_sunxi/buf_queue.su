@@ -1,0 +1,8 @@
+buf_queue.c:44:5:buf_queue_init	48	static
+buf_queue.c:124:5:buf_queue_exit	16	static
+buf_queue.c:157:5:buf_queue_empty	0	static
+buf_queue.c:162:5:buf_queue_full	0	static
+buf_queue.c:167:5:buf_queue_free_size	0	static
+buf_queue.c:172:5:buf_queue_get_page_size	0	static
+buf_queue.c:177:5:buf_enqueue	16	static
+buf_queue.c:206:5:buf_dequeue	16	static

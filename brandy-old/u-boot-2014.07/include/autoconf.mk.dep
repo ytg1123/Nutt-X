@@ -1,0 +1,45 @@
+include/autoconf.mk: \
+ /home/taga/NuttX/brandy/u-boot-2014.07/include/common.h include/config.h \
+ include/config_cmd_defaults.h include/config_defaults.h \
+ include/configs/sun8iw11p1.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/arch/platform.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/config.h \
+ include/config_fallbacks.h include/config_uncmd_spl.h \
+ include/asm-offsets.h include/linux/bitops.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/types.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/bitops.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/proc-armv/system.h \
+ include/linux/types.h include/linux/posix_types.h include/linux/stddef.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/posix_types.h \
+ /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/include/stdbool.h \
+ include/linux/string.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/string.h \
+ include/linux/linux_string.h include/linux/stringify.h \
+ include/linux/sizes.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/ptrace.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/proc-armv/ptrace.h \
+ /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/include/stdarg.h \
+ include/boot_type.h include/private_uboot.h include/spare_head.h \
+ include/sunxi_flash.h include/common.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/io.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/byteorder.h \
+ include/linux/byteorder/little_endian.h include/linux/compiler.h \
+ include/linux/compiler-gcc.h include/linux/compiler-gcc4.h \
+ include/linux/byteorder/swab.h include/linux/byteorder/generic.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/memory.h \
+ include/iotrace.h include/part.h include/ide.h include/part_efi.h \
+ include/flash.h include/image.h include/compiler.h \
+ /home/taga/NuttX/brandy/gcc-linaro/bin/../lib/gcc/arm-linux-gnueabi/4.6.3/include/stddef.h \
+ include/lmb.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/u-boot.h \
+ include/asm-generic/u-boot.h include/command.h include/linker_lists.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/global_data.h \
+ include/asm-generic/global_data.h include/linux/list.h \
+ include/linux/poison.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/mach-types.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/setup.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/u-boot-arm.h \
+ include/uuid.h include/vsprintf.h include/u-boot/crc.h include/net.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/cache.h \
+ /home/taga/NuttX/brandy/u-boot-2014.07/arch/arm/include/asm/system.h \
+ include/bootstage.h include/environment.h

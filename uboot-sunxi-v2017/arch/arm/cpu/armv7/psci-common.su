@@ -1,0 +1,2 @@
+psci-common.c:29:15:psci_save_target_pc	0	static
+psci-common.c:35:14:psci_get_target_pc	0	static

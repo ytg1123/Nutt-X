@@ -1,0 +1,7 @@
+board.c:146:12:spl_board_load_image	8	static
+board.c:157:6:s_init	8	static
+board.c:217:10:sunxi_get_boot_device	8	static
+board.c:257:5:spl_boot_device	0	static
+board.c:262:6:board_init_f	8	static
+board.c:275:6:reset_cpu	0	static
+board.c:302:6:enable_caches	0	static

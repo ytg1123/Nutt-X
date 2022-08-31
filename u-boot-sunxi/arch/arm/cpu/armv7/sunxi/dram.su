@@ -1,0 +1,2 @@
+dram.c:465:10:DRAMC_get_dram_size	0	static
+dram.c:510:5:DRAMC_init	16	static

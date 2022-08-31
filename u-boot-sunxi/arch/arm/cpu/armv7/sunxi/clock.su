@@ -1,0 +1,2 @@
+clock.c:44:5:clock_init	8	static
+clock.c:73:5:clock_twi_onoff	8	static

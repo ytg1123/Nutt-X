@@ -1,0 +1,4 @@
+dram_sun8i_a33.c:32:13:mctl_set_cr	12	static
+dram_sun8i_a33.c:179:13:mctl_data_train_cfg.isra.0	0	static
+dram_sun8i_a33.c:190:12:mctl_train_dram	8	static
+dram_sun8i_a33.c:327:15:sunxi_dram_init	32	static

@@ -1,0 +1,1250 @@
+Archive member included because of file (symbol)
+
+/home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o)
+                              arch/arm/cpu/armv7/sunxi/libsunxi.o (__aeabi_uidiv)
+/home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_divsi3.o)
+                              common/libcommon.o (__aeabi_idiv)
+/home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_dvmd_tls.o)
+                              /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_lshrdi3.o)
+                              fs/zfs/libzfs.o (__aeabi_llsr)
+/home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_ashldi3.o)
+                              drivers/mmc/libmmc.o (__aeabi_llsl)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00000000                . = 0x0
+                0x00000000                . = ALIGN (0x4)
+
+.text           0x4a000000    0x1e464
+                0x4a000000                __image_copy_start = .
+ arch/arm/cpu/armv7/start.o(.text)
+ .text          0x4a000000      0x4a0 arch/arm/cpu/armv7/start.o
+                0x4a000000                _start
+                0x4a000040                _end_vect
+                0x4a000040                _TEXT_BASE
+                0x4a000044                _bss_start_ofs
+                0x4a000048                _image_copy_end_ofs
+                0x4a00004c                _bss_end_ofs
+                0x4a000050                _end_ofs
+                0x4a000054                IRQ_STACK_START_IN
+                0x4a00009c                relocate_code
+                0x4a0001bc                save_boot_params
+                0x4a0001c0                cpu_init_cp15
+                0x4a0001f8                cpu_init_crit
+ *(.text)
+ .text          0x4a0004a0      0x2f8 arch/arm/cpu/armv7/libarmv7.o
+                0x4a0005f0                invalidate_icache_all
+                0x4a000608                __v7_outer_cache_enable
+                0x4a000608                v7_outer_cache_enable
+                0x4a00060c                v7_outer_cache_disable
+                0x4a00060c                __v7_outer_cache_disable
+                0x4a000610                __v7_outer_cache_flush_all
+                0x4a000610                v7_outer_cache_flush_all
+                0x4a000614                flush_dcache_all
+                0x4a000628                v7_outer_cache_inval_all
+                0x4a000628                __v7_outer_cache_inval_all
+                0x4a00062c                invalidate_dcache_all
+                0x4a000640                arm_init_before_mmu
+                0x4a000668                v7_outer_cache_flush_range
+                0x4a000668                __v7_outer_cache_flush_range
+                0x4a00066c                flush_dcache_range
+                0x4a0006a8                flush_cache
+                0x4a0006b0                __v7_outer_cache_inval_range
+                0x4a0006b0                v7_outer_cache_inval_range
+                0x4a0006b4                invalidate_dcache_range
+                0x4a0006f0                cpu_cache_initialization
+                0x4a0006f4                cleanup_before_linux
+                0x4a00071c                sdelay
+                0x4a000728                sr32
+                0x4a00074c                wait_on_value
+                0x4a000780                lowlevel_init
+ .text          0x4a000798      0x98c arch/arm/cpu/armv7/sunxi/libsunxi.o
+                0x4a000798                timer_init
+                0x4a0007b8                get_timer_masked
+                0x4a000810                get_timer
+                0x4a000824                __udelay
+                0x4a00087c                get_ticks
+                0x4a00088c                get_tbclk
+                0x4a000894                DRAMC_get_dram_size
+                0x4a000908                DRAMC_init
+                0x4a000d8c                gpio_init
+                0x4a000db0                s_init
+                0x4a000dc0                reset_cpu
+                0x4a000dc4                enable_caches
+                0x4a000dc8                clock_init
+                0x4a000e30                clock_twi_onoff
+                0x4a000e68                sunxi_gpio_set_cfgpin
+                0x4a000ea8                sunxi_gpio_get_cfgpin
+                0x4a000ed8                sunxi_gpio_output
+                0x4a000f10                sunxi_gpio_input
+                0x4a000f38                gpio_request
+                0x4a000f40                gpio_free
+                0x4a000f48                gpio_direction_input
+                0x4a000f64                gpio_direction_output
+                0x4a000f88                gpio_get_value
+                0x4a000f8c                gpio_set_value
+                0x4a000f90                sunxi_key_init
+                0x4a00101c                sunxi_read_key
+                0x4a00103c                print_cpuinfo
+                0x4a001054                do_sunxi_watchdog
+                0x4a0010f8                watchdog_reset
+                0x4a00110c                sunxi_reset
+ .text          0x4a001124      0x8bc arch/arm/lib/libarm.o
+                0x4a001124                arch_cpu_init
+                0x4a001124                __arch_cpu_init
+                0x4a0011ac                coloured_LED_init
+                0x4a0011ac                __coloured_LED_init
+                0x4a0011b0                __red_led_on
+                0x4a0011b0                red_led_on
+                0x4a0011b4                __red_led_off
+                0x4a0011b4                red_led_off
+                0x4a0011b8                green_led_on
+                0x4a0011b8                __green_led_on
+                0x4a0011bc                green_led_off
+                0x4a0011bc                __green_led_off
+                0x4a0011c0                yellow_led_on
+                0x4a0011c0                __yellow_led_on
+                0x4a0011c4                __yellow_led_off
+                0x4a0011c4                yellow_led_off
+                0x4a0011c8                blue_led_on
+                0x4a0011c8                __blue_led_on
+                0x4a0011cc                __blue_led_off
+                0x4a0011cc                blue_led_off
+                0x4a0011d0                __dram_init_banksize
+                0x4a0011ec                board_init_r
+                0x4a001284                hang
+                0x4a001298                board_init_f
+                0x4a001574                arch_lmb_reserve
+                0x4a001598                do_bootm_linux
+                0x4a0015f0                interrupt_init
+                0x4a00160c                enable_interrupts
+                0x4a001610                disable_interrupts
+                0x4a001618                bad_mode
+                0x4a001628                show_regs
+                0x4a001764                do_undefined_instruction
+                0x4a001784                do_software_interrupt
+                0x4a0017a4                do_prefetch_abort
+                0x4a0017c4                do_data_abort
+                0x4a0017e4                do_not_used
+                0x4a001804                do_fiq
+                0x4a001824                do_irq
+                0x4a001844                do_reset
+                0x4a001870                __flush_cache
+                0x4a001874                __flush_dcache_all
+                0x4a001880                __enable_caches
+                0x4a0018bc                __arm_init_before_mmu
+                0x4a00194c                icache_enable
+                0x4a001964                icache_disable
+                0x4a00197c                icache_status
+                0x4a001988                dcache_enable
+                0x4a0019b0                dcache_disable
+                0x4a0019d4                dcache_status
+ .text          0x4a0019e0       0x74 board/allwinner/common/liballwinner.o
+                0x4a0019e0                board_init
+                0x4a0019f8                dram_init_banksize
+                0x4a001a1c                dram_init
+                0x4a001a40                board_mmc_init
+ .text          0x4a001a54     0xb630 common/libcommon.o
+                0x4a001a6c                do_bdinfo
+                0x4a001b3c                do_go_exec
+                0x4a001b54                do_go
+                0x4a001bcc                do_bootd
+                0x4a00226c                arch_preboot_os
+                0x4a00226c                __arch_preboot_os
+                0x4a002270                do_bootm_subcommand
+                0x4a0024b4                do_bootm
+                0x4a002744                bootm_maybe_autostart
+                0x4a0027b8                do_echo
+                0x4a002868                do_exit
+                0x4a002898                do_ext2load
+                0x4a0028b0                do_ext2ls
+                0x4a0028c8                do_ext4_ls
+                0x4a0028e0                do_ext4_load
+                0x4a0028f8                do_ext_load
+                0x4a002b20                do_ext_ls
+                0x4a002ce0                do_fat_fsinfo
+                0x4a002d70                do_fat_fsload
+                0x4a002ed8                do_fat_ls
+                0x4a002f8c                do_help
+                0x4a0037f0                i2c_init_board
+                0x4a0037f0                __def_i2c_init_board
+                0x4a0037f4                __def_i2c_get_bus_speed
+                0x4a0037f4                i2c_get_bus_speed
+                0x4a003800                __def_i2c_set_bus_speed
+                0x4a003800                i2c_set_bus_speed
+                0x4a0039ac                do_dumpascii
+                0x4a003a90                send_pad
+                0x4a003ac0                ktrans
+                0x4a003ae4                chk1
+                0x4a003b10                s1_sendpacket
+                0x4a003b38                send_ack
+                0x4a003b94                send_nack
+                0x4a003bf0                k_data_init
+                0x4a003c10                k_data_save
+                0x4a003c34                k_data_restore
+                0x4a003c58                k_data_char
+                0x4a003ca8                handle_send_packet
+                0x4a003e88                do_load_serial_bin
+                0x4a0042e8                do_mem_crc
+                0x4a004394                do_mem_base
+                0x4a0043d4                do_mem_mtest
+                0x4a004574                do_mem_loop
+                0x4a00465c                do_mem_cp
+                0x4a004730                do_mem_cmp
+                0x4a00487c                do_mem_mw
+                0x4a004938                do_mem_md
+                0x4a004b5c                do_mem_nm
+                0x4a004b64                do_mem_mm
+                0x4a004b6c                do_mmcops
+                0x4a004f8c                do_mmcinfo
+                0x4a005484                do_env_save
+                0x4a005550                do_env_print
+                0x4a0055d4                get_env_id
+                0x4a0055e4                env_check_apply
+                0x4a0057d8                _do_env_set
+                0x4a005980                do_env_set
+                0x4a0059a0                setenv
+                0x4a005c44                setenv_ulong
+                0x4a005c64                setenv_addr
+                0x4a005c98                envmatch
+                0x4a005d00                getenv_f
+                0x4a005dc0                getenv
+                0x4a005e2c                getenv_ulong
+                0x4a005e5c                source
+                0x4a005f38                do_source
+                0x4a005f7c                do_false
+                0x4a005f84                do_true
+                0x4a005f8c                do_test
+                0x4a0063f0                do_version
+                0x4a006428                zfs_print
+                0x4a00673c                find_cmd_tbl
+                0x4a0067dc                find_cmd
+                0x4a006804                cmd_usage
+                0x4a006860                _do_help
+                0x4a0069e4                var_complete
+                0x4a006a68                cmd_auto_complete
+                0x4a006efc                cmd_get_data_size
+                0x4a006f4c                cmd_process
+                0x4a00709c                serial_printf
+                0x4a0070dc                fgetc
+                0x4a007108                ftstc
+                0x4a007134                fputc
+                0x4a00715c                fputs
+                0x4a007184                fprintf
+                0x4a0071cc                getc
+                0x4a007208                tstc
+                0x4a007244                putc
+                0x4a007280                puts
+                0x4a0072bc                printf
+                0x4a007308                vprintf
+                0x4a007348                ctrlc
+                0x4a007398                disable_ctrlc
+                0x4a0073b0                had_ctrlc
+                0x4a0073c0                clear_ctrlc
+                0x4a0073d4                dbg
+                0x4a0073e0                search_device
+                0x4a007410                console_assign
+                0x4a007454                console_init_f
+                0x4a007464                stdio_print_current_devices
+                0x4a007514                console_init_r
+                0x4a0075e8                sbrk
+                0x4a00764c                mem_malloc_init
+                0x4a007670                malloc_trim
+                0x4a007734                free
+                0x4a007958                cfree
+                0x4a00795c                malloc
+                0x4a007f18                calloc
+                0x4a007ff0                memalign
+                0x4a0080fc                pvalloc
+                0x4a008114                valloc
+                0x4a008120                realloc
+                0x4a008530                malloc_usable_size
+                0x4a00856c                mallopt
+                0x4a0085d8                env_get_char_spec
+                0x4a0085e4                env_get_addr
+                0x4a008604                env_get_char_memory
+                0x4a008614                env_get_char
+                0x4a008644                set_default_env
+                0x4a008700                set_default_vars
+                0x4a008734                env_import
+                0x4a008818                env_relocate
+                0x4a008848                env_complete
+                0x4a008954                mmc_get_env_addr
+                0x4a008964                env_init
+                0x4a008980                saveenv
+                0x4a008af8                env_relocate_spec
+                0x4a008bcc                get_version
+                0x4a008bd4                jumptable_init
+                0x4a008dd0                do_showvar
+                0x4a009360                get_local_var
+                0x4a0093e4                set_local_var
+                0x4a009840                unset_local_var
+                0x4a0098e0                new_pipe
+                0x4a009950                reserved_word
+                0x4a009c1c                mapset
+                0x4a009c44                update_ifs_map
+                0x4a009cd0                parse_string_outer
+                0x4a00ab40                parse_file_outer
+                0x4a00ab84                u_boot_hush_start
+                0x4a00abf0                image_check_hcrc
+                0x4a00ac40                image_check_dcrc
+                0x4a00ac7c                image_multi_count
+                0x4a00ac9c                image_multi_getimg
+                0x4a00ad24                getenv_yesno
+                0x4a00ad4c                getenv_bootm_low
+                0x4a00ad7c                getenv_bootm_size
+                0x4a00add8                getenv_bootm_mapsize
+                0x4a00ae08                memmove_wd
+                0x4a00ae14                genimg_print_size
+                0x4a00ae44                get_table_entry_name
+                0x4a00ae6c                genimg_get_os_name
+                0x4a00ae84                genimg_get_arch_name
+                0x4a00ae9c                genimg_get_type_name
+                0x4a00aeb4                genimg_get_comp_name
+                0x4a00aecc                image_print_contents
+                0x4a00b044                get_table_entry_id
+                0x4a00b094                genimg_get_os_id
+                0x4a00b0ac                genimg_get_arch_id
+                0x4a00b0c4                genimg_get_type_id
+                0x4a00b0dc                genimg_get_comp_id
+                0x4a00b0f4                genimg_get_format
+                0x4a00b114                genimg_get_image
+                0x4a00b118                genimg_has_config
+                0x4a00b120                boot_get_ramdisk
+                0x4a00b348                boot_ramdisk_high
+                0x4a00b478                boot_get_cmdline
+                0x4a00b6b0                __show_boot_progress
+                0x4a00b6b0                show_boot_progress
+                0x4a00b6b4                readline_into_buffer
+                0x4a00c044                readline
+                0x4a00c060                parse_line
+                0x4a00c0e0                run_command
+                0x4a00c0e8                run_command_list
+                0x4a00c144                main_loop
+                0x4a00c238                do_run
+                0x4a00c2ac                get_ram_size
+                0x4a00c420                srec_decode
+                0x4a00c678                stdio_get_list
+                0x4a00c684                stdio_get_by_name
+                0x4a00c6d8                stdio_clone
+                0x4a00c724                stdio_register
+                0x4a00c768                stdio_init
+                0x4a00c800                CYGACC_COMM_IF_GETC_TIMEOUT
+                0x4a00cac8                CYGACC_COMM_IF_PUTC
+                0x4a00cad0                parse_num
+                0x4a00cbe4                xyzModem_stream_open
+                0x4a00cd24                xyzModem_stream_read
+                0x4a00cf80                xyzModem_stream_close
+                0x4a00cfd0                xyzModem_stream_terminate
+                0x4a00d064                xyzModem_error
+ .text          0x4a00d084      0xcb0 disk/libdisk.o
+                0x4a00d084                get_dev
+                0x4a00d0e4                dev_print
+                0x4a00d2f4                init_part
+                0x4a00d314                print_part
+                0x4a00d3fc                get_partition_info
+                0x4a00d428                get_device
+                0x4a00d4a8                get_device_and_partition
+                0x4a00dc88                test_part_dos
+                0x4a00dcec                print_part_dos
+                0x4a00dd18                get_partition_info_dos
+ .text          0x4a00dd34      0x400 drivers/i2c/libi2c.o
+                0x4a00df0c                i2c_init
+                0x4a00df74                i2c_probe
+                0x4a00df7c                i2c_do_read
+                0x4a00e080                i2c_read
+                0x4a00e0a0                i2c_write
+ .text          0x4a00e134      0x4f8 drivers/input/libinput.o
+                0x4a00e134                input_queue_ascii
+                0x4a00e17c                input_tstc
+                0x4a00e1c4                input_getc
+                0x4a00e21c                input_send_keycodes
+                0x4a00e4ec                input_add_table
+                0x4a00e52c                input_init
+                0x4a00e5d8                input_stdio_register
+ .text          0x4a00e62c     0x1f50 drivers/mmc/libmmc.o
+                0x4a00e634                __board_mmc_getcd
+                0x4a00e634                board_mmc_getcd
+                0x4a00e63c                mmc_send_cmd
+                0x4a00e678                mmc_send_status
+                0x4a00e744                mmc_set_blocklen
+                0x4a00e774                find_mmc_device
+                0x4a00eaac                mmc_read_blocks
+                0x4a00ec04                mmc_go_idle
+                0x4a00ec50                sd_send_op_cond
+                0x4a00ed94                mmc_send_op_cond
+                0x4a00eed4                mmc_send_ext_csd
+                0x4a00ef20                mmc_switch
+                0x4a00ef74                mmc_change_freq
+                0x4a00f02c                mmc_switch_part
+                0x4a00f068                mmc_getcd
+                0x4a00f094                sd_switch
+                0x4a00f0f8                sd_change_freq
+                0x4a00f2dc                mmc_set_ios
+                0x4a00f2ec                mmc_set_clock
+                0x4a00f30c                mmc_set_bus_width
+                0x4a00f314                mmc_startup
+                0x4a00f9ac                mmc_send_if_cond
+                0x4a00fa20                mmc_register
+                0x4a00faa4                mmc_init
+                0x4a00fb80                mmc_get_dev
+                0x4a00fbac                cpu_mmc_init
+                0x4a00fbb4                print_mmc_devices
+                0x4a00fc20                get_mmc_num
+                0x4a00fc30                mmc_initialize
+                0x4a0102d8                sunxi_mmc_init
+ .text          0x4a01057c        0x0 drivers/pcmcia/libpcmcia.o
+ .text          0x4a01057c      0x26c drivers/power/libpower.o
+                0x4a01057c                axp209_write
+                0x4a0105a8                axp209_read
+                0x4a0105cc                axp209_set_dcdc2
+                0x4a010638                axp209_set_dcdc3
+                0x4a010680                axp209_set_ldo2
+                0x4a0106dc                axp209_set_ldo3
+                0x4a01071c                axp209_set_ldo4
+                0x4a01077c                axp209_poweroff
+                0x4a0107bc                axp209_init
+ .text          0x4a0107e8        0x0 drivers/rtc/librtc.o
+ .text          0x4a0107e8      0x254 drivers/serial/libserial.o
+                0x4a0107e8                NS16550_init
+                0x4a010830                NS16550_reinit
+                0x4a01087c                NS16550_putc
+                0x4a010898                NS16550_getc
+                0x4a0108ac                NS16550_tstc
+                0x4a0108dc                serial_init
+                0x4a010938                _serial_putc
+                0x4a010970                _serial_putc_raw
+                0x4a01098c                _serial_puts
+                0x4a0109b4                _serial_getc
+                0x4a0109d0                _serial_tstc
+                0x4a0109e4                _serial_setbrg
+                0x4a010a0c                serial_putc
+                0x4a010a14                serial_putc_raw
+                0x4a010a1c                serial_puts
+                0x4a010a24                serial_getc
+                0x4a010a2c                serial_tstc
+                0x4a010a34                serial_setbrg
+ .text          0x4a010a3c     0x15c8 fs/ext4/libext4fs.o
+                0x4a010a3c                get_fs
+                0x4a010a48                ext4fs_free_node
+                0x4a010a6c                ext4fs_read_file
+                0x4a010cb4                ext4fs_ls
+                0x4a010d28                ext4fs_read
+                0x4a010d94                ext4fs_read_inode
+                0x4a010e9c                read_allocated_block
+                0x4a011650                ext4fs_close
+                0x4a01172c                ext4fs_iterate_dir
+                0x4a011c00                ext4fs_find_file
+                0x4a011c74                ext4fs_open
+                0x4a011d00                ext4fs_mount
+                0x4a011dc4                ext4fs_set_blk_dev
+                0x4a011e00                ext4fs_devread
+ .text          0x4a012004     0x2cb0 fs/fat/libfat.o
+                0x4a013a98                fat_register_device
+                0x4a013bf8                do_fat_read_at
+                0x4a014740                do_fat_read
+                0x4a014764                file_fat_detectfs
+                0x4a0148b8                file_fat_ls
+                0x4a0148c8                file_fat_read_at
+                0x4a01490c                file_fat_read
+                0x4a014920                file_fat_write
+                0x4a014954                file_getfsname
+                0x4a01496c                file_cd
+                0x4a014b50                file_detectfs
+                0x4a014b8c                file_ls
+                0x4a014c18                file_read
+ .text          0x4a014cb4     0x3d68 fs/zfs/libzfs.o
+                0x4a014cb4                zfs_set_blk_dev
+                0x4a014cc4                zfs_devread
+                0x4a0171c4                zfs_nvlist_lookup_uint64
+                0x4a01722c                zfs_nvlist_lookup_string
+                0x4a0172c0                zfs_nvlist_lookup_nvlist
+                0x4a017338                zfs_nvlist_lookup_nvlist_array_get_nelm
+                0x4a01736c                zfs_nvlist_lookup_nvlist_array
+                0x4a017478                zfs_unmount
+                0x4a0174a4                zfs_mount
+                0x4a017ba4                zfs_fetch_nvlist
+                0x4a017bdc                zfs_open
+                0x4a017d6c                zfs_read
+                0x4a017f90                zfs_close
+                0x4a017fa4                zfs_getmdnobj
+                0x4a017ffc                zfs_ls
+                0x4a018230                fletcher_2_endian
+                0x4a0183c0                fletcher_4_endian
+                0x4a01874c                zio_checksum_SHA256
+                0x4a018944                lzjb_decompress
+ .text          0x4a018a1c     0x2dc4 lib/libgeneric.o
+                0x4a018a1c                cyg_crc16
+                0x4a018a60                crc32_no_comp
+                0x4a018b38                crc32
+                0x4a018b4c                crc32_wd
+                0x4a018b50                crc7
+                0x4a018b78                display_options
+                0x4a018b98                print_size
+                0x4a018ccc                print_buffer
+                0x4a018e28                __div64_32
+                0x4a018ef8                gzfree
+                0x4a018f00                gzalloc
+                0x4a018f10                zunzip
+                0x4a019018                gunzip
+                0x4a019138                hcreate_r
+                0x4a0191e4                hdestroy_r
+                0x4a019280                hstrstr_r
+                0x4a01932c                hmatch_r
+                0x4a0193cc                hsearch_r
+                0x4a0196a8                hdelete_r
+                0x4a01975c                hexport_r
+                0x4a0199f8                himport_r
+                0x4a019d80                ldiv
+                0x4a019f84                lmb_dump_all
+                0x4a019f88                lmb_init
+                0x4a019fb0                lmb_add
+                0x4a019fb4                lmb_free
+                0x4a01a0bc                lmb_reserve
+                0x4a01a0c4                lmb_overlaps_region
+                0x4a01a11c                __lmb_alloc_base
+                0x4a01a220                lmb_alloc_base
+                0x4a01a254                lmb_alloc
+                0x4a01a25c                lmb_is_reserved
+                0x4a01a2ac                board_lmb_reserve
+                0x4a01a2ac                __board_lmb_reserve
+                0x4a01a2b0                __arch_lmb_reserve
+                0x4a01a2b4                string_to_ip
+                0x4a01a314                qsort
+                0x4a01a3ec                strcmp_compar
+                0x4a01a3f8                strcpy
+                0x4a01a414                strncpy
+                0x4a01a438                strcat
+                0x4a01a468                strncat
+                0x4a01a4b8                strcmp
+                0x4a01a4e4                strncmp
+                0x4a01a524                strchr
+                0x4a01a550                skip_spaces
+                0x4a01a580                strlen
+                0x4a01a5a0                strim
+                0x4a01a608                strrchr
+                0x4a01a644                strnlen
+                0x4a01a674                strdup
+                0x4a01a6ac                strspn
+                0x4a01a6e8                strpbrk
+                0x4a01a724                strtok
+                0x4a01a79c                strsep
+                0x4a01a7d0                strswab
+                0x4a01a81c                memset
+                0x4a01a884                bcopy
+                0x4a01a8a8                memcpy
+                0x4a01a910                memmove
+                0x4a01a974                memcmp
+                0x4a01a9a8                memscan
+                0x4a01a9d4                strstr
+                0x4a01aa40                memchr
+                0x4a01aa74                strmhz
+                0x4a01aae0                udelay
+                0x4a01ab0c                mdelay
+                0x4a01b448                simple_strtoul
+                0x4a01b510                strict_strtoul
+                0x4a01b588                simple_strtol
+                0x4a01b5b0                ustrtoul
+                0x4a01b620                simple_strtoull
+                0x4a01b708                vsprintf
+                0x4a01b70c                sprintf
+                0x4a01b730                panic
+                0x4a01b774                __assert_fail
+                0x4a01b788                simple_itoa
+ .text          0x4a01b7e0     0x26dc lib/zlib/libz.o
+                0x4a01b7e0                zcfree
+                0x4a01b7e8                zcalloc
+                0x4a01b7f0                inflate_fast
+                0x4a01bd88                inflate_table
+                0x4a01c340                inflateReset
+                0x4a01c3bc                inflateInit2_
+                0x4a01c4c0                inflateInit_
+                0x4a01c4d4                inflateEnd
+                0x4a01c538                adler32
+                0x4a01c874                inflate
+ .text          0x4a01debc       0x24 board/allwinner/pcduino/libpcduino.o
+                0x4a01debc                checkboard
+                0x4a01ded4                sunxi_dram_init
+ .text          0x4a01dee0       0x24 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+                0x4a01dee0                raise
+                0x4a01defc                __aeabi_unwind_cpp_pr0
+                0x4a01df00                __aeabi_unwind_cpp_pr1
+ *fill*         0x4a01df04        0x4 00
+ .text          0x4a01df08      0x278 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o)
+                0x4a01df08                __udivsi3
+                0x4a01df08                __aeabi_uidiv
+                0x4a01e164                __aeabi_uidivmod
+ .text          0x4a01e180      0x2b0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_divsi3.o)
+                0x4a01e180                __aeabi_idiv
+                0x4a01e180                __divsi3
+                0x4a01e414                __aeabi_idivmod
+ .text          0x4a01e430        0x4 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_dvmd_tls.o)
+                0x4a01e430                __aeabi_ldiv0
+                0x4a01e430                __aeabi_idiv0
+ .text          0x4a01e434       0x18 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_lshrdi3.o)
+                0x4a01e434                __aeabi_llsr
+                0x4a01e434                __lshrdi3
+ .text          0x4a01e44c       0x18 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_ashldi3.o)
+                0x4a01e44c                __ashldi3
+                0x4a01e44c                __aeabi_llsl
+
+.glue_7         0x4a01e464        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x4a01e464        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x4a01e464        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x4a01e464        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x4a01e464        0x0
+ .iplt          0x00000000        0x0 arch/arm/cpu/armv7/start.o
+                0x4a01e464                . = ALIGN (0x4)
+
+.rodata         0x4a01e464     0x6df9
+ *(SORT(.rodata*))
+ .rodata        0x4a01e464       0x80 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .rodata        0x4a01e4e4       0x80 arch/arm/lib/libarm.o
+ .rodata        0x4a01e564      0x760 common/libcommon.o
+                0x4a01e5e4                version_string
+                0x4a01e647                default_environment
+ .rodata        0x4a01ecc4       0x10 disk/libdisk.o
+ .rodata        0x4a01ecd4       0x50 drivers/mmc/libmmc.o
+ .rodata        0x4a01ed24       0x40 drivers/power/libpower.o
+ .rodata        0x4a01ed64       0x10 drivers/serial/libserial.o
+ .rodata        0x4a01ed74       0x18 fs/fat/libfat.o
+ .rodata        0x4a01ed8c      0x190 fs/zfs/libzfs.o
+ .rodata        0x4a01ef1c      0x827 lib/libgeneric.o
+                0x4a01f51c                crc7_syndrome_table
+                0x4a01f61c                _ctype
+                0x4a01f732                hex_asc
+ *fill*         0x4a01f743        0x1 00
+ .rodata        0x4a01f744      0x9cc lib/zlib/libz.o
+                0x4a0200e8                z_errmsg
+ .rodata        0x4a020110       0x16 arch/arm/cpu/armv7/libarmv7.o
+ .rodata        0x4a020126       0x70 drivers/input/libinput.o
+ .rodata        0x4a020196        0xf fs/ext4/libext4fs.o
+ .rodata.str1.1
+                0x4a0201a5       0x65 arch/arm/cpu/armv7/libarmv7.o
+ .rodata.str1.1
+                0x4a02020a       0x71 arch/arm/cpu/armv7/sunxi/libsunxi.o
+                                 0x72 (size before relaxing)
+ .rodata.str1.1
+                0x4a02027b      0x342 arch/arm/lib/libarm.o
+                                0x366 (size before relaxing)
+ .rodata.str1.1
+                0x4a0205bd     0x3554 common/libcommon.o
+                               0x3959 (size before relaxing)
+ .rodata.str1.1
+                0x4a023b11      0x3ea disk/libdisk.o
+                                0x414 (size before relaxing)
+ .rodata.str1.1
+                0x00000000        0x6 drivers/input/libinput.o
+ .rodata.str1.1
+                0x4a023efb      0x1a2 drivers/mmc/libmmc.o
+                                0x1a4 (size before relaxing)
+ .rodata.str1.1
+                0x4a02409d      0x354 fs/ext4/libext4fs.o
+                                0x35b (size before relaxing)
+ .rodata.str1.1
+                0x4a0243f1      0x2de fs/fat/libfat.o
+                                0x30b (size before relaxing)
+ .rodata.str1.1
+                0x4a0246cf      0x762 fs/zfs/libzfs.o
+                                0x7ab (size before relaxing)
+ .rodata.str1.1
+                0x4a024e31      0x1e5 lib/libgeneric.o
+                                0x1f7 (size before relaxing)
+ .rodata.str1.1
+                0x4a025016      0x21c lib/zlib/libz.o
+                                0x21d (size before relaxing)
+ .rodata.str1.1
+                0x4a025232       0x10 board/allwinner/pcduino/libpcduino.o
+ .rodata.str1.1
+                0x4a025242       0x1b /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.hash           0x4a025260       0x48
+ .hash          0x4a025260       0x48 arch/arm/cpu/armv7/start.o
+                0x4a0252a8                . = ALIGN (0x4)
+
+.data           0x4a0252a8      0xb88
+ *(.data)
+ .data          0x4a0252a8        0x0 arch/arm/cpu/armv7/start.o
+ .data          0x4a0252a8        0x0 arch/arm/cpu/armv7/libarmv7.o
+ .data          0x4a0252a8        0x0 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .data          0x4a0252a8       0x30 arch/arm/lib/libarm.o
+                0x4a0252a8                init_sequence
+ .data          0x4a0252d8        0x0 board/allwinner/common/liballwinner.o
+ .data          0x4a0252d8      0x78c common/libcommon.o
+                0x4a0255a4                load_addr
+                0x4a0259bc                env_htab
+                0x4a0259cc                env_name_spec
+                0x4a025a58                stdio_names
+ .data          0x4a025a64        0x0 disk/libdisk.o
+ .data          0x4a025a64        0x4 drivers/i2c/libi2c.o
+ .data          0x4a025a68       0xc6 drivers/input/libinput.o
+ *fill*         0x4a025b2e        0x2 00
+ .data          0x4a025b30        0x4 drivers/mmc/libmmc.o
+ .data          0x4a025b34        0x0 drivers/pcmcia/libpcmcia.o
+ .data          0x4a025b34        0x0 drivers/power/libpower.o
+ .data          0x4a025b34        0x0 drivers/rtc/librtc.o
+ .data          0x4a025b34        0x0 drivers/serial/libserial.o
+ .data          0x4a025b34        0xc fs/ext4/libext4fs.o
+                0x4a025b34                ext4fs_indir1_blkno
+                0x4a025b38                ext4fs_indir2_blkno
+                0x4a025b3c                ext4fs_indir3_blkno
+ .data          0x4a025b40      0x204 fs/fat/libfat.o
+                0x4a025b40                file_cwd
+ .data          0x4a025d44       0xa0 fs/zfs/libzfs.o
+ .data          0x4a025de4        0x0 lib/libgeneric.o
+ .data          0x4a025de4        0x0 lib/zlib/libz.o
+ .data          0x4a025de4       0x4c board/allwinner/pcduino/libpcduino.o
+ .data          0x4a025e30        0x0 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+ .data          0x4a025e30        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o)
+ .data          0x4a025e30        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_divsi3.o)
+ .data          0x4a025e30        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_dvmd_tls.o)
+ .data          0x4a025e30        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_lshrdi3.o)
+ .data          0x4a025e30        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_ashldi3.o)
+
+.got            0x4a025e30        0x0
+ .got           0x00000000        0x0 arch/arm/cpu/armv7/start.o
+
+.got.plt        0x4a025e30        0xc
+ .got.plt       0x4a025e30        0xc arch/arm/cpu/armv7/start.o
+                0x4a025e30                _GLOBAL_OFFSET_TABLE_
+
+.igot.plt       0x4a025e3c        0x0
+ .igot.plt      0x00000000        0x0 arch/arm/cpu/armv7/start.o
+                0x4a025e3c                . = ALIGN (0x4)
+                0x4a025e3c                . = .
+                0x4a025e3c                __u_boot_cmd_start = .
+
+.u_boot_cmd     0x4a025e3c      0x540
+ *(.u_boot_cmd)
+ .u_boot_cmd    0x4a025e3c       0x1c arch/arm/cpu/armv7/sunxi/libsunxi.o
+                0x4a025e3c                __u_boot_cmd_watchdog
+ .u_boot_cmd    0x4a025e58      0x524 common/libcommon.o
+                0x4a025e58                __u_boot_cmd_bdinfo
+                0x4a025e74                __u_boot_cmd_reset
+                0x4a025e90                __u_boot_cmd_go
+                0x4a025eac                __u_boot_cmd_bootd
+                0x4a025ec8                __u_boot_cmd_boot
+                0x4a025ee4                __u_boot_cmd_bootm
+                0x4a025f00                __u_boot_cmd_echo
+                0x4a025f1c                __u_boot_cmd_exit
+                0x4a025f38                __u_boot_cmd_ext2load
+                0x4a025f54                __u_boot_cmd_ext2ls
+                0x4a025f70                __u_boot_cmd_ext4load
+                0x4a025f8c                __u_boot_cmd_ext4ls
+                0x4a025fa8                __u_boot_cmd_fatwrite
+                0x4a025fc4                __u_boot_cmd_fatinfo
+                0x4a025fe0                __u_boot_cmd_fatls
+                0x4a025ffc                __u_boot_cmd_fatload
+                0x4a026018                __u_boot_cmd_question_mark
+                0x4a026034                __u_boot_cmd_help
+                0x4a026050                __u_boot_cmd_i2c
+                0x4a02606c                __u_boot_cmd_loady
+                0x4a026088                __u_boot_cmd_loadb
+                0x4a0260a4                __u_boot_cmd_dumpascii
+                0x4a0260c0                __u_boot_cmd_mtest
+                0x4a0260dc                __u_boot_cmd_loop
+                0x4a0260f8                __u_boot_cmd_base
+                0x4a026114                __u_boot_cmd_crc32
+                0x4a026130                __u_boot_cmd_cmp
+                0x4a02614c                __u_boot_cmd_cp
+                0x4a026168                __u_boot_cmd_mw
+                0x4a026184                __u_boot_cmd_nm
+                0x4a0261a0                __u_boot_cmd_mm
+                0x4a0261bc                __u_boot_cmd_md
+                0x4a0261d8                __u_boot_cmd_mmc
+                0x4a0261f4                __u_boot_cmd_mmcinfo
+                0x4a026210                __u_boot_cmd_run
+                0x4a02622c                __u_boot_cmd_setenv
+                0x4a026248                __u_boot_cmd_printenv
+                0x4a026264                __u_boot_cmd_env
+                0x4a026280                __u_boot_cmd_saveenv
+                0x4a02629c                __u_boot_cmd_source
+                0x4a0262b8                __u_boot_cmd_true
+                0x4a0262d4                __u_boot_cmd_false
+                0x4a0262f0                __u_boot_cmd_test
+                0x4a02630c                __u_boot_cmd_version
+                0x4a026328                __u_boot_cmd_zfsload
+                0x4a026344                __u_boot_cmd_zfsls
+                0x4a026360                __u_boot_cmd_showvar
+                0x4a02637c                __u_boot_cmd_end = .
+                0x4a02637c                . = ALIGN (0x4)
+                0x4a02637c                __image_copy_end = .
+
+.rel.dyn        0x4a02637c     0x3c10
+                0x4a02637c                __rel_dyn_start = .
+ *(.rel*)
+ .rel.got       0x00000000        0x0 arch/arm/cpu/armv7/start.o
+ .rel.plt       0x00000000        0x0 arch/arm/cpu/armv7/start.o
+ .rel.iplt      0x00000000        0x0 arch/arm/cpu/armv7/start.o
+ .rel.text      0x4a02637c     0x2418 arch/arm/cpu/armv7/start.o
+ .rel.u_boot_cmd
+                0x4a028794      0x608 arch/arm/cpu/armv7/start.o
+ .rel.rodata    0x4a028d9c      0x5b0 arch/arm/cpu/armv7/start.o
+ .rel.data      0x4a02934c      0xc40 arch/arm/cpu/armv7/start.o
+                0x4a029f8c                __rel_dyn_end = .
+
+.dynsym         0x4a029f8c       0xd0
+                0x4a029f8c                __dynsym_start = .
+ *(.dynsym)
+ .dynsym        0x4a029f8c       0xd0 arch/arm/cpu/armv7/start.o
+                0x4a02a05c                _end = .
+                0x4a02b000                . = ALIGN (0x1000)
+
+.mmutable
+ *(.mmutable)
+
+.bss            0x4a02637c    0x33074
+                0x4a02637c                __bss_start = .
+ *(.bss)
+ .bss           0x4a02637c        0x0 arch/arm/cpu/armv7/start.o
+ .bss           0x4a02637c        0x0 arch/arm/cpu/armv7/libarmv7.o
+ .bss           0x4a02637c        0x0 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .bss           0x4a02637c        0x8 arch/arm/lib/libarm.o
+                0x4a02637c                monitor_flash_len
+ .bss           0x4a026384        0x0 board/allwinner/common/liballwinner.o
+ .bss           0x4a026384     0x214c common/libcommon.o
+                0x4a026384                images
+                0x4a0264d4                his_pad_count
+                0x4a0264d8                his_pad_char
+                0x4a0264f1                his_eol
+                0x4a0264f8                os_data_init
+                0x4a026508                os_data_char
+                0x4a02650c                his_quote
+                0x4a026510                send_ptr
+                0x4a026514                send_parms
+                0x4a02653c                save_size
+                0x4a026540                save_addr
+                0x4a02684c                mem_malloc_brk
+                0x4a026850                mem_malloc_start
+                0x4a026854                mem_malloc_end
+                0x4a026890                env_ptr
+                0x4a0269c8                last_return_code
+                0x4a026ad0                nesting_level
+                0x4a026ae0                hist_num
+                0x4a026ae4                hist_lines
+                0x4a027ef8                hist_list
+                0x4a027f48                console_buffer
+                0x4a028088                stdio_devices
+ .bss           0x4a0284d0        0x0 disk/libdisk.o
+ .bss           0x4a0284d0        0x0 drivers/i2c/libi2c.o
+ .bss           0x4a0284d0        0x0 drivers/input/libinput.o
+ .bss           0x4a0284d0      0x528 drivers/mmc/libmmc.o
+                0x4a0284d8                mmc_dev
+                0x4a028978                mmc_host
+ .bss           0x4a0289f8        0x0 drivers/pcmcia/libpcmcia.o
+ .bss           0x4a0289f8        0x0 drivers/power/libpower.o
+ .bss           0x4a0289f8        0x0 drivers/rtc/librtc.o
+ .bss           0x4a0289f8        0x0 drivers/serial/libserial.o
+ .bss           0x4a0289f8       0x84 fs/ext4/libext4fs.o
+                0x4a0289f8                ext_fs
+                0x4a028a40                ext4fs_symlinknest
+                0x4a028a48                ext4fs_root
+                0x4a028a4c                ext4fs_indir1_block
+                0x4a028a50                ext4fs_indir1_size
+                0x4a028a54                ext4fs_indir2_block
+                0x4a028a58                ext4fs_indir2_size
+                0x4a028a5c                ext4fs_indir3_block
+                0x4a028a60                ext4fs_indir3_size
+                0x4a028a64                ext4fs_file
+                0x4a028a6c                g_parent_inode
+                0x4a028a78                part_offset
+ *fill*         0x4a028a7c        0x4 00
+ .bss           0x4a028a80    0x30140 fs/fat/libfat.o
+                0x4a028b00                get_contents_vfatname_block
+                0x4a038b40                get_dentfromdir_block
+                0x4a048b80                do_fat_read_at_block
+ .bss           0x4a058bc0      0x810 fs/zfs/libzfs.o
+                0x4a0593c8                zfs_dev_desc
+ .bss           0x4a0593d0       0x1e lib/libgeneric.o
+                0x4a0593d0                errno
+                0x4a0593d4                ___strtok
+ .bss           0x4a0593ee        0x0 lib/zlib/libz.o
+ .bss           0x4a0593ee        0x0 board/allwinner/pcduino/libpcduino.o
+ .bss           0x4a0593ee        0x0 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+ .bss           0x4a0593ee        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o)
+ .bss           0x4a0593ee        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_divsi3.o)
+ .bss           0x4a0593ee        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_dvmd_tls.o)
+ .bss           0x4a0593ee        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_lshrdi3.o)
+ .bss           0x4a0593ee        0x0 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_ashldi3.o)
+                0x4a0593f0                . = ALIGN (0x4)
+ *fill*         0x4a0593ee        0x2 00
+                0x4a0593f0                __bss_end__ = .
+
+.dynbss         0x4a02b000        0x0 load address 0x4a0593f0
+ .dynbss        0x00000000        0x0 arch/arm/cpu/armv7/start.o
+
+/DISCARD/
+ *(.dynstr*)
+ *(.dynamic*)
+ *(.plt*)
+ *(.interp*)
+ *(.gnu*)
+Address of section .text set to 0x4a000000
+LOAD arch/arm/cpu/armv7/start.o
+START GROUP
+LOAD api/libapi.o
+LOAD arch/arm/cpu/armv7/libarmv7.o
+LOAD arch/arm/cpu/armv7/sunxi/libsunxi.o
+LOAD arch/arm/lib/libarm.o
+LOAD board/allwinner/common/liballwinner.o
+LOAD common/libcommon.o
+LOAD disk/libdisk.o
+LOAD drivers/bios_emulator/libatibiosemu.o
+LOAD drivers/block/libblock.o
+LOAD drivers/dfu/libdfu.o
+LOAD drivers/dma/libdma.o
+LOAD drivers/fpga/libfpga.o
+LOAD drivers/gpio/libgpio.o
+LOAD drivers/hwmon/libhwmon.o
+LOAD drivers/i2c/libi2c.o
+LOAD drivers/input/libinput.o
+LOAD drivers/misc/libmisc.o
+LOAD drivers/mmc/libmmc.o
+LOAD drivers/mtd/libmtd.o
+LOAD drivers/mtd/nand/libnand.o
+LOAD drivers/mtd/onenand/libonenand.o
+LOAD drivers/mtd/spi/libspi_flash.o
+LOAD drivers/mtd/ubi/libubi.o
+LOAD drivers/net/libnet.o
+LOAD drivers/net/phy/libphy.o
+LOAD drivers/pci/libpci.o
+LOAD drivers/pcmcia/libpcmcia.o
+LOAD drivers/power/libpower.o
+LOAD drivers/rtc/librtc.o
+LOAD drivers/serial/libserial.o
+LOAD drivers/spi/libspi.o
+LOAD drivers/twserial/libtws.o
+LOAD drivers/usb/eth/libusb_eth.o
+LOAD drivers/usb/gadget/libusb_gadget.o
+LOAD drivers/usb/host/libusb_host.o
+LOAD drivers/usb/musb/libusb_musb.o
+LOAD drivers/usb/phy/libusb_phy.o
+LOAD drivers/usb/ulpi/libusb_ulpi.o
+LOAD drivers/video/libvideo.o
+LOAD drivers/watchdog/libwatchdog.o
+LOAD fs/cramfs/libcramfs.o
+LOAD fs/ext4/libext4fs.o
+LOAD fs/fat/libfat.o
+LOAD fs/fdos/libfdos.o
+LOAD fs/jffs2/libjffs2.o
+LOAD fs/reiserfs/libreiserfs.o
+LOAD fs/ubifs/libubifs.o
+LOAD fs/yaffs2/libyaffs2.o
+LOAD fs/zfs/libzfs.o
+LOAD lib/libfdt/libfdt.o
+LOAD lib/libgeneric.o
+LOAD lib/lzma/liblzma.o
+LOAD lib/lzo/liblzo.o
+LOAD lib/zlib/libz.o
+LOAD net/libnet.o
+LOAD post/libpost.o
+LOAD test/libtest.o
+LOAD board/allwinner/pcduino/libpcduino.o
+END GROUP
+LOAD /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+LOAD /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a
+LOAD /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a
+OUTPUT(u-boot elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x29
+ .ARM.attributes
+                0x00000000       0x1d arch/arm/cpu/armv7/start.o
+ .ARM.attributes
+                0x0000001d       0x2b arch/arm/cpu/armv7/libarmv7.o
+ .ARM.attributes
+                0x00000048       0x2b arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .ARM.attributes
+                0x00000073       0x2d arch/arm/lib/libarm.o
+ .ARM.attributes
+                0x000000a0       0x2d board/allwinner/common/liballwinner.o
+ .ARM.attributes
+                0x000000cd       0x2d common/libcommon.o
+ .ARM.attributes
+                0x000000fa       0x2d disk/libdisk.o
+ .ARM.attributes
+                0x00000127       0x2d drivers/i2c/libi2c.o
+ .ARM.attributes
+                0x00000154       0x2d drivers/input/libinput.o
+ .ARM.attributes
+                0x00000181       0x2d drivers/mmc/libmmc.o
+ .ARM.attributes
+                0x000001ae       0x2d drivers/pcmcia/libpcmcia.o
+ .ARM.attributes
+                0x000001db       0x2d drivers/power/libpower.o
+ .ARM.attributes
+                0x00000208       0x2d drivers/rtc/librtc.o
+ .ARM.attributes
+                0x00000235       0x2d drivers/serial/libserial.o
+ .ARM.attributes
+                0x00000262       0x2d fs/ext4/libext4fs.o
+ .ARM.attributes
+                0x0000028f       0x2d fs/fat/libfat.o
+ .ARM.attributes
+                0x000002bc       0x2d fs/zfs/libzfs.o
+ .ARM.attributes
+                0x000002e9       0x2d lib/libgeneric.o
+ .ARM.attributes
+                0x00000316       0x2d lib/zlib/libz.o
+ .ARM.attributes
+                0x00000343       0x2d board/allwinner/pcduino/libpcduino.o
+ .ARM.attributes
+                0x00000370       0x2d /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x0000039d       0x19 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000003b6       0x19 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x000003cf       0x19 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x000003e8       0x19 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x00000401       0x19 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_ashldi3.o)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 arch/arm/cpu/armv7/libarmv7.o
+                                0x153 (size before relaxing)
+ .comment       0x00000000      0x3f9 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .comment       0x00000000      0x2a6 arch/arm/lib/libarm.o
+ .comment       0x00000000       0x71 board/allwinner/common/liballwinner.o
+ .comment       0x00000000      0xf73 common/libcommon.o
+ .comment       0x00000000       0xe2 disk/libdisk.o
+ .comment       0x00000000       0x71 drivers/i2c/libi2c.o
+ .comment       0x00000000       0x71 drivers/input/libinput.o
+ .comment       0x00000000       0xe2 drivers/mmc/libmmc.o
+ .comment       0x00000000       0xe2 drivers/pcmcia/libpcmcia.o
+ .comment       0x00000000       0x71 drivers/power/libpower.o
+ .comment       0x00000000       0x71 drivers/rtc/librtc.o
+ .comment       0x00000000       0xe2 drivers/serial/libserial.o
+ .comment       0x00000000      0x153 fs/ext4/libext4fs.o
+ .comment       0x00000000       0xe2 fs/fat/libfat.o
+ .comment       0x00000000      0x235 fs/zfs/libzfs.o
+ .comment       0x00000000      0x781 lib/libgeneric.o
+ .comment       0x00000000       0x71 lib/zlib/libz.o
+ .comment       0x00000000       0xe2 board/allwinner/pcduino/libpcduino.o
+ .comment       0x00000000       0x71 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.debug_line     0x00000000     0xd331
+ .debug_line    0x00000000       0xdd arch/arm/cpu/armv7/start.o
+ .debug_line    0x000000dd      0x411 arch/arm/cpu/armv7/libarmv7.o
+ .debug_line    0x000004ee      0xc61 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_line    0x0000114f      0x9ad arch/arm/lib/libarm.o
+ .debug_line    0x00001afc      0x14c board/allwinner/common/liballwinner.o
+ .debug_line    0x00001c48     0x4e8f common/libcommon.o
+ .debug_line    0x00006ad7      0x4bc disk/libdisk.o
+ .debug_line    0x00006f93      0x204 drivers/i2c/libi2c.o
+ .debug_line    0x00007197      0x233 drivers/input/libinput.o
+ .debug_line    0x000073ca      0x97f drivers/mmc/libmmc.o
+ .debug_line    0x00007d49      0x172 drivers/pcmcia/libpcmcia.o
+ .debug_line    0x00007ebb      0x165 drivers/power/libpower.o
+ .debug_line    0x00008020       0xb9 drivers/rtc/librtc.o
+ .debug_line    0x000080d9      0x265 drivers/serial/libserial.o
+ .debug_line    0x0000833e      0x76d fs/ext4/libext4fs.o
+ .debug_line    0x00008aab      0xb6a fs/fat/libfat.o
+ .debug_line    0x00009615     0x153d fs/zfs/libzfs.o
+ .debug_line    0x0000ab52     0x1a20 lib/libgeneric.o
+ .debug_line    0x0000c572      0xada lib/zlib/libz.o
+ .debug_line    0x0000d04c      0x1fa board/allwinner/pcduino/libpcduino.o
+ .debug_line    0x0000d246       0xeb /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.debug_info     0x00000000    0x489cf
+ .debug_info    0x00000000       0x61 arch/arm/cpu/armv7/start.o
+ .debug_info    0x00000061     0x13a3 arch/arm/cpu/armv7/libarmv7.o
+ .debug_info    0x00001404     0x38f1 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_info    0x00004cf5     0x3caf arch/arm/lib/libarm.o
+ .debug_info    0x000089a4      0x53e board/allwinner/common/liballwinner.o
+ .debug_info    0x00008ee2    0x1ec48 common/libcommon.o
+ .debug_info    0x00027b2a     0x1e0b disk/libdisk.o
+ .debug_info    0x00029935      0xcee drivers/i2c/libi2c.o
+ .debug_info    0x0002a623      0xfcf drivers/input/libinput.o
+ .debug_info    0x0002b5f2     0x427b drivers/mmc/libmmc.o
+ .debug_info    0x0002f86d      0x566 drivers/pcmcia/libpcmcia.o
+ .debug_info    0x0002fdd3      0x79b drivers/power/libpower.o
+ .debug_info    0x0003056e      0x2b3 drivers/rtc/librtc.o
+ .debug_info    0x00030821     0x1268 drivers/serial/libserial.o
+ .debug_info    0x00031a89     0x3855 fs/ext4/libext4fs.o
+ .debug_info    0x000352de     0x410f fs/fat/libfat.o
+ .debug_info    0x000393ed     0x72e9 fs/zfs/libzfs.o
+ .debug_info    0x000406d6     0x61f9 lib/libgeneric.o
+ .debug_info    0x000468cf     0x1664 lib/zlib/libz.o
+ .debug_info    0x00047f33      0x74a board/allwinner/pcduino/libpcduino.o
+ .debug_info    0x0004867d      0x352 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.debug_abbrev   0x00000000     0xe947
+ .debug_abbrev  0x00000000       0x14 arch/arm/cpu/armv7/start.o
+ .debug_abbrev  0x00000014      0x63a arch/arm/cpu/armv7/libarmv7.o
+ .debug_abbrev  0x0000064e     0x1095 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_abbrev  0x000016e3      0xe6d arch/arm/lib/libarm.o
+ .debug_abbrev  0x00002550      0x1c1 board/allwinner/common/liballwinner.o
+ .debug_abbrev  0x00002711     0x5ea3 common/libcommon.o
+ .debug_abbrev  0x000085b4      0x717 disk/libdisk.o
+ .debug_abbrev  0x00008ccb      0x335 drivers/i2c/libi2c.o
+ .debug_abbrev  0x00009000      0x3a9 drivers/input/libinput.o
+ .debug_abbrev  0x000093a9      0xa1c drivers/mmc/libmmc.o
+ .debug_abbrev  0x00009dc5      0x1aa drivers/pcmcia/libpcmcia.o
+ .debug_abbrev  0x00009f6f      0x1fe drivers/power/libpower.o
+ .debug_abbrev  0x0000a16d       0xd5 drivers/rtc/librtc.o
+ .debug_abbrev  0x0000a242      0x404 drivers/serial/libserial.o
+ .debug_abbrev  0x0000a646      0x883 fs/ext4/libext4fs.o
+ .debug_abbrev  0x0000aec9      0x7f4 fs/fat/libfat.o
+ .debug_abbrev  0x0000b6bd      0xcb9 fs/zfs/libzfs.o
+ .debug_abbrev  0x0000c376     0x1db7 lib/libgeneric.o
+ .debug_abbrev  0x0000e12d      0x451 lib/zlib/libz.o
+ .debug_abbrev  0x0000e57e      0x275 board/allwinner/pcduino/libpcduino.o
+ .debug_abbrev  0x0000e7f3      0x154 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.debug_aranges  0x00000000      0xc40
+ .debug_aranges
+                0x00000000       0x20 arch/arm/cpu/armv7/start.o
+ .debug_aranges
+                0x00000020       0x80 arch/arm/cpu/armv7/libarmv7.o
+ .debug_aranges
+                0x000000a0      0x140 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_aranges
+                0x000001e0       0xc0 arch/arm/lib/libarm.o
+ .debug_aranges
+                0x000002a0       0x20 board/allwinner/common/liballwinner.o
+ .debug_aranges
+                0x000002c0      0x448 common/libcommon.o
+ .debug_aranges
+                0x00000708       0x40 disk/libdisk.o
+ .debug_aranges
+                0x00000748       0x20 drivers/i2c/libi2c.o
+ .debug_aranges
+                0x00000768       0x20 drivers/input/libinput.o
+ .debug_aranges
+                0x00000788       0x40 drivers/mmc/libmmc.o
+ .debug_aranges
+                0x000007c8       0x30 drivers/pcmcia/libpcmcia.o
+ .debug_aranges
+                0x000007f8       0x20 drivers/power/libpower.o
+ .debug_aranges
+                0x00000818       0x18 drivers/rtc/librtc.o
+ .debug_aranges
+                0x00000830       0x40 drivers/serial/libserial.o
+ .debug_aranges
+                0x00000870       0x60 fs/ext4/libext4fs.o
+ .debug_aranges
+                0x000008d0       0x40 fs/fat/libfat.o
+ .debug_aranges
+                0x00000910       0xa0 fs/zfs/libzfs.o
+ .debug_aranges
+                0x000009b0      0x210 lib/libgeneric.o
+ .debug_aranges
+                0x00000bc0       0x20 lib/zlib/libz.o
+ .debug_aranges
+                0x00000be0       0x40 board/allwinner/pcduino/libpcduino.o
+ .debug_aranges
+                0x00000c20       0x20 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.debug_frame    0x00000000     0x47a0
+ .debug_frame   0x00000000      0x1d0 arch/arm/cpu/armv7/libarmv7.o
+ .debug_frame   0x000001d0      0x2e0 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_frame   0x000004b0      0x41c arch/arm/lib/libarm.o
+ .debug_frame   0x000008cc       0x68 board/allwinner/common/liballwinner.o
+ .debug_frame   0x00000934     0x1c48 common/libcommon.o
+ .debug_frame   0x0000257c      0x1d4 disk/libdisk.o
+ .debug_frame   0x00002750      0x104 drivers/i2c/libi2c.o
+ .debug_frame   0x00002854       0xd0 drivers/input/libinput.o
+ .debug_frame   0x00002924      0x408 drivers/mmc/libmmc.o
+ .debug_frame   0x00002d2c      0x10c drivers/power/libpower.o
+ .debug_frame   0x00002e38      0x188 drivers/serial/libserial.o
+ .debug_frame   0x00002fc0      0x214 fs/ext4/libext4fs.o
+ .debug_frame   0x000031d4      0x410 fs/fat/libfat.o
+ .debug_frame   0x000035e4      0x63c fs/zfs/libzfs.o
+ .debug_frame   0x00003c20      0x98c lib/libgeneric.o
+ .debug_frame   0x000045ac      0x124 lib/zlib/libz.o
+ .debug_frame   0x000046d0       0x48 board/allwinner/pcduino/libpcduino.o
+ .debug_frame   0x00004718       0x48 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+ .debug_frame   0x00004760       0x20 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_udivsi3.o)
+ .debug_frame   0x00004780       0x20 /home/taga/NuttX/gcc-arm-none-eabi-4_7-2013q1/bin/../lib/gcc/arm-none-eabi/4.7.3/armv7-ar/thumb/libgcc.a(_divsi3.o)
+
+.debug_str      0x00000000     0x8a82
+ .debug_str     0x00000000      0x4f7 arch/arm/cpu/armv7/libarmv7.o
+                                0xaa7 (size before relaxing)
+ .debug_str     0x000004f7      0x98f arch/arm/cpu/armv7/sunxi/libsunxi.o
+                               0x1f33 (size before relaxing)
+ .debug_str     0x00000e86     0x1332 arch/arm/lib/libarm.o
+                               0x313e (size before relaxing)
+ .debug_str     0x000021b8       0x60 board/allwinner/common/liballwinner.o
+                                0x37d (size before relaxing)
+ .debug_str     0x00002218     0x2901 common/libcommon.o
+                               0xc7be (size before relaxing)
+ .debug_str     0x00004b19      0x27f disk/libdisk.o
+                                0xa56 (size before relaxing)
+ .debug_str     0x00004d98       0xf2 drivers/i2c/libi2c.o
+                                0x456 (size before relaxing)
+ .debug_str     0x00004e8a      0x2cd drivers/input/libinput.o
+                                0x5d0 (size before relaxing)
+ .debug_str     0x00005157      0x4ec drivers/mmc/libmmc.o
+                                0xf7a (size before relaxing)
+ .debug_str     0x00005643       0x4a drivers/pcmcia/libpcmcia.o
+                                0x489 (size before relaxing)
+ .debug_str     0x0000568d      0x14b drivers/power/libpower.o
+                                0x388 (size before relaxing)
+ .debug_str     0x000057d8       0x31 drivers/rtc/librtc.o
+                                0x23a (size before relaxing)
+ .debug_str     0x00005809      0x235 drivers/serial/libserial.o
+                                0x83a (size before relaxing)
+ .debug_str     0x00005a3e      0x84e fs/ext4/libext4fs.o
+                               0x1b2f (size before relaxing)
+ .debug_str     0x0000628c      0x704 fs/fat/libfat.o
+                                0xe7a (size before relaxing)
+ .debug_str     0x00006990     0x17fc fs/zfs/libzfs.o
+                               0x298c (size before relaxing)
+ .debug_str     0x0000818c      0x5aa lib/libgeneric.o
+                               0x2751 (size before relaxing)
+ .debug_str     0x00008736      0x2b2 lib/zlib/libz.o
+                                0x6fc (size before relaxing)
+ .debug_str     0x000089e8       0x51 board/allwinner/pcduino/libpcduino.o
+                                0x525 (size before relaxing)
+ .debug_str     0x00008a39       0x49 /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+                                0x284 (size before relaxing)
+
+.debug_loc      0x00000000    0x2801e
+ .debug_loc     0x00000000      0x667 arch/arm/cpu/armv7/libarmv7.o
+ .debug_loc     0x00000667      0xeb9 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_loc     0x00001520      0xb02 arch/arm/lib/libarm.o
+ .debug_loc     0x00002022       0x81 board/allwinner/common/liballwinner.o
+ .debug_loc     0x000020a3     0xf8db common/libcommon.o
+ .debug_loc     0x0001197e      0xd66 disk/libdisk.o
+ .debug_loc     0x000126e4      0x7b4 drivers/i2c/libi2c.o
+ .debug_loc     0x00012e98      0x96d drivers/input/libinput.o
+ .debug_loc     0x00013805     0x2893 drivers/mmc/libmmc.o
+ .debug_loc     0x00016098      0x4a7 drivers/power/libpower.o
+ .debug_loc     0x0001653f      0x3cf drivers/serial/libserial.o
+ .debug_loc     0x0001690e     0x178d fs/ext4/libext4fs.o
+ .debug_loc     0x0001809b     0x4308 fs/fat/libfat.o
+ .debug_loc     0x0001c3a3     0x499c fs/zfs/libzfs.o
+ .debug_loc     0x00020d3f     0x48c2 lib/libgeneric.o
+ .debug_loc     0x00025601     0x29b1 lib/zlib/libz.o
+ .debug_loc     0x00027fb2       0x20 board/allwinner/pcduino/libpcduino.o
+ .debug_loc     0x00027fd2       0x4c /home/taga/NuttX/u-boot-sunxi/arch/arm/lib/eabi_compat.o
+
+.debug_ranges   0x00000000     0x1af8
+ .debug_ranges  0x00000000       0x68 arch/arm/cpu/armv7/sunxi/libsunxi.o
+ .debug_ranges  0x00000068       0x78 arch/arm/lib/libarm.o
+ .debug_ranges  0x000000e0      0x928 common/libcommon.o
+ .debug_ranges  0x00000a08       0x60 disk/libdisk.o
+ .debug_ranges  0x00000a68      0x108 drivers/i2c/libi2c.o
+ .debug_ranges  0x00000b70       0xe8 drivers/input/libinput.o
+ .debug_ranges  0x00000c58      0x388 drivers/mmc/libmmc.o
+ .debug_ranges  0x00000fe0      0x170 fs/ext4/libext4fs.o
+ .debug_ranges  0x00001150      0x348 fs/fat/libfat.o
+ .debug_ranges  0x00001498      0x490 fs/zfs/libzfs.o
+ .debug_ranges  0x00001928      0x188 lib/libgeneric.o
+ .debug_ranges  0x00001ab0       0x48 lib/zlib/libz.o

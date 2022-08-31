@@ -1,0 +1,4 @@
+board.c:90:5:gpio_init	8	static
+board.c:113:6:s_init	8	static
+board.c:134:6:reset_cpu	0	static
+board.c:140:6:enable_caches	0	static

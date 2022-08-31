@@ -1,0 +1,2 @@
+usb_clock.c:48:5:usb_open_clock	8	static
+usb_clock.c:109:5:usb_close_clock	8	static

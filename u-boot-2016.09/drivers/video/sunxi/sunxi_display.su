@@ -1,0 +1,4 @@
+sunxi_display.c:411:13:sunxi_is_composite	0	static
+sunxi_display.c:1025:7:board_get_usable_ram_top	0	static
+sunxi_display.c:1078:7:video_hw_init	200	static
+sunxi_display.c:1245:5:sunxi_simplefb_setup	56	static

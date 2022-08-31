@@ -1,0 +1,1 @@
+cmd_arch/arm/cpu/armv7/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o arch/arm/cpu/armv7/built-in.o arch/arm/cpu/armv7/cache_v7.o arch/arm/cpu/armv7/cpu.o arch/arm/cpu/armv7/syslib.o arch/arm/cpu/armv7/lowlevel_init.o 

@@ -1,0 +1,1 @@
+cmd_drivers/clk/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o drivers/clk/built-in.o drivers/clk/clk_factor.o drivers/clk/clk_periph.o drivers/clk/clk.o drivers/clk/clk_fixed_rate.o drivers/clk/clk-sun8iw11.o 

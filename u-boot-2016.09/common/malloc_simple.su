@@ -1,0 +1,2 @@
+malloc_simple.c:15:7:malloc_simple	0	static
+malloc_simple.c:34:7:memalign_simple	8	static

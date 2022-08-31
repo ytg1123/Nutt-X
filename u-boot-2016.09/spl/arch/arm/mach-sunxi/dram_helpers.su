@@ -1,0 +1,2 @@
+dram_helpers.c:16:6:mctl_await_completion	24	static
+dram_helpers.c:29:6:mctl_mem_matches	0	static

@@ -1,0 +1,6 @@
+board.c:57:5:power_source_init	40	static
+board.c:147:5:sunxi_probe_securemode	0	static
+board.c:170:5:sunxi_set_secure_mode	0	static
+board.c:175:5:axp_usb_vbus_output	16	static
+board.c:191:5:sunxi_set_bootmode_flag	8	static
+board.c:201:5:sunxi_get_bootmode_flag	0	static

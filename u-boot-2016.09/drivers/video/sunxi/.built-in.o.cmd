@@ -1,0 +1,1 @@
+cmd_drivers/video/sunxi/built-in.o :=  arm-none-eabi-ld.bfd     -r -o drivers/video/sunxi/built-in.o drivers/video/sunxi/sunxi_display.o drivers/video/sunxi/simplefb_common.o drivers/video/sunxi/lcdc.o drivers/video/sunxi/tve_common.o drivers/video/sunxi/../videomodes.o 

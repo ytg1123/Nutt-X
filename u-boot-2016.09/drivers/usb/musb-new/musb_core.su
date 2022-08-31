@@ -1,0 +1,8 @@
+musb_core.c:1183:1:fifo_setup	24	static
+musb_core.c:216:6:musb_write_fifo	12	static
+musb_core.c:258:6:musb_read_fifo	12	static
+musb_core.c:320:6:musb_load_testpacket	8	static
+musb_core.c:900:5:musb_start	16	static
+musb_core.c:995:6:musb_stop	8	static
+musb_core.c:1555:13:musb_interrupt	32	static
+musb_core.c:1914:1:musb_init_controller	176	static

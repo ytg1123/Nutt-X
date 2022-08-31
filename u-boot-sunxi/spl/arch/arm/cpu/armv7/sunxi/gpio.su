@@ -1,0 +1,10 @@
+gpio.c:29:5:sunxi_gpio_set_cfgpin	8	static
+gpio.c:48:5:sunxi_gpio_get_cfgpin	0	static
+gpio.c:64:5:sunxi_gpio_output	0	static
+gpio.c:84:5:sunxi_gpio_input	0	static
+gpio.c:99:5:gpio_request	0	static
+gpio.c:104:5:gpio_free	0	static
+gpio.c:109:5:gpio_direction_input	8	static
+gpio.c:115:5:gpio_direction_output	16	static
+gpio.c:121:5:gpio_get_value	0	static
+gpio.c:126:5:gpio_set_value	0	static

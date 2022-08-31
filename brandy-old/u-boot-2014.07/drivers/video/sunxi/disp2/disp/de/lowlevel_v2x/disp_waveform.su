@@ -1,0 +1,5 @@
+disp_waveform.c:246:7:init_waveform	104	static
+disp_waveform.c:333:5:get_eink_panel_type	8	static
+disp_waveform.c:355:5:get_eink_panel_bit_num	8	static
+disp_waveform.c:383:5:get_waveform_data	24	static
+disp_waveform.c:439:6:free_waveform	8	static

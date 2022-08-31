@@ -1,0 +1,2 @@
+key.c:32:5:sunxi_key_init	8	static
+key.c:51:5:sunxi_read_key	0	static

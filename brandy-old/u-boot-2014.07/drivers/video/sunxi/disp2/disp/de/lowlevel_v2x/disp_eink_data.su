@@ -1,0 +1,2 @@
+disp_eink_data.c:734:5:init_eink_ctrl_data_8	32	static
+disp_eink_data.c:835:5:init_eink_ctrl_data_16	48	static

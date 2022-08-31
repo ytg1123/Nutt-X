@@ -1,0 +1,11 @@
+axp22_supply.c:1306:12:axp22_set_dcdc_output	32	static
+axp22_supply.c:1325:12:axp22_set_aldo_output	32	static
+axp22_supply.c:1357:12:axp22_set_eldo_output	32	static
+axp22_supply.c:1340:12:axp22_set_dldo_output	32	static
+axp22_supply.c:1372:12:axp22_set_gpioldo_output	32	static
+axp22_supply.c:44:12:axp22_set_dc1sw	24	static
+axp22_supply.c:85:12:axp22_set_dc5ldo	24	static
+axp22_supply.c:1399:5:axp22_set_supply_status	8	static
+axp22_supply.c:1434:5:axp22_set_supply_status_byname	16	static
+axp22_supply.c:1825:5:axp22_probe_supply_status	0	static
+axp22_supply.c:1830:5:axp22_probe_supply_status_byname	32	static

@@ -1,0 +1,5 @@
+sunxi_mem_alloc.c:51:6:mem_noncache_malloc_init	0	static
+sunxi_mem_alloc.c:73:7:malloc_noncache	12	static
+sunxi_mem_alloc.c:127:7:free_noncache	0	static
+sunxi_mem_alloc.c:152:7:malloc_align	16	static
+sunxi_mem_alloc.c:195:6:free_align	0	static

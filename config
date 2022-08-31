@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://ytg1123: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@github.com/ytg1123/Nutt_X.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[credential]
+	helper = store --file ~/Nutt_X/.git_credentials

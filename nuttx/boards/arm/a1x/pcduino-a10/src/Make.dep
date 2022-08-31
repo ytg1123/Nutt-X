@@ -1,0 +1,112 @@
+a1x_boot.o: a1x_boot.c /home/taga/NuttX/nuttx/include/nuttx/config.h \
+ /home/taga/NuttX/nuttx/include/debug.h \
+ /home/taga/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/taga/NuttX/nuttx/include/syslog.h \
+ /home/taga/NuttX/nuttx/include/stdint.h \
+ /home/taga/NuttX/nuttx/include/arch/types.h \
+ /home/taga/NuttX/nuttx/include/limits.h \
+ /home/taga/NuttX/nuttx/include/arch/limits.h \
+ /home/taga/NuttX/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include/stdarg.h \
+ /home/taga/NuttX/nuttx/include/stdbool.h \
+ /home/taga/NuttX/nuttx/include/nuttx/board.h pcduino_a10.h \
+ /home/taga/NuttX/nuttx/include/arch/irq.h \
+ /home/taga/NuttX/nuttx/include/nuttx/irq.h \
+ /home/taga/NuttX/nuttx/include/assert.h \
+ /home/taga/NuttX/nuttx/include/arch/chip/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/chip.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/a10_irq.h \
+ /home/taga/NuttX/nuttx/include/arch/armv7-a/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/arch.h \
+ /home/taga/NuttX/nuttx/include/nuttx/pgalloc.h \
+ /home/taga/NuttX/nuttx/include/sys/types.h \
+ /home/taga/NuttX/nuttx/include/nuttx/addrenv.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_memorymap.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a10_memorymap.h \
+ /home/taga/NuttX/nuttx/include/arch/board/board_memorymap.h
+a1x_bringup.o: a1x_bringup.c \
+ /home/taga/NuttX/nuttx/include/nuttx/config.h \
+ /home/taga/NuttX/nuttx/include/syslog.h \
+ /home/taga/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/taga/NuttX/nuttx/include/stdint.h \
+ /home/taga/NuttX/nuttx/include/arch/types.h \
+ /home/taga/NuttX/nuttx/include/limits.h \
+ /home/taga/NuttX/nuttx/include/arch/limits.h \
+ /home/taga/NuttX/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include/stdarg.h \
+ /home/taga/NuttX/nuttx/include/stdbool.h pcduino_a10.h \
+ /home/taga/NuttX/nuttx/include/arch/irq.h \
+ /home/taga/NuttX/nuttx/include/nuttx/irq.h \
+ /home/taga/NuttX/nuttx/include/assert.h \
+ /home/taga/NuttX/nuttx/include/arch/chip/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/chip.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/a10_irq.h \
+ /home/taga/NuttX/nuttx/include/arch/armv7-a/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/arch.h \
+ /home/taga/NuttX/nuttx/include/nuttx/pgalloc.h \
+ /home/taga/NuttX/nuttx/include/sys/types.h \
+ /home/taga/NuttX/nuttx/include/nuttx/addrenv.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_memorymap.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a10_memorymap.h \
+ /home/taga/NuttX/nuttx/include/arch/board/board_memorymap.h
+a1x_leds.o: a1x_leds.c /home/taga/NuttX/nuttx/include/nuttx/config.h \
+ /home/taga/NuttX/nuttx/include/stdint.h \
+ /home/taga/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/taga/NuttX/nuttx/include/arch/types.h \
+ /home/taga/NuttX/nuttx/include/limits.h \
+ /home/taga/NuttX/nuttx/include/arch/limits.h \
+ /home/taga/NuttX/nuttx/include/stdbool.h \
+ /home/taga/NuttX/nuttx/include/debug.h \
+ /home/taga/NuttX/nuttx/include/syslog.h \
+ /home/taga/NuttX/gcc-arm-none-eabi-8-2018-q4-major/lib/gcc/arm-none-eabi/8.2.1/include/stdarg.h \
+ /home/taga/NuttX/nuttx/include/nuttx/board.h \
+ /home/taga/NuttX/nuttx/include/arch/board/board.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_piocfg.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/chip.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a10_piocfg.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_memorymap.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a10_memorymap.h \
+ /home/taga/NuttX/nuttx/include/arch/board/board_memorymap.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/chip.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_memorymap.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/common/up_arch.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/common/up_internal.h \
+ /home/taga/NuttX/nuttx/include/sys/types.h pcduino_a10.h \
+ /home/taga/NuttX/nuttx/include/arch/irq.h \
+ /home/taga/NuttX/nuttx/include/nuttx/irq.h \
+ /home/taga/NuttX/nuttx/include/assert.h \
+ /home/taga/NuttX/nuttx/include/arch/chip/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/a10_irq.h \
+ /home/taga/NuttX/nuttx/include/arch/armv7-a/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/arch.h \
+ /home/taga/NuttX/nuttx/include/nuttx/pgalloc.h \
+ /home/taga/NuttX/nuttx/include/nuttx/addrenv.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_pio.h
+a1x_appinit.o: a1x_appinit.c \
+ /home/taga/NuttX/nuttx/include/nuttx/config.h \
+ /home/taga/NuttX/nuttx/include/stdint.h \
+ /home/taga/NuttX/nuttx/include/nuttx/compiler.h \
+ /home/taga/NuttX/nuttx/include/arch/types.h \
+ /home/taga/NuttX/nuttx/include/limits.h \
+ /home/taga/NuttX/nuttx/include/arch/limits.h \
+ /home/taga/NuttX/nuttx/include/nuttx/board.h \
+ /home/taga/NuttX/nuttx/include/stdbool.h pcduino_a10.h \
+ /home/taga/NuttX/nuttx/include/arch/irq.h \
+ /home/taga/NuttX/nuttx/include/nuttx/irq.h \
+ /home/taga/NuttX/nuttx/include/assert.h \
+ /home/taga/NuttX/nuttx/include/arch/chip/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/chip.h \
+ /home/taga/NuttX/nuttx/include/arch/a1x/a10_irq.h \
+ /home/taga/NuttX/nuttx/include/arch/armv7-a/irq.h \
+ /home/taga/NuttX/nuttx/include/arch/arch.h \
+ /home/taga/NuttX/nuttx/include/nuttx/pgalloc.h \
+ /home/taga/NuttX/nuttx/include/sys/types.h \
+ /home/taga/NuttX/nuttx/include/nuttx/addrenv.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_pio.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a1x_memorymap.h \
+ /home/taga/NuttX/nuttx/arch/arm/src/chip/hardware/a10_memorymap.h \
+ /home/taga/NuttX/nuttx/include/arch/board/board_memorymap.h

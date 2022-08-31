@@ -1,0 +1,13 @@
+de_tve_sun8iw11.c:19:5:tve_low_set_reg_base	8	static
+de_tve_sun8iw11.c:28:5:tve_low_set_top_reg_base	0	static
+de_tve_sun8iw11.c:34:5:tve_low_init	40	static
+de_tve_sun8iw11.c:70:5:tve_low_dac_enable	0	static
+de_tve_sun8iw11.c:82:5:tve_low_dac_disable	0	static
+de_tve_sun8iw11.c:94:5:tve_low_open	0	static
+de_tve_sun8iw11.c:101:5:tve_low_close	0	static
+de_tve_sun8iw11.c:108:5:tve_low_set_tv_mode	0	static
+de_tve_sun8iw11.c:489:5:tve_low_get_dac_status	8	static
+de_tve_sun8iw11.c:507:5:tve_low_dac_autocheck_enable	0	static
+de_tve_sun8iw11.c:523:5:tve_low_dac_autocheck_disable	12	static
+de_tve_sun8iw11.c:534:5:tve_low_get_sid	32	static
+de_tve_sun8iw11.c:550:5:tve_low_enhance	0	static

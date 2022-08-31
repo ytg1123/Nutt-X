@@ -1,0 +1,5 @@
+lcdc.c:30:6:lcdc_init	0	static
+lcdc.c:44:6:lcdc_enable	0	static
+lcdc.c:70:6:lcdc_tcon0_mode_set	12	static
+lcdc.c:148:6:lcdc_tcon1_mode_set	12	static
+lcdc.c:211:6:lcdc_pll_set	64	static

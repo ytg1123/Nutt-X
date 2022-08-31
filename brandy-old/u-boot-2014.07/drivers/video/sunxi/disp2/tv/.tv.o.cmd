@@ -1,0 +1,1 @@
+cmd_drivers/video/sunxi/disp2/tv/tv.o := /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o drivers/video/sunxi/disp2/tv/tv.o drivers/video/sunxi/disp2/tv/drv_tv.o drivers/video/sunxi/disp2/tv/de_tve_sun8iw11.o 

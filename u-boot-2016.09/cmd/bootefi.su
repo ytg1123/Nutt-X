@@ -1,0 +1,8 @@
+bootefi.c:210:21:efi_do_enter	16	static
+bootefi.c:280:21:efi_install_fdt	360	static
+bootefi.c:239:21:efi_run_in_hyp	16	static
+bootefi.c:334:21:do_bootefi_exec	56	static
+bootefi.c:39:14:efi_init_obj_list	8	static
+bootefi.c:109:13:allow_unaligned	0	static
+bootefi.c:485:12:do_bootefi	24	static
+bootefi.c:619:6:efi_set_bootdev	192	static

@@ -1,0 +1,7 @@
+efi_variable.c:49:12:hex	0	static
+efi_variable.c:101:21:efi_to_native	32	static
+efi_variable.c:119:20:prefix	16	static
+efi_variable.c:128:20:parse_attr.part.0	24	static
+efi_variable.c:166:21:efi_get_variable	48	static
+efi_variable.c:245:21:efi_get_next_variable_name	8	static
+efi_variable.c:255:21:efi_set_variable	40	static

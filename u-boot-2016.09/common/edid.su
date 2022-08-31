@@ -1,0 +1,6 @@
+edid.c:234:14:snip	16	static
+edid.c:19:5:edid_check_info	8	static
+edid.c:33:5:edid_check_checksum	0	static
+edid.c:44:5:edid_get_ranges	32	static
+edid.c:171:5:edid_get_timing	48	static
+edid.c:321:6:edid_print_info	64	static

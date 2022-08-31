@@ -1,0 +1,2 @@
+cmd_sunxi_burn.c:175:5:do_read_from_boot	0	static
+cmd_sunxi_burn.c:49:5:do_burn_from_boot	40	static

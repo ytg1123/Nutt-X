@@ -1,0 +1,7 @@
+cmd_svudata.c:302:12:user_data_list	8208	static
+cmd_svudata.c:347:5:do_check_userdata	8	static
+cmd_svudata.c:90:5:save_user_private_data	8344	static
+cmd_svudata.c:281:5:do_save_user_data	16	static
+cmd_svudata.c:171:5:erase_all_private_data	24	static
+cmd_svudata.c:380:5:erase_private_data	8	static
+cmd_svudata.c:230:5:read_private_key_by_name	8224	static

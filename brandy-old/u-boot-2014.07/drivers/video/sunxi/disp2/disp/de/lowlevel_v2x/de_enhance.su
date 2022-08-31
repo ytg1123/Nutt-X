@@ -1,0 +1,9 @@
+de_enhance.c:441:5:de_enhance_set_format	0	static
+de_enhance.c:446:5:de_enhance_apply	0	static
+de_enhance.c:452:5:de_enhance_set_size	0	static
+de_enhance.c:457:5:de_enhance_demo_enable	0	static
+de_enhance.c:462:5:de_enhance_sync	0	static
+de_enhance.c:467:5:de_enhance_tasklet	0	static
+de_enhance.c:472:5:de_enhance_update_regs	0	static
+de_enhance.c:477:5:de_enhance_init	0	static
+de_enhance.c:482:5:de_enhance_set_mode	0	static

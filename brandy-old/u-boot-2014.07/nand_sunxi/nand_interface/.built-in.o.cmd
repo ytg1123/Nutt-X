@@ -1,0 +1,1 @@
+cmd_nand_sunxi/nand_interface/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o nand_sunxi/nand_interface/built-in.o nand_sunxi/nand_interface/nand_for_uboot.o nand_sunxi/nand_interface/nand_fspart.o 

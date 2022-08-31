@@ -1,0 +1,8 @@
+board.c:695:13:setup_environment	96	static
+board.c:83:6:i2c_init_board	0	static
+board.c:194:5:board_init	16	static
+board.c:258:5:dram_init	8	static
+board.c:604:5:g_dnl_board_usb_cable_connected	24	static
+board.c:639:6:get_board_serial	8	static
+board.c:759:5:misc_init_r	24	static
+board.c:788:5:ft_board_setup	8	static

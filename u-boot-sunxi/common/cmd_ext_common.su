@@ -1,0 +1,2 @@
+cmd_ext_common.c:67:5:do_ext_load	136	static
+cmd_ext_common.c:158:5:do_ext_ls	120	static

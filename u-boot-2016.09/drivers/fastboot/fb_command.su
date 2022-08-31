@@ -1,0 +1,8 @@
+fb_command.c:305:13:reboot_bootloader	8	static
+fb_command.c:134:13:okay	0	static
+fb_command.c:156:13:download	24	static
+fb_command.c:145:13:getvar	0	static
+fb_command.c:99:5:fastboot_handle_command	32	static
+fb_command.c:190:5:fastboot_data_remaining	0	static
+fb_command.c:209:6:fastboot_data_download	24	static
+fb_command.c:246:6:fastboot_data_complete	8	static

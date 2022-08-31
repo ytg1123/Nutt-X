@@ -1,0 +1,1 @@
+cmd_drivers/video/sunxi/disp2/disp/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o drivers/video/sunxi/disp2/disp/built-in.o drivers/video/sunxi/disp2/disp/disp.o drivers/video/sunxi/disp2/disp/de/lowlevel_v2x/built-in.o 

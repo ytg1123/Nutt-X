@@ -1,0 +1,1862 @@
+Archive member included to satisfy reference by file (symbol)
+
+arch/arm/lib/lib.a(lib1funcs.o)
+                              arch/arm/mach-sunxi/built-in.o (__aeabi_uidiv)
+arch/arm/lib/lib.a(div0.o)    arch/arm/lib/lib.a(lib1funcs.o) (__div0)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 arch/arm/cpu/armv7/start.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/armv7/start.o
+ .text          0x0000000000000000        0x0 arch/arm/mach-sunxi/built-in.o
+ .text.enable_caches
+                0x0000000000000000        0x4 arch/arm/mach-sunxi/built-in.o
+ .text.clock_twi_onoff
+                0x0000000000000000       0x4c arch/arm/mach-sunxi/built-in.o
+ .text.sunxi_get_sram_id
+                0x0000000000000000       0x20 arch/arm/mach-sunxi/built-in.o
+ .text.print_cpuinfo
+                0x0000000000000000       0x18 arch/arm/mach-sunxi/built-in.o
+ .text.sunxi_get_sid
+                0x0000000000000000        0x4 arch/arm/mach-sunxi/built-in.o
+ .text.sunxi_gpio_get_cfgbank
+                0x0000000000000000       0x1a arch/arm/mach-sunxi/built-in.o
+ .text.sunxi_gpio_get_cfgpin
+                0x0000000000000000       0x20 arch/arm/mach-sunxi/built-in.o
+ .text.prcm_apb0_disable
+                0x0000000000000000       0x1c arch/arm/mach-sunxi/built-in.o
+ .text.clock_set_pll3
+                0x0000000000000000       0x38 arch/arm/mach-sunxi/built-in.o
+ .text.clock_set_pll5
+                0x0000000000000000       0xa0 arch/arm/mach-sunxi/built-in.o
+ .text.clock_get_pll3
+                0x0000000000000000       0x2c arch/arm/mach-sunxi/built-in.o
+ .text.clock_get_pll6
+                0x0000000000000000       0x24 arch/arm/mach-sunxi/built-in.o
+ .text.clock_get_mipi_pll
+                0x0000000000000000       0x40 arch/arm/mach-sunxi/built-in.o
+ .text.clock_set_de_mod_clock
+                0x0000000000000000       0x30 arch/arm/mach-sunxi/built-in.o
+ .rodata.print_cpuinfo.str1.1
+                0x0000000000000000       0x23 arch/arm/mach-sunxi/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/mach-sunxi/built-in.o
+ .text.invalidate_icache_all
+                0x0000000000000000       0x14 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_enable
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_disable
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_flush_all
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000        0xe arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_inval_all
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_dcache_all
+                0x0000000000000000        0xe arch/arm/cpu/armv7/built-in.o
+ .text.arm_init_before_mmu
+                0x0000000000000000       0x22 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_flush_range
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.flush_dcache_range
+                0x0000000000000000       0x38 arch/arm/cpu/armv7/built-in.o
+ .text.mmu_page_table_flush
+                0x0000000000000000       0x1e arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_inval_range
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_dcache_range
+                0x0000000000000000       0x42 arch/arm/cpu/armv7/built-in.o
+ .text.cpu_cache_initialization
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.cleanup_before_linux_select
+                0x0000000000000000       0x38 arch/arm/cpu/armv7/built-in.o
+ .text.cleanup_before_linux
+                0x0000000000000000        0x6 arch/arm/cpu/armv7/built-in.o
+ .text.v7_arch_cp15_set_l2aux_ctrl
+                0x0000000000000000        0x6 arch/arm/cpu/armv7/built-in.o
+ .text.v7_arch_cp15_set_acr
+                0x0000000000000000        0x6 arch/arm/cpu/armv7/built-in.o
+ .text.wait_on_value
+                0x0000000000000000       0x1e arch/arm/cpu/armv7/built-in.o
+ .text.s_init   0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ ._secure.text  0x0000000000000000      0x420 arch/arm/cpu/armv7/built-in.o
+ .text.get_gicd_base_address
+                0x0000000000000000       0x2c arch/arm/cpu/armv7/built-in.o
+ .text.protect_secure_section
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.smp_kick_all_cpus
+                0x0000000000000000       0x18 arch/arm/cpu/armv7/built-in.o
+ .text.psci_board_init
+                0x0000000000000000        0x2 arch/arm/cpu/armv7/built-in.o
+ .text.armv7_init_nonsec
+                0x0000000000000000       0x64 arch/arm/cpu/armv7/built-in.o
+ .text.armv7_apply_memory_carveout
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.psci_update_dt
+                0x0000000000000000       0x38 arch/arm/cpu/armv7/built-in.o
+ .text.get_timer
+                0x0000000000000000        0xc arch/arm/cpu/armv7/built-in.o
+ .rodata.armv7_init_nonsec.str1.1
+                0x0000000000000000       0x2e arch/arm/cpu/armv7/built-in.o
+ .rodata.get_gicd_base_address.str1.1
+                0x0000000000000000       0x2e arch/arm/cpu/armv7/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/cpu/armv7/built-in.o
+ ._secure.data  0x0000000000000000       0x20 arch/arm/cpu/armv7/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .text.setjmp   0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.longjmp  0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.board_init_f
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.bootz_setup
+                0x0000000000000000       0x6c arch/arm/lib/built-in.o
+ .text.arch_fixup_fdt
+                0x0000000000000000       0x38 arch/arm/lib/built-in.o
+ .text.arch_reserve_stacks
+                0x0000000000000000       0x16 arch/arm/lib/built-in.o
+ .text.interrupt_init
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .text.enable_interrupts
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.bad_mode
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.show_regs
+                0x0000000000000000      0x14c arch/arm/lib/built-in.o
+ .text.do_undefined_instruction
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_software_interrupt
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_prefetch_abort
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_data_abort
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_not_used
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_fiq   0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.do_irq   0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.enable_caches
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.invalidate_dcache_range
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.flush_dcache_range
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.flush_cache
+                0x0000000000000000        0x6 arch/arm/lib/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000        0xa arch/arm/lib/built-in.o
+ .text.check_cache_range
+                0x0000000000000000        0xe arch/arm/lib/built-in.o
+ .text.invalidate_l2_cache
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.cache_disable
+                0x0000000000000000       0x62 arch/arm/lib/built-in.o
+ .text.arm_init_before_mmu
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.arm_init_domains
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.set_section_dcache
+                0x0000000000000000       0x1a arch/arm/lib/built-in.o
+ .text.mmu_page_table_flush
+                0x0000000000000000        0x2 arch/arm/lib/built-in.o
+ .text.mmu_set_region_dcache_behaviour
+                0x0000000000000000       0x4c arch/arm/lib/built-in.o
+ .text.dram_bank_mmu_setup
+                0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.cache_enable
+                0x0000000000000000      0x120 arch/arm/lib/built-in.o
+ .text.icache_enable
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.icache_disable
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.icache_status
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.dcache_enable
+                0x0000000000000000        0x6 arch/arm/lib/built-in.o
+ .text.dcache_disable
+                0x0000000000000000        0x6 arch/arm/lib/built-in.o
+ .text.dcache_status
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.fdt_psci
+                0x0000000000000000      0x1a4 arch/arm/lib/built-in.o
+ .rodata        0x0000000000000000       0x80 arch/arm/lib/built-in.o
+ .rodata.bad_mode.str1.1
+                0x0000000000000000       0x13 arch/arm/lib/built-in.o
+ .rodata.do_data_abort.str1.1
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .rodata.do_fiq.str1.1
+                0x0000000000000000       0x18 arch/arm/lib/built-in.o
+ .rodata.do_irq.str1.1
+                0x0000000000000000       0x13 arch/arm/lib/built-in.o
+ .rodata.do_not_used.str1.1
+                0x0000000000000000        0xa arch/arm/lib/built-in.o
+ .rodata.do_prefetch_abort.str1.1
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .rodata.do_software_interrupt.str1.1
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .rodata.do_undefined_instruction.str1.1
+                0x0000000000000000       0x17 arch/arm/lib/built-in.o
+ .rodata.show_regs.str1.1
+                0x0000000000000000      0x140 arch/arm/lib/built-in.o
+ .rodata.str1.1
+                0x0000000000000000       0xeb arch/arm/lib/built-in.o
+ .rodata.enable_caches.str1.1
+                0x0000000000000000       0x1d arch/arm/lib/built-in.o
+ .rodata.fdt_psci.str1.1
+                0x0000000000000000       0x94 arch/arm/lib/built-in.o
+ .__bss_end     0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__bss_start   0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_rel_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_rel_stop
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_stop
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__end         0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__image_copy_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__image_copy_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__rel_dyn_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__rel_dyn_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_end  0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_stack_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_stack_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .text          0x0000000000000000        0x0 board/sunxi/built-in.o
+ .text.setup_environment
+                0x0000000000000000       0xd8 board/sunxi/built-in.o
+ .text.board_init
+                0x0000000000000000       0x78 board/sunxi/built-in.o
+ .text.dram_init
+                0x0000000000000000       0x16 board/sunxi/built-in.o
+ .text.g_dnl_board_usb_cable_connected
+                0x0000000000000000       0x78 board/sunxi/built-in.o
+ .text.get_board_serial
+                0x0000000000000000       0x24 board/sunxi/built-in.o
+ .text.misc_init_r
+                0x0000000000000000       0xb4 board/sunxi/built-in.o
+ .text.ft_board_setup
+                0x0000000000000000       0x12 board/sunxi/built-in.o
+ .rodata.__func__.12395
+                0x0000000000000000       0x20 board/sunxi/built-in.o
+ .rodata.board_init.str1.1
+                0x0000000000000000       0x10 board/sunxi/built-in.o
+ .rodata.g_dnl_board_usb_cable_connected.str1.1
+                0x0000000000000000       0x78 board/sunxi/built-in.o
+ .rodata.misc_init_r.str1.1
+                0x0000000000000000       0x5f board/sunxi/built-in.o
+ .rodata.setup_environment.str1.1
+                0x0000000000000000       0x2e board/sunxi/built-in.o
+ .data          0x0000000000000000        0x0 board/sunxi/built-in.o
+ .bss           0x0000000000000000        0x0 board/sunxi/built-in.o
+ .text          0x0000000000000000        0x0 common/spl/built-in.o
+ .text.spl_fixup_fdt
+                0x0000000000000000        0x2 common/spl/built-in.o
+ .text.spl_board_prepare_for_linux
+                0x0000000000000000        0x2 common/spl/built-in.o
+ .text.spl_get_load_buffer
+                0x0000000000000000        0x6 common/spl/built-in.o
+ .text.spl_set_header_raw_uboot
+                0x0000000000000000       0x2c common/spl/built-in.o
+ .text.spl_parse_image_header
+                0x0000000000000000       0x48 common/spl/built-in.o
+ .text.spl_early_init
+                0x0000000000000000       0x26 common/spl/built-in.o
+ .rodata.spl_set_header_raw_uboot.str1.1
+                0x0000000000000000        0x7 common/spl/built-in.o
+ .binman_sym    0x0000000000000000        0x4 common/spl/built-in.o
+ .bss           0x0000000000000000        0x0 common/spl/built-in.o
+ .bss.boot_params_ptr
+                0x0000000000000000        0x4 common/spl/built-in.o
+ .text          0x0000000000000000        0x0 common/init/built-in.o
+ .text.show_boot_progress
+                0x0000000000000000        0x2 common/init/built-in.o
+ .data          0x0000000000000000        0x0 common/init/built-in.o
+ .bss           0x0000000000000000        0x0 common/init/built-in.o
+ .text          0x0000000000000000        0x0 common/built-in.o
+ .text.console_setfile
+                0x0000000000000000       0x74 common/built-in.o
+ .text.fgetc.part.0
+                0x0000000000000000       0x24 common/built-in.o
+ .text.getc     0x0000000000000000       0x1a common/built-in.o
+ .text.serial_printf
+                0x0000000000000000       0x32 common/built-in.o
+ .text.fgetc    0x0000000000000000        0xe common/built-in.o
+ .text.ftstc    0x0000000000000000       0x18 common/built-in.o
+ .text.tstc     0x0000000000000000       0x1a common/built-in.o
+ .text.fputc    0x0000000000000000       0x14 common/built-in.o
+ .text.fputs    0x0000000000000000       0x14 common/built-in.o
+ .text.fprintf  0x0000000000000000       0x36 common/built-in.o
+ .text.ctrlc    0x0000000000000000       0x34 common/built-in.o
+ .text.confirm_yesno
+                0x0000000000000000       0x84 common/built-in.o
+ .text.disable_ctrlc
+                0x0000000000000000       0x10 common/built-in.o
+ .text.had_ctrlc
+                0x0000000000000000        0xc common/built-in.o
+ .text.clear_ctrlc
+                0x0000000000000000        0xc common/built-in.o
+ .text.search_device
+                0x0000000000000000       0x16 common/built-in.o
+ .text.console_assign
+                0x0000000000000000       0x2a common/built-in.o
+ .text.console_announce_r
+                0x0000000000000000       0x34 common/built-in.o
+ .text.console_init_f
+                0x0000000000000000        0xa common/built-in.o
+ .text.stdio_print_current_devices
+                0x0000000000000000       0x78 common/built-in.o
+ .text.console_init_r
+                0x0000000000000000       0x90 common/built-in.o
+ .text.sbrk     0x0000000000000000       0x40 common/built-in.o
+ .text.mem_malloc_init
+                0x0000000000000000       0x1c common/built-in.o
+ .text.malloc_trim
+                0x0000000000000000       0x84 common/built-in.o
+ .text.fREe     0x0000000000000000      0x164 common/built-in.o
+ .text.mALLOc   0x0000000000000000      0x424 common/built-in.o
+ .text.cALLOc   0x0000000000000000       0x90 common/built-in.o
+ .text.rEALLOc  0x0000000000000000      0x2d0 common/built-in.o
+ .text.mEMALIGn
+                0x0000000000000000      0x122 common/built-in.o
+ .text.vALLOc   0x0000000000000000        0xa common/built-in.o
+ .text.pvALLOc  0x0000000000000000       0x14 common/built-in.o
+ .text.cfree    0x0000000000000000        0x4 common/built-in.o
+ .text.malloc_usable_size
+                0x0000000000000000       0x30 common/built-in.o
+ .text.mALLOPt  0x0000000000000000       0x30 common/built-in.o
+ .text.initf_malloc
+                0x0000000000000000       0x14 common/built-in.o
+ .text.malloc_simple
+                0x0000000000000000       0x28 common/built-in.o
+ .text.memalign_simple
+                0x0000000000000000       0x32 common/built-in.o
+ .text.calloc   0x0000000000000000       0x1a common/built-in.o
+ .text.image_check_hcrc
+                0x0000000000000000       0x2a common/built-in.o
+ .text.image_check_dcrc
+                0x0000000000000000       0x22 common/built-in.o
+ .text.image_multi_count
+                0x0000000000000000       0x12 common/built-in.o
+ .text.image_multi_getimg
+                0x0000000000000000       0x4a common/built-in.o
+ .text.env_get_bootm_low
+                0x0000000000000000       0x20 common/built-in.o
+ .text.env_get_bootm_size
+                0x0000000000000000       0x44 common/built-in.o
+ .text.env_get_bootm_mapsize
+                0x0000000000000000       0x20 common/built-in.o
+ .text.memmove_wd
+                0x0000000000000000        0xa common/built-in.o
+ .text.genimg_print_size
+                0x0000000000000000       0x24 common/built-in.o
+ .text.get_table_entry
+                0x0000000000000000       0x12 common/built-in.o
+ .text.genimg_get_short_name
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_cat_name
+                0x0000000000000000       0x38 common/built-in.o
+ .text.genimg_get_cat_short_name
+                0x0000000000000000       0x38 common/built-in.o
+ .text.genimg_get_cat_count
+                0x0000000000000000       0x10 common/built-in.o
+ .text.genimg_get_cat_desc
+                0x0000000000000000       0x10 common/built-in.o
+ .text.get_table_entry_name
+                0x0000000000000000       0x12 common/built-in.o
+ .text.genimg_get_os_name
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_arch_name
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_type_name
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_type_short_name
+                0x0000000000000000        0xc common/built-in.o
+ .text.genimg_get_comp_name
+                0x0000000000000000       0x14 common/built-in.o
+ .text.image_print_contents
+                0x0000000000000000      0x114 common/built-in.o
+ .text.genimg_get_comp_short_name
+                0x0000000000000000        0xc common/built-in.o
+ .text.genimg_get_os_short_name
+                0x0000000000000000        0xc common/built-in.o
+ .text.genimg_get_arch_short_name
+                0x0000000000000000        0xc common/built-in.o
+ .text.get_table_entry_id
+                0x0000000000000000       0x26 common/built-in.o
+ .text.genimg_get_os_id
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_arch_id
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_type_id
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_comp_id
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_kernel_addr_fit
+                0x0000000000000000       0x14 common/built-in.o
+ .text.genimg_get_kernel_addr
+                0x0000000000000000       0x16 common/built-in.o
+ .text.genimg_get_format
+                0x0000000000000000       0x20 common/built-in.o
+ .text.genimg_has_config
+                0x0000000000000000        0x4 common/built-in.o
+ .text.boot_get_ramdisk
+                0x0000000000000000      0x1d8 common/built-in.o
+ .text.boot_ramdisk_high
+                0x0000000000000000       0xc4 common/built-in.o
+ .text.boot_get_setup
+                0x0000000000000000        0x6 common/built-in.o
+ .text.image_setup_linux
+                0x0000000000000000        0x4 common/built-in.o
+ .text.android_image_get_kernel
+                0x0000000000000000      0x160 common/built-in.o
+ .text.android_image_check_header
+                0x0000000000000000       0x10 common/built-in.o
+ .text.android_image_get_end
+                0x0000000000000000       0x78 common/built-in.o
+ .text.android_image_get_kload
+                0x0000000000000000       0x40 common/built-in.o
+ .text.android_image_get_ramdisk
+                0x0000000000000000       0xc4 common/built-in.o
+ .text.android_image_get_second
+                0x0000000000000000       0xe8 common/built-in.o
+ .text.get_ram_size
+                0x0000000000000000       0x9e common/built-in.o
+ .text.get_effective_memsize
+                0x0000000000000000        0x6 common/built-in.o
+ .text.stdio_serial_tstc
+                0x0000000000000000        0x4 common/built-in.o
+ .text.stdio_serial_getc
+                0x0000000000000000        0x4 common/built-in.o
+ .text.stdio_serial_puts
+                0x0000000000000000        0x6 common/built-in.o
+ .text.stdio_serial_putc
+                0x0000000000000000        0x6 common/built-in.o
+ .text.stdio_get_list
+                0x0000000000000000        0x8 common/built-in.o
+ .text.stdio_get_by_name
+                0x0000000000000000       0x30 common/built-in.o
+ .text.stdio_clone
+                0x0000000000000000       0x22 common/built-in.o
+ .text.stdio_register_dev
+                0x0000000000000000       0x34 common/built-in.o
+ .text.stdio_register
+                0x0000000000000000        0x6 common/built-in.o
+ .text.stdio_init_tables
+                0x0000000000000000       0x14 common/built-in.o
+ .text.stdio_add_devices
+                0x0000000000000000       0x8c common/built-in.o
+ .text.stdio_init
+                0x0000000000000000        0xe common/built-in.o
+ .text.run_command
+                0x0000000000000000        0xe common/built-in.o
+ .text.run_command_repeatable
+                0x0000000000000000       0x12 common/built-in.o
+ .text.run_command_list
+                0x0000000000000000       0x38 common/built-in.o
+ .text.do_run   0x0000000000000000       0x4c common/built-in.o
+ .text.cli_loop
+                0x0000000000000000        0x8 common/built-in.o
+ .text.cli_init
+                0x0000000000000000        0x4 common/built-in.o
+ .text.find_cmd_tbl
+                0x0000000000000000       0x62 common/built-in.o
+ .text.find_cmd
+                0x0000000000000000       0x1c common/built-in.o
+ .text.cmd_usage
+                0x0000000000000000       0x3c common/built-in.o
+ .text._do_help
+                0x0000000000000000      0x108 common/built-in.o
+ .text.var_complete
+                0x0000000000000000       0x48 common/built-in.o
+ .text.cmd_auto_complete
+                0x0000000000000000      0x2cc common/built-in.o
+ .text.cmd_get_data_size
+                0x0000000000000000       0x48 common/built-in.o
+ .text.cmd_process
+                0x0000000000000000       0x94 common/built-in.o
+ .text.cmd_process_error
+                0x0000000000000000       0x1c common/built-in.o
+ .text.hex1_bin
+                0x0000000000000000       0x2a common/built-in.o
+ .text.hex2_bin
+                0x0000000000000000       0x24 common/built-in.o
+ .text.srec_decode
+                0x0000000000000000      0x17c common/built-in.o
+ .text.CYGACC_COMM_IF_GETC_TIMEOUT.isra.0
+                0x0000000000000000       0x2e common/built-in.o
+ .text.xyzModem_flush
+                0x0000000000000000       0x14 common/built-in.o
+ .text.xyzModem_get_hdr
+                0x0000000000000000      0x16c common/built-in.o
+ .text.xyzModem_stream_open
+                0x0000000000000000      0x168 common/built-in.o
+ .text.xyzModem_stream_read
+                0x0000000000000000      0x1a8 common/built-in.o
+ .text.xyzModem_stream_close
+                0x0000000000000000       0x40 common/built-in.o
+ .text.xyzModem_stream_terminate
+                0x0000000000000000       0x68 common/built-in.o
+ .text.xyzModem_error
+                0x0000000000000000       0x18 common/built-in.o
+ .rodata.confirm_yesno.str1.1
+                0x0000000000000000       0x10 common/built-in.o
+ .rodata.console_announce_r.str1.1
+                0x0000000000000000        0x7 common/built-in.o
+ .rodata.stdio_print_current_devices.str1.1
+                0x0000000000000000       0x74 common/built-in.o
+ .rodata.rEALLOc.str1.1
+                0x0000000000000000       0x25 common/built-in.o
+ .rodata.boot_get_ramdisk.str1.1
+                0x0000000000000000      0x10d common/built-in.o
+ .rodata.boot_ramdisk_high.str1.1
+                0x0000000000000000       0x54 common/built-in.o
+ .rodata.env_get_bootm_low.str1.1
+                0x0000000000000000        0xa common/built-in.o
+ .rodata.env_get_bootm_mapsize.str1.1
+                0x0000000000000000        0xe common/built-in.o
+ .rodata.env_get_bootm_size.str1.1
+                0x0000000000000000        0xb common/built-in.o
+ .rodata.genimg_get_arch_id.str1.1
+                0x0000000000000000        0x4 common/built-in.o
+ .rodata.genimg_get_arch_name.str1.1
+                0x0000000000000000       0x15 common/built-in.o
+ .rodata.genimg_get_comp_id.str1.1
+                0x0000000000000000        0xc common/built-in.o
+ .rodata.genimg_get_comp_name.str1.1
+                0x0000000000000000       0x14 common/built-in.o
+ .rodata.genimg_get_os_id.str1.1
+                0x0000000000000000        0x3 common/built-in.o
+ .rodata.genimg_get_os_name.str1.1
+                0x0000000000000000        0xb common/built-in.o
+ .rodata.genimg_get_short_name.str1.1
+                0x0000000000000000        0x8 common/built-in.o
+ .rodata.genimg_get_type_id.str1.1
+                0x0000000000000000        0x6 common/built-in.o
+ .rodata.genimg_get_type_name.str1.1
+                0x0000000000000000        0xe common/built-in.o
+ .rodata.genimg_print_size.str1.1
+                0x0000000000000000        0xe common/built-in.o
+ .rodata.image_print_contents.str1.1
+                0x0000000000000000       0xd4 common/built-in.o
+ .rodata.str1.1
+                0x0000000000000000      0x7a5 common/built-in.o
+ .rodata.table_info
+                0x0000000000000000       0x30 common/built-in.o
+ .rodata.uimage_arch
+                0x0000000000000000      0x144 common/built-in.o
+ .rodata.uimage_comp
+                0x0000000000000000       0x54 common/built-in.o
+ .rodata.uimage_os
+                0x0000000000000000       0x90 common/built-in.o
+ .rodata.uimage_type
+                0x0000000000000000      0x1b0 common/built-in.o
+ .rodata.unknown_str.7740
+                0x0000000000000000        0x9 common/built-in.o
+ .rodata.android_image_check_header.str1.1
+                0x0000000000000000        0x9 common/built-in.o
+ .rodata.android_image_get_kernel.str1.1
+                0x0000000000000000       0x96 common/built-in.o
+ .rodata.android_image_get_ramdisk.str1.1
+                0x0000000000000000       0x27 common/built-in.o
+ .rodata.android_image_get_second.str1.1
+                0x0000000000000000       0x19 common/built-in.o
+ .rodata.stdio_add_devices.str1.1
+                0x0000000000000000       0x26 common/built-in.o
+ .rodata.do_run.str1.1
+                0x0000000000000000       0x1c common/built-in.o
+ .rodata._do_help.str1.1
+                0x0000000000000000       0x5f common/built-in.o
+ .rodata.cmd_auto_complete.str1.1
+                0x0000000000000000        0xf common/built-in.o
+ .rodata.cmd_process.str1.1
+                0x0000000000000000       0x3f common/built-in.o
+ .rodata.cmd_process_error.str1.1
+                0x0000000000000000       0x1f common/built-in.o
+ .rodata.cmd_usage.str1.1
+                0x0000000000000000       0x36 common/built-in.o
+ .rodata.var_complete.str1.1
+                0x0000000000000000        0x1 common/built-in.o
+ .rodata.CSWTCH.19
+                0x0000000000000000       0x20 common/built-in.o
+ .rodata.xyzModem_error.str1.1
+                0x0000000000000000        0xe common/built-in.o
+ .rodata.xyzModem_stream_close.str1.1
+                0x0000000000000000       0x4b common/built-in.o
+ .rodata.xyzModem_stream_open.str1.1
+                0x0000000000000000        0x2 common/built-in.o
+ .data          0x0000000000000000        0x0 common/built-in.o
+ .data.av_      0x0000000000000000      0x408 common/built-in.o
+ .data.sbrk_base
+                0x0000000000000000        0x4 common/built-in.o
+ .data.trim_threshold
+                0x0000000000000000        0x4 common/built-in.o
+ .data.load_addr
+                0x0000000000000000        0x4 common/built-in.o
+ .data.stdio_names
+                0x0000000000000000        0xc common/built-in.o
+ .bss           0x0000000000000000        0x0 common/built-in.o
+ .bss.ctrlc_disabled
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.ctrlc_was_pressed
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.current_mallinfo
+                0x0000000000000000       0x28 common/built-in.o
+ .bss.max_sbrked_mem
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.max_total_mem
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.mem_malloc_brk
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.mem_malloc_end
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.mem_malloc_start
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.top_pad   0x0000000000000000        0x4 common/built-in.o
+ .bss.msg.7741  0x0000000000000000       0x1e common/built-in.o
+ .bss.save_addr
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.save_size
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.andr_tmp_str
+                0x0000000000000000      0x201 common/built-in.o
+ .bss.devs      0x0000000000000000       0x4c common/built-in.o
+ .bss.tmp_buf   0x0000000000000000      0x401 common/built-in.o
+ .bss.tmp_buf.7318
+                0x0000000000000000      0x200 common/built-in.o
+ .bss.xyz       0x0000000000000000      0x434 common/built-in.o
+ .text          0x0000000000000000        0x0 cmd/built-in.o
+ .text._do_env_set.isra.0.constprop.3
+                0x0000000000000000      0x100 cmd/built-in.o
+ .text.get_env_id
+                0x0000000000000000        0xc cmd/built-in.o
+ .text.env_set  0x0000000000000000       0x38 cmd/built-in.o
+ .text.env_set_ulong
+                0x0000000000000000       0x16 cmd/built-in.o
+ .text.env_set_hex
+                0x0000000000000000       0x20 cmd/built-in.o
+ .text.eth_parse_enetaddr
+                0x0000000000000000       0x30 cmd/built-in.o
+ .text.envmatch
+                0x0000000000000000       0x4a cmd/built-in.o
+ .text.env_get_f
+                0x0000000000000000       0x88 cmd/built-in.o
+ .text.env_get  0x0000000000000000       0x50 cmd/built-in.o
+ .text.env_get_hex
+                0x0000000000000000       0x20 cmd/built-in.o
+ .text.eth_env_get_enetaddr
+                0x0000000000000000       0x34 cmd/built-in.o
+ .text.eth_env_set_enetaddr
+                0x0000000000000000       0x30 cmd/built-in.o
+ .text.env_get_ulong
+                0x0000000000000000       0x1c cmd/built-in.o
+ .rodata._do_env_set.isra.0.constprop.3.str1.1
+                0x0000000000000000       0x7c cmd/built-in.o
+ .rodata.env_get_f.str1.1
+                0x0000000000000000       0x30 cmd/built-in.o
+ .rodata.env_set.str1.1
+                0x0000000000000000        0x7 cmd/built-in.o
+ .rodata.env_set_hex.str1.1
+                0x0000000000000000        0x4 cmd/built-in.o
+ .rodata.eth_env_set_enetaddr.str1.1
+                0x0000000000000000        0x4 cmd/built-in.o
+ .data          0x0000000000000000        0x0 cmd/built-in.o
+ .data.env_id   0x0000000000000000        0x4 cmd/built-in.o
+ .bss           0x0000000000000000        0x0 cmd/built-in.o
+ .comment       0x0000000000000000       0x76 cmd/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x80 cmd/built-in.o
+ .debug_info    0x0000000000000000     0x1d29 cmd/built-in.o
+ .debug_abbrev  0x0000000000000000      0x4e5 cmd/built-in.o
+ .debug_line    0x0000000000000000      0x705 cmd/built-in.o
+ .debug_frame   0x0000000000000000      0x1a8 cmd/built-in.o
+ .debug_str     0x0000000000000000     0x1279 cmd/built-in.o
+ .debug_loc     0x0000000000000000      0xa6e cmd/built-in.o
+ .debug_ranges  0x0000000000000000       0xe0 cmd/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x2d cmd/built-in.o
+ .text          0x0000000000000000        0x0 env/built-in.o
+ .text.env_get_yesno
+                0x0000000000000000       0x2a env/built-in.o
+ .text.env_get_default
+                0x0000000000000000       0x2a env/built-in.o
+ .text.set_default_env
+                0x0000000000000000       0x68 env/built-in.o
+ .text.set_default_vars
+                0x0000000000000000       0x28 env/built-in.o
+ .text.env_import
+                0x0000000000000000       0x84 env/built-in.o
+ .text.env_export
+                0x0000000000000000       0x54 env/built-in.o
+ .text.env_relocate
+                0x0000000000000000       0x10 env/built-in.o
+ .text.env_get_location
+                0x0000000000000000        0xe env/built-in.o
+ .text.env_driver_lookup
+                0x0000000000000000       0x2c env/built-in.o
+ .text.env_get_char_spec
+                0x0000000000000000        0x8 env/built-in.o
+ .text.env_get_char
+                0x0000000000000000       0x14 env/built-in.o
+ .text.env_load
+                0x0000000000000000       0x58 env/built-in.o
+ .text.env_save
+                0x0000000000000000       0x58 env/built-in.o
+ .text.env_init
+                0x0000000000000000       0x58 env/built-in.o
+ .rodata.default_environment
+                0x0000000000000000       0x7c env/built-in.o
+ .rodata.env_export.str1.1
+                0x0000000000000000       0x27 env/built-in.o
+ .rodata.env_import.str1.1
+                0x0000000000000000       0x3d env/built-in.o
+ .rodata.set_default_env.str1.1
+                0x0000000000000000       0x5f env/built-in.o
+ .rodata.env_load.str1.1
+                0x0000000000000000       0x24 env/built-in.o
+ .rodata.env_save.str1.1
+                0x0000000000000000       0x2a env/built-in.o
+ .data          0x0000000000000000        0x0 env/built-in.o
+ .data.env_htab
+                0x0000000000000000       0x10 env/built-in.o
+ .bss           0x0000000000000000        0x0 env/built-in.o
+ .text          0x0000000000000000        0x0 lib/built-in.o
+ .text.drop_var_from_set.part.2
+                0x0000000000000000       0x30 lib/built-in.o
+ .text.hcreate_r
+                0x0000000000000000       0x58 lib/built-in.o
+ .text.hdestroy_r
+                0x0000000000000000       0x14 lib/built-in.o
+ .text.hmatch_r
+                0x0000000000000000       0x5c lib/built-in.o
+ .text.hsearch_r
+                0x0000000000000000      0x2b0 lib/built-in.o
+ .text.hdelete_r
+                0x0000000000000000       0x94 lib/built-in.o
+ .text.himport_r
+                0x0000000000000000      0x234 lib/built-in.o
+ .text.hwalk_r  0x0000000000000000       0x30 lib/built-in.o
+ .text.display_options_get_banner_priv
+                0x0000000000000000       0x60 lib/built-in.o
+ .text.display_options_get_banner
+                0x0000000000000000        0xa lib/built-in.o
+ .text.display_options
+                0x0000000000000000       0x24 lib/built-in.o
+ .text.print_freq
+                0x0000000000000000      0x124 lib/built-in.o
+ .text.print_size
+                0x0000000000000000      0x11c lib/built-in.o
+ .text.print_buffer
+                0x0000000000000000      0x114 lib/built-in.o
+ .text.crc32_no_comp
+                0x0000000000000000       0x90 lib/built-in.o
+ .text.crc32    0x0000000000000000        0xc lib/built-in.o
+ .text.crc32_wd
+                0x0000000000000000        0x4 lib/built-in.o
+ .text.crc32_wd_buf
+                0x0000000000000000       0x22 lib/built-in.o
+ .text.div_s64_rem
+                0x0000000000000000       0x8c lib/built-in.o
+ .text.div64_u64_rem
+                0x0000000000000000      0x120 lib/built-in.o
+ .text.div64_u64
+                0x0000000000000000      0x104 lib/built-in.o
+ .text.div64_s64
+                0x0000000000000000       0x30 lib/built-in.o
+ .text.iter_div_u64_rem
+                0x0000000000000000       0x22 lib/built-in.o
+ .text.copy_from_user
+                0x0000000000000000        0xa lib/built-in.o
+ .text.kmalloc  0x0000000000000000       0x26 lib/built-in.o
+ .text.get_mem  0x0000000000000000       0x10 lib/built-in.o
+ .text.kmem_cache_alloc
+                0x0000000000000000        0xe lib/built-in.o
+ .text.skip_spaces
+                0x0000000000000000       0x18 lib/built-in.o
+ .text.strim    0x0000000000000000       0x34 lib/built-in.o
+ .text.membuff_purge
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.membuff_putraw
+                0x0000000000000000       0x68 lib/built-in.o
+ .text.membuff_putbyte
+                0x0000000000000000       0x1c lib/built-in.o
+ .text.membuff_getraw
+                0x0000000000000000       0x50 lib/built-in.o
+ .text.membuff_getbyte
+                0x0000000000000000       0x22 lib/built-in.o
+ .text.membuff_peekbyte
+                0x0000000000000000       0x20 lib/built-in.o
+ .text.membuff_get
+                0x0000000000000000       0x46 lib/built-in.o
+ .text.membuff_put
+                0x0000000000000000       0x3e lib/built-in.o
+ .text.membuff_isempty
+                0x0000000000000000        0xc lib/built-in.o
+ .text.membuff_avail
+                0x0000000000000000       0x34 lib/built-in.o
+ .text.membuff_size
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.membuff_makecontig
+                0x0000000000000000       0x44 lib/built-in.o
+ .text.membuff_free
+                0x0000000000000000       0x1a lib/built-in.o
+ .text.membuff_readline
+                0x0000000000000000       0x68 lib/built-in.o
+ .text.membuff_extend_by
+                0x0000000000000000       0x76 lib/built-in.o
+ .text.membuff_init
+                0x0000000000000000        0xc lib/built-in.o
+ .text.membuff_new
+                0x0000000000000000       0x22 lib/built-in.o
+ .text.membuff_uninit
+                0x0000000000000000        0xc lib/built-in.o
+ .text.membuff_dispose
+                0x0000000000000000        0xc lib/built-in.o
+ .text.emit     0x0000000000000000       0x20 lib/built-in.o
+ .text.store_char_in_data
+                0x0000000000000000       0x24 lib/built-in.o
+ .text.get_escape_char
+                0x0000000000000000       0x4a lib/built-in.o
+ .text.relocate
+                0x0000000000000000       0x2a lib/built-in.o
+ .text.match    0x0000000000000000      0x260 lib/built-in.o
+ .text.loop_greedy
+                0x0000000000000000       0x56 lib/built-in.o
+ .text.loop_non_greedy
+                0x0000000000000000       0x4c lib/built-in.o
+ .text.quantifier
+                0x0000000000000000       0x5c lib/built-in.o
+ .text.fixup_branch
+                0x0000000000000000       0x28 lib/built-in.o
+ .text.compile  0x0000000000000000      0x214 lib/built-in.o
+ .text.slre_compile
+                0x0000000000000000       0x8c lib/built-in.o
+ .text.slre_match
+                0x0000000000000000       0x5a lib/built-in.o
+ .text.strncasecmp
+                0x0000000000000000       0x44 lib/built-in.o
+ .text.strcasecmp
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.strcpy   0x0000000000000000       0x10 lib/built-in.o
+ .text.strncpy  0x0000000000000000       0x18 lib/built-in.o
+ .text.strcat   0x0000000000000000       0x20 lib/built-in.o
+ .text.strncat  0x0000000000000000       0x2a lib/built-in.o
+ .text.strcmp   0x0000000000000000       0x16 lib/built-in.o
+ .text.strncmp  0x0000000000000000       0x22 lib/built-in.o
+ .text.strchr   0x0000000000000000       0x1a lib/built-in.o
+ .text.strchrnul
+                0x0000000000000000       0x14 lib/built-in.o
+ .text.strlen   0x0000000000000000       0x10 lib/built-in.o
+ .text.strlcpy  0x0000000000000000       0x2e lib/built-in.o
+ .text.strrchr  0x0000000000000000       0x20 lib/built-in.o
+ .text.strnlen  0x0000000000000000       0x18 lib/built-in.o
+ .text.strcspn  0x0000000000000000       0x20 lib/built-in.o
+ .text.strdup   0x0000000000000000       0x22 lib/built-in.o
+ .text.strspn   0x0000000000000000       0x20 lib/built-in.o
+ .text.strpbrk  0x0000000000000000       0x22 lib/built-in.o
+ .text.strtok   0x0000000000000000       0x40 lib/built-in.o
+ .text.strsep   0x0000000000000000       0x1c lib/built-in.o
+ .text.strswab  0x0000000000000000       0x26 lib/built-in.o
+ .text.memmove  0x0000000000000000       0x28 lib/built-in.o
+ .text.memscan  0x0000000000000000       0x16 lib/built-in.o
+ .text.strstr   0x0000000000000000       0x40 lib/built-in.o
+ .text.memchr   0x0000000000000000       0x1c lib/built-in.o
+ .text.memchr_inv
+                0x0000000000000000       0x94 lib/built-in.o
+ .text.table_compute_checksum
+                0x0000000000000000       0x18 lib/built-in.o
+ .text.get_ticks
+                0x0000000000000000       0x26 lib/built-in.o
+ .text.timer_init
+                0x0000000000000000        0x4 lib/built-in.o
+ .text.get_timer
+                0x0000000000000000       0x10 lib/built-in.o
+ .text.__udelay
+                0x0000000000000000       0xa4 lib/built-in.o
+ .text.print_hex_dump
+                0x0000000000000000        0x2 lib/built-in.o
+ .text.print_hex_dump_bytes
+                0x0000000000000000        0x2 lib/built-in.o
+ .text.uuid_str_valid
+                0x0000000000000000       0x50 lib/built-in.o
+ .text.uuid_str_to_bin
+                0x0000000000000000      0x12c lib/built-in.o
+ .text.uuid_bin_to_str
+                0x0000000000000000       0x78 lib/built-in.o
+ .text.gen_rand_uuid
+                0x0000000000000000       0x56 lib/built-in.o
+ .text.gen_rand_uuid_str
+                0x0000000000000000       0x1c lib/built-in.o
+ .text.rand_r   0x0000000000000000       0x14 lib/built-in.o
+ .text.rand     0x0000000000000000        0xc lib/built-in.o
+ .text.srand    0x0000000000000000        0xc lib/built-in.o
+ .text.panic_str
+                0x0000000000000000        0xa lib/built-in.o
+ .text.__assert_fail
+                0x0000000000000000       0x10 lib/built-in.o
+ .text.putc_outstr
+                0x0000000000000000        0xa lib/built-in.o
+ .text.sprintf  0x0000000000000000       0x2c lib/built-in.o
+ .text.snprintf
+                0x0000000000000000       0x2c lib/built-in.o
+ .text._parse_integer_fixup_radix
+                0x0000000000000000       0x5c lib/built-in.o
+ .text.simple_strtoul
+                0x0000000000000000       0x50 lib/built-in.o
+ .text.strict_strtoul
+                0x0000000000000000       0x42 lib/built-in.o
+ .text.simple_strtol
+                0x0000000000000000       0x1a lib/built-in.o
+ .text.ustrtoul
+                0x0000000000000000       0x3c lib/built-in.o
+ .text.simple_strtoull
+                0x0000000000000000       0x74 lib/built-in.o
+ .text.ustrtoull
+                0x0000000000000000       0x50 lib/built-in.o
+ .text.trailing_strtoln
+                0x0000000000000000       0x48 lib/built-in.o
+ .text.trailing_strtol
+                0x0000000000000000        0x6 lib/built-in.o
+ .rodata        0x0000000000000000       0x20 lib/built-in.o
+ .rodata.himport_r.str1.1
+                0x0000000000000000       0x99 lib/built-in.o
+ .rodata.display_options.str1.1
+                0x0000000000000000        0x3 lib/built-in.o
+ .rodata.display_options_get_banner_priv.str1.1
+                0x0000000000000000       0x15 lib/built-in.o
+ .rodata.names.7472
+                0x0000000000000000        0x3 lib/built-in.o
+ .rodata.names.7506
+                0x0000000000000000        0x6 lib/built-in.o
+ .rodata.print_buffer.str1.1
+                0x0000000000000000       0x17 lib/built-in.o
+ .rodata.print_freq.str1.1
+                0x0000000000000000       0x1b lib/built-in.o
+ .rodata.print_size.str1.1
+                0x0000000000000000       0x15 lib/built-in.o
+ .rodata.crc_table
+                0x0000000000000000      0x400 lib/built-in.o
+ .rodata.compile.str1.1
+                0x0000000000000000       0x4a lib/built-in.o
+ .rodata.emit.str1.1
+                0x0000000000000000       0x1f lib/built-in.o
+ .rodata.match.str1.1
+                0x0000000000000000       0x18 lib/built-in.o
+ .rodata.quantifier.str1.1
+                0x0000000000000000       0x17 lib/built-in.o
+ .rodata.store_char_in_data.str1.1
+                0x0000000000000000       0x1f lib/built-in.o
+ .rodata.hex_asc
+                0x0000000000000000       0x11 lib/built-in.o
+ .rodata.hex_asc_upper
+                0x0000000000000000       0x11 lib/built-in.o
+ .rodata.uuid_bin_to_str.str1.1
+                0x0000000000000000        0x5 lib/built-in.o
+ .rodata.__assert_fail.str1.1
+                0x0000000000000000       0x22 lib/built-in.o
+ .data          0x0000000000000000        0x0 lib/built-in.o
+ .data.cur      0x0000000000000000        0x4 lib/built-in.o
+ .data.current  0x0000000000000000        0x4 lib/built-in.o
+ .data.y        0x0000000000000000        0x4 lib/built-in.o
+ .bss           0x0000000000000000        0x0 lib/built-in.o
+ .bss.errno     0x0000000000000000        0x4 lib/built-in.o
+ .bss.___strtok
+                0x0000000000000000        0x4 lib/built-in.o
+ .text          0x0000000000000000        0x0 disk/built-in.o
+ .text.part_driver_lookup_type
+                0x0000000000000000       0x44 disk/built-in.o
+ .text.blk_get_dev
+                0x0000000000000000       0x18 disk/built-in.o
+ .text.dev_print
+                0x0000000000000000      0x174 disk/built-in.o
+ .text.part_init
+                0x0000000000000000       0x2c disk/built-in.o
+ .text.part_print
+                0x0000000000000000       0x28 disk/built-in.o
+ .text.part_get_info
+                0x0000000000000000       0x30 disk/built-in.o
+ .text.part_get_info_whole_disk
+                0x0000000000000000       0x34 disk/built-in.o
+ .text.blk_get_device_by_str
+                0x0000000000000000       0xa8 disk/built-in.o
+ .text.blk_get_device_part_str
+                0x0000000000000000      0x22c disk/built-in.o
+ .text.part_get_info_by_name_type
+                0x0000000000000000       0x48 disk/built-in.o
+ .text.part_get_info_by_name
+                0x0000000000000000        0x8 disk/built-in.o
+ .text.part_set_generic_name
+                0x0000000000000000       0x34 disk/built-in.o
+ .rodata.CSWTCH.14
+                0x0000000000000000       0x20 disk/built-in.o
+ .rodata.blk_get_device_by_str.str1.1
+                0x0000000000000000       0x52 disk/built-in.o
+ .rodata.blk_get_device_part_str.str1.1
+                0x0000000000000000      0x109 disk/built-in.o
+ .rodata.dev_print.str1.1
+                0x0000000000000000      0x15e disk/built-in.o
+ .rodata.part_get_info_whole_disk.str1.1
+                0x0000000000000000       0x12 disk/built-in.o
+ .rodata.part_print.str1.1
+                0x0000000000000000       0x24 disk/built-in.o
+ .rodata.part_set_generic_name.str1.1
+                0x0000000000000000        0xa disk/built-in.o
+ .rodata.str1.1
+                0x0000000000000000       0x16 disk/built-in.o
+ .data          0x0000000000000000        0x0 disk/built-in.o
+ .bss           0x0000000000000000        0x0 disk/built-in.o
+ .text          0x0000000000000000        0x0 drivers/built-in.o
+ .text.serial_stub_start
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.serial_stub_stop
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.serial_stub_putc
+                0x0000000000000000        0x8 drivers/built-in.o
+ .text.serial_stub_puts
+                0x0000000000000000        0x8 drivers/built-in.o
+ .text.serial_stub_getc
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.serial_stub_tstc
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.serial_null
+                0x0000000000000000        0x2 drivers/built-in.o
+ .text.serial_register
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.serial_stdio_init
+                0x0000000000000000       0x64 drivers/built-in.o
+ .text.serial_assign
+                0x0000000000000000       0x2c drivers/built-in.o
+ .text.serial_initialize
+                0x0000000000000000       0x32 drivers/built-in.o
+ .text.serial_reinit_all
+                0x0000000000000000       0x18 drivers/built-in.o
+ .text.serial_setbrg
+                0x0000000000000000        0xe drivers/built-in.o
+ .text.serial_getc
+                0x0000000000000000        0xe drivers/built-in.o
+ .text.serial_tstc
+                0x0000000000000000        0xe drivers/built-in.o
+ .text.default_serial_puts
+                0x0000000000000000       0x1a drivers/built-in.o
+ .text.eserial1_putc
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial2_putc
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial3_putc
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial4_putc
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial1_puts
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial2_puts
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial3_puts
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial4_puts
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial4_tstc
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.eserial1_setbrg
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial2_setbrg
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial3_setbrg
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial4_setbrg
+                0x0000000000000000        0x6 drivers/built-in.o
+ .text.eserial1_init
+                0x0000000000000000       0x24 drivers/built-in.o
+ .text.eserial2_init
+                0x0000000000000000       0x24 drivers/built-in.o
+ .text.eserial3_init
+                0x0000000000000000       0x24 drivers/built-in.o
+ .text.eserial4_init
+                0x0000000000000000       0x24 drivers/built-in.o
+ .text.eserial1_getc
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.eserial1_tstc
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.eserial2_getc
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.eserial2_tstc
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.eserial3_getc
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.eserial3_tstc
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.eserial4_getc
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.ns16550_serial_initialize
+                0x0000000000000000       0x38 drivers/built-in.o
+ .text.sunxi_gpio_output
+                0x0000000000000000       0x40 drivers/built-in.o
+ .text.gpio_request
+                0x0000000000000000        0x4 drivers/built-in.o
+ .text.gpio_free
+                0x0000000000000000        0x4 drivers/built-in.o
+ .text.gpio_direction_input
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.gpio_direction_output
+                0x0000000000000000       0x18 drivers/built-in.o
+ .text.gpio_get_value
+                0x0000000000000000       0x30 drivers/built-in.o
+ .text.gpio_set_value
+                0x0000000000000000        0x4 drivers/built-in.o
+ .text.sunxi_name_to_gpio
+                0x0000000000000000       0x56 drivers/built-in.o
+ .text.sunxi_name_to_gpio_bank
+                0x0000000000000000       0x24 drivers/built-in.o
+ .text.axp_get_sid
+                0x0000000000000000       0x4c drivers/built-in.o
+ .text.do_poweroff
+                0x0000000000000000        0xc drivers/built-in.o
+ .data          0x0000000000000000        0x0 drivers/built-in.o
+ .data.eserial1_device
+                0x0000000000000000       0x30 drivers/built-in.o
+ .data.eserial2_device
+                0x0000000000000000       0x30 drivers/built-in.o
+ .data.eserial3_device
+                0x0000000000000000       0x30 drivers/built-in.o
+ .data.eserial4_device
+                0x0000000000000000       0x30 drivers/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/built-in.o
+ .bss.serial_devices
+                0x0000000000000000        0x4 drivers/built-in.o
+ .text          0x0000000000000000        0x0 fs/built-in.o
+ .text.fs_devread
+                0x0000000000000000      0x168 fs/built-in.o
+ .rodata.__func__.7250
+                0x0000000000000000        0xb fs/built-in.o
+ .rodata.fs_devread.str1.1
+                0x0000000000000000       0x98 fs/built-in.o
+ .data          0x0000000000000000        0x0 fs/built-in.o
+ .bss           0x0000000000000000        0x0 fs/built-in.o
+ .comment       0x0000000000000000       0x76 fs/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x20 fs/built-in.o
+ .debug_info    0x0000000000000000     0x124c fs/built-in.o
+ .debug_abbrev  0x0000000000000000      0x3c0 fs/built-in.o
+ .debug_line    0x0000000000000000      0x3e4 fs/built-in.o
+ .debug_frame   0x0000000000000000       0x44 fs/built-in.o
+ .debug_str     0x0000000000000000      0xb9f fs/built-in.o
+ .debug_loc     0x0000000000000000      0x69e fs/built-in.o
+ .debug_ranges  0x0000000000000000       0xe8 fs/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x2d fs/built-in.o
+ .text          0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .data          0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .text.raise    0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x2 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x2 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_memcpy
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_memset
+                0x0000000000000000        0xa arch/arm/lib/eabi_compat.o
+ .debug_info    0x0000000000000000      0xb12 arch/arm/lib/eabi_compat.o
+ .debug_abbrev  0x0000000000000000      0x27f arch/arm/lib/eabi_compat.o
+ .debug_loc     0x0000000000000000      0x11d arch/arm/lib/eabi_compat.o
+ .debug_aranges
+                0x0000000000000000       0x38 arch/arm/lib/eabi_compat.o
+ .debug_ranges  0x0000000000000000       0x28 arch/arm/lib/eabi_compat.o
+ .debug_line    0x0000000000000000      0x1ac arch/arm/lib/eabi_compat.o
+ .debug_str     0x0000000000000000      0x95b arch/arm/lib/eabi_compat.o
+ .comment       0x0000000000000000       0x76 arch/arm/lib/eabi_compat.o
+ .debug_frame   0x0000000000000000       0x60 arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x0000000000000000       0x2d arch/arm/lib/eabi_compat.o
+ .text          0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .data          0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .bss           0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__umodsi3
+                0x0000000000000000       0xa0 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__modsi3
+                0x0000000000000000       0xb8 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__aeabi_uidivmod
+                0x0000000000000000       0x30 arch/arm/lib/lib.a(lib1funcs.o)
+ .text          0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+ .data          0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+ .bss           0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+.sram            0x0000000000000060 0x0000000000005fa0
+.sdram           0x000000004ff80000 0x0000000000080000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000060     0x1fcc
+                0x0000000000000060                __start = .
+ *(.vectors)
+ .vectors       0x0000000000000060       0x44 arch/arm/lib/built-in.o
+                0x0000000000000060                _start
+                0x0000000000000080                _undefined_instruction
+                0x0000000000000084                _software_interrupt
+                0x0000000000000088                _prefetch_abort
+                0x000000000000008c                _data_abort
+                0x0000000000000090                _not_used
+                0x0000000000000094                _irq
+                0x0000000000000098                _fiq
+ arch/arm/cpu/armv7/start.o(.text)
+ .text          0x00000000000000a4       0xc4 arch/arm/cpu/armv7/start.o
+                0x00000000000000a4                reset
+                0x00000000000000a8                save_boot_params_ret
+                0x00000000000000b8                switch_to_hypervisor_ret
+                0x00000000000000f4                c_runtime_cpu_setup
+                0x0000000000000108                switch_to_hypervisor
+                0x000000000000010c                cpu_init_cp15
+                0x0000000000000160                cpu_init_crit
+ *(.text*)
+ .text.spl_board_load_image
+                0x0000000000000168       0x14 arch/arm/mach-sunxi/built-in.o
+ .text.s_init   0x000000000000017c       0x70 arch/arm/mach-sunxi/built-in.o
+                0x000000000000017c                s_init
+ .text.sunxi_get_boot_device
+                0x00000000000001ec       0x38 arch/arm/mach-sunxi/built-in.o
+                0x00000000000001ec                sunxi_get_boot_device
+ .text.spl_boot_device
+                0x0000000000000224        0x4 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000224                spl_boot_device
+ .text.board_init_f
+                0x0000000000000228       0x12 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000228                board_init_f
+ *fill*         0x000000000000023a        0x2 
+ .text.reset_cpu
+                0x000000000000023c       0x20 arch/arm/mach-sunxi/built-in.o
+                0x000000000000023c                reset_cpu
+ .text.clock_init_sec
+                0x000000000000025c        0x4 arch/arm/mach-sunxi/built-in.o
+                0x000000000000025e                clock_init_sec
+ .text.gtbus_init
+                0x0000000000000260        0x2 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000260                gtbus_init
+ .text.clock_init
+                0x0000000000000262       0x16 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000262                clock_init
+ .text.mctl_await_completion
+                0x0000000000000278       0x34 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000278                mctl_await_completion
+ .text.mctl_mem_matches
+                0x00000000000002ac       0x34 arch/arm/mach-sunxi/built-in.o
+                0x00000000000002ac                mctl_mem_matches
+ .text.sunxi_gpio_set_cfgbank
+                0x00000000000002e0       0x22 arch/arm/mach-sunxi/built-in.o
+                0x00000000000002e0                sunxi_gpio_set_cfgbank
+ *fill*         0x0000000000000302        0x2 
+ .text.sunxi_gpio_set_cfgpin
+                0x0000000000000304       0x28 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000304                sunxi_gpio_set_cfgpin
+ .text.sunxi_gpio_set_drv
+                0x000000000000032c       0x48 arch/arm/mach-sunxi/built-in.o
+                0x000000000000032c                sunxi_gpio_set_drv
+ .text.sunxi_gpio_set_pull
+                0x0000000000000374       0x48 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000374                sunxi_gpio_set_pull
+ .text.prcm_apb0_enable
+                0x00000000000003bc       0x18 arch/arm/mach-sunxi/built-in.o
+                0x00000000000003bc                prcm_apb0_enable
+ .text.pmic_bus_init
+                0x00000000000003d4       0x24 arch/arm/mach-sunxi/built-in.o
+                0x00000000000003d4                pmic_bus_init
+ .text.pmic_bus_read
+                0x00000000000003f8        0xa arch/arm/mach-sunxi/built-in.o
+                0x00000000000003f8                pmic_bus_read
+ .text.pmic_bus_write
+                0x0000000000000402        0xa arch/arm/mach-sunxi/built-in.o
+                0x0000000000000402                pmic_bus_write
+ .text.pmic_bus_setbits
+                0x000000000000040c       0x24 arch/arm/mach-sunxi/built-in.o
+                0x000000000000040c                pmic_bus_setbits
+ .text.pmic_bus_clrbits
+                0x0000000000000430       0x26 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000430                pmic_bus_clrbits
+ *fill*         0x0000000000000456        0x2 
+ .text.rsb_await_trans
+                0x0000000000000458       0x4c arch/arm/mach-sunxi/built-in.o
+ .text.rsb_do_trans
+                0x00000000000004a4       0x14 arch/arm/mach-sunxi/built-in.o
+ .text.rsb_init
+                0x00000000000004b8       0x9c arch/arm/mach-sunxi/built-in.o
+                0x00000000000004b8                rsb_init
+ .text.rsb_set_device_address
+                0x0000000000000554       0x20 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000554                rsb_set_device_address
+ .text.rsb_write
+                0x0000000000000574       0x2c arch/arm/mach-sunxi/built-in.o
+                0x0000000000000574                rsb_write
+ .text.rsb_read
+                0x00000000000005a0       0x38 arch/arm/mach-sunxi/built-in.o
+                0x00000000000005a0                rsb_read
+ .text.clock_init_uart
+                0x00000000000005d8        0x6 arch/arm/mach-sunxi/built-in.o
+                0x00000000000005d8                clock_init_uart
+ *fill*         0x00000000000005de        0x2 
+ .text.clock_set_pll1
+                0x00000000000005e0       0x84 arch/arm/mach-sunxi/built-in.o
+                0x00000000000005e0                clock_set_pll1
+ .text.clock_init_safe
+                0x0000000000000664       0x70 arch/arm/mach-sunxi/built-in.o
+                0x0000000000000664                clock_init_safe
+ .text.clock_set_pll11
+                0x00000000000006d4       0x4c arch/arm/mach-sunxi/built-in.o
+                0x00000000000006d4                clock_set_pll11
+ .text.mctl_set_cr
+                0x0000000000000720       0x80 arch/arm/mach-sunxi/built-in.o
+ .text.mctl_data_train_cfg.isra.0
+                0x00000000000007a0       0x1c arch/arm/mach-sunxi/built-in.o
+ .text.mctl_train_dram
+                0x00000000000007bc       0x3c arch/arm/mach-sunxi/built-in.o
+ .text.sunxi_dram_init
+                0x00000000000007f8      0x3e0 arch/arm/mach-sunxi/built-in.o
+                0x00000000000007f8                sunxi_dram_init
+ .text          0x0000000000000bd8      0x1bc arch/arm/cpu/armv7/built-in.o
+                0x0000000000000bd8                __v7_flush_dcache_all
+                0x0000000000000c74                v7_flush_dcache_all
+                0x0000000000000c84                __v7_invalidate_dcache_all
+                0x0000000000000d20                v7_invalidate_dcache_all
+                0x0000000000000d30                save_boot_params
+                0x0000000000000d60                return_to_fel
+ .text.sdelay   0x0000000000000d94        0x6 arch/arm/cpu/armv7/built-in.o
+                0x0000000000000d94                sdelay
+ *fill*         0x0000000000000d9a        0x2 
+ .text.lowlevel_init
+                0x0000000000000d9c       0x1c arch/arm/cpu/armv7/built-in.o
+                0x0000000000000d9c                lowlevel_init
+ .text.timer_init
+                0x0000000000000db8       0x1c arch/arm/cpu/armv7/built-in.o
+                0x0000000000000db8                timer_init
+ .text.get_timer_masked
+                0x0000000000000dd4       0x58 arch/arm/cpu/armv7/built-in.o
+                0x0000000000000dd4                get_timer_masked
+ .text.__udelay
+                0x0000000000000e2c       0x34 arch/arm/cpu/armv7/built-in.o
+                0x0000000000000e2c                __udelay
+ .text.get_ticks
+                0x0000000000000e60        0xa arch/arm/cpu/armv7/built-in.o
+                0x0000000000000e60                get_ticks
+ .text.get_tbclk
+                0x0000000000000e6a        0x6 arch/arm/cpu/armv7/built-in.o
+                0x0000000000000e6a                get_tbclk
+ *fill*         0x0000000000000e70       0x10 
+ .text          0x0000000000000e80      0x400 arch/arm/lib/built-in.o
+                0x0000000000000e80                _main
+                0x0000000000000f00                memset
+                0x0000000000000fa0                memcpy
+ .text.disable_interrupts
+                0x0000000000001280        0x4 arch/arm/lib/built-in.o
+                0x0000000000001280                disable_interrupts
+ .text.reset_misc
+                0x0000000000001284        0x2 arch/arm/lib/built-in.o
+                0x0000000000001284                reset_misc
+ *fill*         0x0000000000001286        0x2 
+ .text.do_reset
+                0x0000000000001288       0x28 arch/arm/lib/built-in.o
+                0x0000000000001288                do_reset
+ .text.i2c_init_board
+                0x00000000000012b0        0x2 board/sunxi/built-in.o
+                0x00000000000012b0                i2c_init_board
+ *fill*         0x00000000000012b2        0x2 
+ .text.sunxi_board_init
+                0x00000000000012b4       0xec board/sunxi/built-in.o
+                0x00000000000012b4                sunxi_board_init
+ .text.show_boot_progress
+                0x00000000000013a0        0x2 common/spl/built-in.o
+                0x00000000000013a0                show_boot_progress
+ .text.spl_perform_fixups
+                0x00000000000013a2        0x2 common/spl/built-in.o
+                0x00000000000013a2                spl_perform_fixups
+ .text.spl_board_prepare_for_boot
+                0x00000000000013a4        0x2 common/spl/built-in.o
+                0x00000000000013a4                spl_board_prepare_for_boot
+ .text.jump_to_image_no_args
+                0x00000000000013a6        0x6 common/spl/built-in.o
+                0x00000000000013a6                jump_to_image_no_args
+ .text.spl_set_bd
+                0x00000000000013ac       0x14 common/spl/built-in.o
+                0x00000000000013ac                spl_set_bd
+ .text.spl_init
+                0x00000000000013c0       0x20 common/spl/built-in.o
+                0x00000000000013c0                spl_init
+ .text.board_boot_order
+                0x00000000000013e0        0xc common/spl/built-in.o
+                0x00000000000013e0                board_boot_order
+ .text.board_init_r
+                0x00000000000013ec       0xc8 common/spl/built-in.o
+                0x00000000000013ec                board_init_r
+ .text.preloader_console_init
+                0x00000000000014b4       0x24 common/spl/built-in.o
+                0x00000000000014b4                preloader_console_init
+ .text.spl_relocate_stack_gd
+                0x00000000000014d8       0x30 common/spl/built-in.o
+                0x00000000000014d8                spl_relocate_stack_gd
+ .text.board_init_f_alloc_reserve
+                0x0000000000001508        0xa common/init/built-in.o
+                0x0000000000001508                board_init_f_alloc_reserve
+ .text.board_init_f_init_reserve
+                0x0000000000001512       0x14 common/init/built-in.o
+                0x0000000000001512                board_init_f_init_reserve
+ *fill*         0x0000000000001526        0x2 
+ .text.putc     0x0000000000001528       0x28 common/built-in.o
+                0x0000000000001528                putc
+ .text.puts     0x0000000000001550       0x28 common/built-in.o
+                0x0000000000001550                puts
+ .text.__div64_32
+                0x0000000000001578       0x8e lib/built-in.o
+                0x0000000000001578                __div64_32
+ *fill*         0x0000000000001606        0x2 
+ .text.hang     0x0000000000001608       0x18 lib/built-in.o
+                0x0000000000001608                hang
+ .text.memcmp   0x0000000000001620       0x1a lib/built-in.o
+                0x0000000000001620                memcmp
+ .text.tick_to_time
+                0x000000000000163a       0x48 lib/built-in.o
+ .text.timer_get_us
+                0x0000000000001682       0x1c lib/built-in.o
+                0x0000000000001682                timer_get_us
+ *fill*         0x000000000000169e        0x2 
+ .text.udelay   0x00000000000016a0       0x20 lib/built-in.o
+                0x00000000000016a0                udelay
+ .text.panic_finish
+                0x00000000000016c0       0x20 lib/built-in.o
+ .text.panic    0x00000000000016e0       0x14 lib/built-in.o
+                0x00000000000016e0                panic
+ .text.putc_normal
+                0x00000000000016f4        0x6 lib/built-in.o
+ .text.div_out  0x00000000000016fa       0x34 lib/built-in.o
+ *fill*         0x000000000000172e        0x2 
+ .text._vprintf
+                0x0000000000001730      0x1b8 lib/built-in.o
+ .text.vprintf  0x00000000000018e8       0x1c lib/built-in.o
+                0x00000000000018e8                vprintf
+ .text.printf   0x0000000000001904       0x24 lib/built-in.o
+                0x0000000000001904                printf
+ .text.get_current
+                0x0000000000001928       0x2c drivers/built-in.o
+ .text.serial_init
+                0x0000000000001954       0x1a drivers/built-in.o
+                0x0000000000001954                serial_init
+ .text.serial_putc
+                0x000000000000196e       0x12 drivers/built-in.o
+                0x000000000000196e                serial_putc
+ .text.serial_puts
+                0x0000000000001980       0x12 drivers/built-in.o
+                0x0000000000001980                serial_puts
+ *fill*         0x0000000000001992        0x2 
+ .text._serial_putc
+                0x0000000000001994       0x28 drivers/built-in.o
+ .text.eserial5_putc
+                0x00000000000019bc        0x6 drivers/built-in.o
+ .text._serial_puts
+                0x00000000000019c2       0x16 drivers/built-in.o
+ .text.eserial5_puts
+                0x00000000000019d8        0x6 drivers/built-in.o
+ *fill*         0x00000000000019de        0x2 
+ .text.eserial5_getc
+                0x00000000000019e0       0x10 drivers/built-in.o
+ .text._serial_setbrg
+                0x00000000000019f0       0x2c drivers/built-in.o
+ .text.eserial5_setbrg
+                0x0000000000001a1c        0x6 drivers/built-in.o
+ *fill*         0x0000000000001a22        0x2 
+ .text.eserial5_init
+                0x0000000000001a24       0x24 drivers/built-in.o
+ .text.eserial5_tstc
+                0x0000000000001a48        0xc drivers/built-in.o
+ .text.default_serial_console
+                0x0000000000001a54        0x8 drivers/built-in.o
+                0x0000000000001a54                default_serial_console
+ .text.ns16550_calc_divisor
+                0x0000000000001a5c       0x10 drivers/built-in.o
+                0x0000000000001a5c                ns16550_calc_divisor
+ .text.NS16550_init
+                0x0000000000001a6c       0x4a drivers/built-in.o
+                0x0000000000001a6c                NS16550_init
+ .text.NS16550_reinit
+                0x0000000000001ab6       0x54 drivers/built-in.o
+                0x0000000000001ab6                NS16550_reinit
+ .text.NS16550_putc
+                0x0000000000001b0a       0x14 drivers/built-in.o
+                0x0000000000001b0a                NS16550_putc
+ .text.NS16550_getc
+                0x0000000000001b1e       0x16 drivers/built-in.o
+                0x0000000000001b1e                NS16550_getc
+ .text.NS16550_tstc
+                0x0000000000001b34        0xe drivers/built-in.o
+                0x0000000000001b34                NS16550_tstc
+ *fill*         0x0000000000001b42        0x2 
+ .text.axp_set_dcdc1
+                0x0000000000001b44       0x58 drivers/built-in.o
+                0x0000000000001b44                axp_set_dcdc1
+ .text.axp_set_dcdc2
+                0x0000000000001b9c       0x4c drivers/built-in.o
+                0x0000000000001b9c                axp_set_dcdc2
+ .text.axp_set_dcdc3
+                0x0000000000001be8       0x4c drivers/built-in.o
+                0x0000000000001be8                axp_set_dcdc3
+ .text.axp_set_dcdc4
+                0x0000000000001c34       0x4c drivers/built-in.o
+                0x0000000000001c34                axp_set_dcdc4
+ .text.axp_set_dcdc5
+                0x0000000000001c80       0x4c drivers/built-in.o
+                0x0000000000001c80                axp_set_dcdc5
+ .text.axp_set_aldo1
+                0x0000000000001ccc       0x4c drivers/built-in.o
+                0x0000000000001ccc                axp_set_aldo1
+ .text.axp_set_aldo2
+                0x0000000000001d18       0x4c drivers/built-in.o
+                0x0000000000001d18                axp_set_aldo2
+ .text.axp_set_aldo3
+                0x0000000000001d64       0x4c drivers/built-in.o
+                0x0000000000001d64                axp_set_aldo3
+ .text.axp_set_dldo
+                0x0000000000001db0       0x60 drivers/built-in.o
+                0x0000000000001db0                axp_set_dldo
+ .text.axp_set_eldo
+                0x0000000000001e10       0x60 drivers/built-in.o
+                0x0000000000001e10                axp_set_eldo
+ .text.axp_init
+                0x0000000000001e70       0x40 drivers/built-in.o
+                0x0000000000001e70                axp_init
+ .text.__udivsi3
+                0x0000000000001eb0       0x9c arch/arm/lib/lib.a(lib1funcs.o)
+                0x0000000000001eb0                __udivsi3
+                0x0000000000001eb0                __aeabi_uidiv
+ .text.__divsi3
+                0x0000000000001f4c       0xcc arch/arm/lib/lib.a(lib1funcs.o)
+                0x0000000000001f4c                __aeabi_idiv
+                0x0000000000001f4c                __divsi3
+ .text.Ldiv0    0x0000000000002018       0x10 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__div0   0x0000000000002028        0x4 arch/arm/lib/lib.a(div0.o)
+                0x0000000000002028                __div0
+
+.glue_7         0x000000000000202c        0x0
+ .glue_7        0x000000000000202c        0x0 linker stubs
+
+.glue_7t        0x000000000000202c        0x0
+ .glue_7t       0x000000000000202c        0x0 linker stubs
+
+.vfp11_veneer   0x000000000000202c        0x0
+ .vfp11_veneer  0x000000000000202c        0x0 linker stubs
+
+.v4_bx          0x000000000000202c        0x0
+ .v4_bx         0x000000000000202c        0x0 linker stubs
+
+.iplt           0x000000000000202c        0x0
+ .iplt          0x000000000000202c        0x0 arch/arm/cpu/armv7/start.o
+                0x000000000000202c                . = ALIGN (0x4)
+
+.rodata         0x000000000000202c      0x298
+ *(SORT_BY_ALIGNMENT(.rodata*))
+ .rodata        0x000000000000202c       0x14 common/spl/built-in.o
+ .rodata.serial_ports
+                0x0000000000002040       0x18 drivers/built-in.o
+ .rodata.CSWTCH.3
+                0x0000000000002058        0x4 arch/arm/mach-sunxi/built-in.o
+ .rodata.str1.1
+                0x000000000000205c        0x4 arch/arm/mach-sunxi/built-in.o
+ .rodata.sunxi_get_boot_device.str1.1
+                0x0000000000002060       0x21 arch/arm/mach-sunxi/built-in.o
+ .rodata.mctl_await_completion.str1.1
+                0x0000000000002081       0x1b arch/arm/mach-sunxi/built-in.o
+ .rodata.do_reset.str1.1
+                0x000000000000209c        0xf arch/arm/lib/built-in.o
+ .rodata.sunxi_board_init.str1.1
+                0x00000000000020ab       0x44 board/sunxi/built-in.o
+ .rodata.board_init_r.str1.1
+                0x00000000000020ef       0x62 common/spl/built-in.o
+ .rodata.preloader_console_init.str1.1
+                0x0000000000002151       0x34 common/spl/built-in.o
+ .rodata._ctype
+                0x0000000000002185      0x100 lib/built-in.o
+                0x0000000000002185                _ctype
+ .rodata.hang.str1.1
+                0x0000000000002285       0x2a lib/built-in.o
+ .rodata.get_current.str1.1
+                0x00000000000022af       0x15 drivers/built-in.o
+
+.rel.dyn        0x00000000000022c4        0x0
+ .rel.iplt      0x00000000000022c4        0x0 arch/arm/cpu/armv7/start.o
+                0x00000000000022c4                . = ALIGN (0x4)
+
+.data           0x00000000000022c8      0x16c
+ *(SORT_BY_ALIGNMENT(.data*))
+ .data          0x00000000000022c8       0xd0 arch/arm/lib/built-in.o
+                0x00000000000022c8                gdata
+ .data          0x0000000000002398       0x18 arch/arm/mach-sunxi/built-in.o
+                0x0000000000002398                fel_stash
+ .data.needs_init.7593
+                0x00000000000023b0        0x4 arch/arm/mach-sunxi/built-in.o
+ .data          0x00000000000023b4       0x50 common/spl/built-in.o
+ .data.eserial5_device
+                0x0000000000002404       0x30 drivers/built-in.o
+                0x0000000000002404                eserial5_device
+
+.igot.plt       0x0000000000002434        0x0
+ .igot.plt      0x0000000000002434        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000000002434                . = ALIGN (0x4)
+
+.u_boot_list    0x0000000000002434        0xc
+ *(SORT_BY_NAME(.u_boot_list*))
+ .u_boot_list_2_cmd_1
+                0x0000000000002434        0x0 common/built-in.o
+ .u_boot_list_2_cmd_3
+                0x0000000000002434        0x0 common/built-in.o
+ .u_boot_list_2_env_driver_1
+                0x0000000000002434        0x0 env/built-in.o
+ .u_boot_list_2_env_driver_3
+                0x0000000000002434        0x0 env/built-in.o
+ .u_boot_list_2_part_driver_1
+                0x0000000000002434        0x0 disk/built-in.o
+ .u_boot_list_2_part_driver_3
+                0x0000000000002434        0x0 disk/built-in.o
+ .u_boot_list_2_spl_image_loader_1
+                0x0000000000002434        0x0 common/spl/built-in.o
+ .u_boot_list_2_spl_image_loader_2_spl_board_load_image0BOOT_DEVICE_BOARD
+                0x0000000000002434        0xc arch/arm/mach-sunxi/built-in.o
+                0x0000000000002434                _u_boot_list_2_spl_image_loader_2_spl_board_load_image0BOOT_DEVICE_BOARD
+ .u_boot_list_2_spl_image_loader_3
+                0x0000000000002440        0x0 common/spl/built-in.o
+                0x0000000000002440                . = ALIGN (0x4)
+                0x0000000000002440                __image_copy_end = .
+                0x0000000000002440                _end = .
+
+.bss            0x000000004ff80000       0x10
+                0x000000004ff80000                . = ALIGN (0x4)
+                0x000000004ff80000                __bss_start = .
+ *(.bss*)
+ .bss.stdio_devices
+                0x000000004ff80000        0xc common/built-in.o
+                0x000000004ff80000                stdio_devices
+ .bss.serial_current
+                0x000000004ff8000c        0x4 drivers/built-in.o
+                0x000000004ff80010                . = ALIGN (0x4)
+                0x000000004ff80010                __bss_end = .
+Address of section .text set to 0x60
+LOAD arch/arm/cpu/armv7/start.o
+START GROUP
+LOAD arch/arm/mach-sunxi/built-in.o
+LOAD arch/arm/cpu/armv7/built-in.o
+LOAD arch/arm/cpu/built-in.o
+LOAD arch/arm/lib/built-in.o
+LOAD board/sunxi/built-in.o
+LOAD common/spl/built-in.o
+LOAD common/init/built-in.o
+LOAD common/built-in.o
+LOAD cmd/built-in.o
+LOAD env/built-in.o
+LOAD lib/built-in.o
+LOAD disk/built-in.o
+LOAD drivers/built-in.o
+LOAD dts/built-in.o
+LOAD fs/built-in.o
+END GROUP
+LOAD arch/arm/lib/eabi_compat.o
+LOAD arch/arm/lib/lib.a
+OUTPUT(u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x2d
+ .ARM.attributes
+                0x0000000000000000       0x1d arch/arm/cpu/armv7/start.o
+ .ARM.attributes
+                0x000000000000001d       0x2d arch/arm/mach-sunxi/built-in.o
+ .ARM.attributes
+                0x000000000000004a       0x2f arch/arm/cpu/armv7/built-in.o
+ .ARM.attributes
+                0x0000000000000079       0x29 arch/arm/lib/built-in.o
+ .ARM.attributes
+                0x00000000000000a2       0x2d board/sunxi/built-in.o
+ .ARM.attributes
+                0x00000000000000cf       0x2d common/spl/built-in.o
+ .ARM.attributes
+                0x00000000000000fc       0x2d common/init/built-in.o
+ .ARM.attributes
+                0x0000000000000129       0x2d common/built-in.o
+ .ARM.attributes
+                0x0000000000000156       0x2d env/built-in.o
+ .ARM.attributes
+                0x0000000000000183       0x2d lib/built-in.o
+ .ARM.attributes
+                0x00000000000001b0       0x2d disk/built-in.o
+ .ARM.attributes
+                0x00000000000001dd       0x2d drivers/built-in.o
+ .ARM.attributes
+                0x000000000000020a       0x1d arch/arm/lib/lib.a(lib1funcs.o)
+ .ARM.attributes
+                0x0000000000000227       0x2d arch/arm/lib/lib.a(div0.o)
+
+.comment        0x0000000000000000       0x75
+ .comment       0x0000000000000000       0x75 arch/arm/mach-sunxi/built-in.o
+                                        0x49c (size before relaxing)
+ .comment       0x0000000000000075      0x3b0 arch/arm/cpu/armv7/built-in.o
+ .comment       0x0000000000000075      0x49c arch/arm/lib/built-in.o
+ .comment       0x0000000000000075       0x76 board/sunxi/built-in.o
+ .comment       0x0000000000000075       0x76 common/spl/built-in.o
+ .comment       0x0000000000000075       0x76 common/init/built-in.o
+ .comment       0x0000000000000075      0x512 common/built-in.o
+ .comment       0x0000000000000075       0xec env/built-in.o
+ .comment       0x0000000000000075      0x938 lib/built-in.o
+ .comment       0x0000000000000075       0x76 disk/built-in.o
+ .comment       0x0000000000000075      0x24e drivers/built-in.o
+ .comment       0x0000000000000075       0x76 arch/arm/lib/lib.a(div0.o)
+
+.debug_line     0x0000000000000000    0x13fc2
+ .debug_line    0x0000000000000000       0x8c arch/arm/cpu/armv7/start.o
+ .debug_line    0x000000000000008c     0x1e7e arch/arm/mach-sunxi/built-in.o
+ .debug_line    0x0000000000001f0a     0x138d arch/arm/cpu/armv7/built-in.o
+ .debug_line    0x0000000000003297     0x1d1d arch/arm/lib/built-in.o
+ .debug_line    0x0000000000004fb4      0x7ea board/sunxi/built-in.o
+ .debug_line    0x000000000000579e      0x7fa common/spl/built-in.o
+ .debug_line    0x0000000000005f98      0x207 common/init/built-in.o
+ .debug_line    0x000000000000619f     0x57f8 common/built-in.o
+ .debug_line    0x000000000000b997      0x83d env/built-in.o
+ .debug_line    0x000000000000c1d4     0x5890 lib/built-in.o
+ .debug_line    0x0000000000011a64      0x90e disk/built-in.o
+ .debug_line    0x0000000000012372     0x1b18 drivers/built-in.o
+ .debug_line    0x0000000000013e8a       0xf1 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_line    0x0000000000013f7b       0x47 arch/arm/lib/lib.a(div0.o)
+
+.debug_info     0x0000000000000000    0x52b5e
+ .debug_info    0x0000000000000000       0x26 arch/arm/cpu/armv7/start.o
+ .debug_info    0x0000000000000026     0xbbe1 arch/arm/mach-sunxi/built-in.o
+ .debug_info    0x000000000000bc07     0x5df5 arch/arm/cpu/armv7/built-in.o
+ .debug_info    0x00000000000119fc     0x921b arch/arm/lib/built-in.o
+ .debug_info    0x000000000001ac17     0x254a board/sunxi/built-in.o
+ .debug_info    0x000000000001d161     0x2534 common/spl/built-in.o
+ .debug_info    0x000000000001f695      0xf70 common/init/built-in.o
+ .debug_info    0x0000000000020605    0x12f54 common/built-in.o
+ .debug_info    0x0000000000033559     0x2c75 env/built-in.o
+ .debug_info    0x00000000000361ce    0x123fa lib/built-in.o
+ .debug_info    0x00000000000485c8     0x1e2f disk/built-in.o
+ .debug_info    0x000000000004a3f7     0x86eb drivers/built-in.o
+ .debug_info    0x0000000000052ae2       0x22 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_info    0x0000000000052b04       0x5a arch/arm/lib/lib.a(div0.o)
+
+.debug_abbrev   0x0000000000000000     0xe87b
+ .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/armv7/start.o
+ .debug_abbrev  0x0000000000000014     0x1fc5 arch/arm/mach-sunxi/built-in.o
+ .debug_abbrev  0x0000000000001fd9     0x1587 arch/arm/cpu/armv7/built-in.o
+ .debug_abbrev  0x0000000000003560     0x1a9c arch/arm/lib/built-in.o
+ .debug_abbrev  0x0000000000004ffc      0x53a board/sunxi/built-in.o
+ .debug_abbrev  0x0000000000005536      0x698 common/spl/built-in.o
+ .debug_abbrev  0x0000000000005bce      0x2f0 common/init/built-in.o
+ .debug_abbrev  0x0000000000005ebe     0x2e48 common/built-in.o
+ .debug_abbrev  0x0000000000008d06      0x7cd env/built-in.o
+ .debug_abbrev  0x00000000000094d3     0x3a3c lib/built-in.o
+ .debug_abbrev  0x000000000000cf0f      0x571 disk/built-in.o
+ .debug_abbrev  0x000000000000d480     0x1385 drivers/built-in.o
+ .debug_abbrev  0x000000000000e805       0x12 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_abbrev  0x000000000000e817       0x64 arch/arm/lib/lib.a(div0.o)
+
+.debug_aranges  0x0000000000000000     0x1828
+ .debug_aranges
+                0x0000000000000000       0x20 arch/arm/cpu/armv7/start.o
+ .debug_aranges
+                0x0000000000000020      0x278 arch/arm/mach-sunxi/built-in.o
+ .debug_aranges
+                0x0000000000000298      0x260 arch/arm/cpu/armv7/built-in.o
+ .debug_aranges
+                0x00000000000004f8      0x2c8 arch/arm/lib/built-in.o
+ .debug_aranges
+                0x00000000000007c0       0x60 board/sunxi/built-in.o
+ .debug_aranges
+                0x0000000000000820       0x90 common/spl/built-in.o
+ .debug_aranges
+                0x00000000000008b0       0x30 common/init/built-in.o
+ .debug_aranges
+                0x00000000000008e0      0x4e0 common/built-in.o
+ .debug_aranges
+                0x0000000000000dc0       0xa0 env/built-in.o
+ .debug_aranges
+                0x0000000000000e60      0x5d8 lib/built-in.o
+ .debug_aranges
+                0x0000000000001438       0x78 disk/built-in.o
+ .debug_aranges
+                0x00000000000014b0      0x310 drivers/built-in.o
+ .debug_aranges
+                0x00000000000017c0       0x48 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_aranges
+                0x0000000000001808       0x20 arch/arm/lib/lib.a(div0.o)
+
+.debug_str      0x0000000000000000     0x790e
+ .debug_str     0x0000000000000000       0x4a arch/arm/cpu/armv7/start.o
+ .debug_str     0x000000000000004a     0x2578 arch/arm/mach-sunxi/built-in.o
+                                       0x87fd (size before relaxing)
+ .debug_str     0x00000000000025c2      0x6d0 arch/arm/cpu/armv7/built-in.o
+                                       0x50f7 (size before relaxing)
+ .debug_str     0x0000000000002c92      0x68e arch/arm/lib/built-in.o
+                                       0x7c71 (size before relaxing)
+ .debug_str     0x0000000000003320      0x6fc board/sunxi/built-in.o
+                                       0x1a38 (size before relaxing)
+ .debug_str     0x0000000000003a1c      0xe51 common/spl/built-in.o
+                                       0x232c (size before relaxing)
+ .debug_str     0x000000000000486d       0x55 common/init/built-in.o
+                                        0xf99 (size before relaxing)
+ .debug_str     0x00000000000048c2     0x1812 common/built-in.o
+                                       0xd243 (size before relaxing)
+ .debug_str     0x00000000000060d4      0x278 env/built-in.o
+                                       0x2336 (size before relaxing)
+ .debug_str     0x000000000000634c      0xb25 lib/built-in.o
+                                       0xcf53 (size before relaxing)
+ .debug_str     0x0000000000006e71      0x403 disk/built-in.o
+                                        0xdcb (size before relaxing)
+ .debug_str     0x0000000000007274      0x666 drivers/built-in.o
+                                       0x5aa2 (size before relaxing)
+ .debug_str     0x00000000000078da       0x19 arch/arm/lib/lib.a(lib1funcs.o)
+                                         0x48 (size before relaxing)
+ .debug_str     0x00000000000078f3       0x1b arch/arm/lib/lib.a(div0.o)
+                                        0x1d1 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x36d0
+ .debug_frame   0x0000000000000000      0x510 arch/arm/mach-sunxi/built-in.o
+ .debug_frame   0x0000000000000510      0x374 arch/arm/cpu/armv7/built-in.o
+ .debug_frame   0x0000000000000884      0x3f4 arch/arm/lib/built-in.o
+ .debug_frame   0x0000000000000c78      0x11c board/sunxi/built-in.o
+ .debug_frame   0x0000000000000d94      0x158 common/spl/built-in.o
+ .debug_frame   0x0000000000000eec       0x48 common/init/built-in.o
+ .debug_frame   0x0000000000000f34      0xd10 common/built-in.o
+ .debug_frame   0x0000000000001c44      0x184 env/built-in.o
+ .debug_frame   0x0000000000001dc8      0xf44 lib/built-in.o
+ .debug_frame   0x0000000000002d0c      0x1b4 disk/built-in.o
+ .debug_frame   0x0000000000002ec0      0x7f0 drivers/built-in.o
+ .debug_frame   0x00000000000036b0       0x20 arch/arm/lib/lib.a(div0.o)
+
+.debug_loc      0x0000000000000000    0x1684a
+ .debug_loc     0x0000000000000000     0x1881 arch/arm/mach-sunxi/built-in.o
+ .debug_loc     0x0000000000001881      0x897 arch/arm/cpu/armv7/built-in.o
+ .debug_loc     0x0000000000002118     0x103b arch/arm/lib/built-in.o
+ .debug_loc     0x0000000000003153      0x37e board/sunxi/built-in.o
+ .debug_loc     0x00000000000034d1      0x5d7 common/spl/built-in.o
+ .debug_loc     0x0000000000003aa8       0xf4 common/init/built-in.o
+ .debug_loc     0x0000000000003b9c     0x7ce5 common/built-in.o
+ .debug_loc     0x000000000000b881      0x733 env/built-in.o
+ .debug_loc     0x000000000000bfb4     0x73e9 lib/built-in.o
+ .debug_loc     0x000000000001339d     0x102b disk/built-in.o
+ .debug_loc     0x00000000000143c8     0x2482 drivers/built-in.o
+
+.debug_ranges   0x0000000000000000     0x2be0
+ .debug_ranges  0x0000000000000000      0x520 arch/arm/mach-sunxi/built-in.o
+ .debug_ranges  0x0000000000000520      0x280 arch/arm/cpu/armv7/built-in.o
+ .debug_ranges  0x00000000000007a0      0x418 arch/arm/lib/built-in.o
+ .debug_ranges  0x0000000000000bb8       0x88 board/sunxi/built-in.o
+ .debug_ranges  0x0000000000000c40      0x208 common/spl/built-in.o
+ .debug_ranges  0x0000000000000e48       0x38 common/init/built-in.o
+ .debug_ranges  0x0000000000000e80      0x9f0 common/built-in.o
+ .debug_ranges  0x0000000000001870      0x100 env/built-in.o
+ .debug_ranges  0x0000000000001970      0xb98 lib/built-in.o
+ .debug_ranges  0x0000000000002508       0xd0 disk/built-in.o
+ .debug_ranges  0x00000000000025d8      0x5b8 drivers/built-in.o
+ .debug_ranges  0x0000000000002b90       0x40 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_ranges  0x0000000000002bd0       0x10 arch/arm/lib/lib.a(div0.o)

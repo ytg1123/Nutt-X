@@ -1,0 +1,2 @@
+dev.c:31:6:zfs_set_blk_dev	0	static
+dev.c:38:5:zfs_devread	1056	static

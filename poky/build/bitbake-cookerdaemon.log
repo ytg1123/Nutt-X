@@ -1,0 +1,196 @@
+--- Starting bitbake server pid 10398 at 2019-11-29 14:25:31.311204 ---
+Started bitbake server pid 10398
+DEBUG: BBCooker starting 1575005131.3131945
+DEBUG: BBCooker pyinotify1 1575005131.3184166
+DEBUG: BBCooker pyinotify2 1575005131.3186731
+DEBUG: BBCooker pyinotify3 1575005131.3225865
+DEBUG: BBCooker pyinotify complete 1575005131.3228278
+DEBUG: Found bblayers.conf (/home/taga/NuttX/poky/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/taga/NuttX/poky/meta
+DEBUG: Adding layer /home/taga/NuttX/poky/meta-poky
+DEBUG: Adding layer /home/taga/NuttX/poky/meta-yocto-bsp
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:749: including conf/abi_version.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:750: including conf/site.conf
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:751: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:752: including conf/local.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:753: including conf/multiconfig/default.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:754: including conf/machine/qemux86-64.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/qemux86-64.conf:10: including conf/machine/include/qemu.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/qemux86-64.conf:12: including conf/machine/include/tune-core2.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/include/tune-core2.inc:12: including conf/machine/include/tune-i686.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/include/tune-i686.inc:16: including conf/machine/include/tune-i586.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/include/tune-i586.inc:3: including conf/machine/include/x86/arch-x86.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/qemux86-64.conf:13: including conf/machine/include/qemuboot-x86.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:755: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:756: including conf/distro/poky.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:85: including conf/distro/include/poky-world-exclude.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:86: including conf/distro/include/no-static-libs.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:87: including conf/distro/include/yocto-uninative.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:88: including conf/distro/include/security_flags.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:757: including conf/distro/defaultsetup.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/maintainers.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:27: including conf/distro/include/init-manager-none.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:758: including conf/documentation.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:759: including conf/licenses.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:760: including conf/sanity.conf
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/patch.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:4)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/terminal.bbclass (from /home/taga/NuttX/poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/staging.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/mirrors.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/utils.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:8)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/utility-tasks.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/metadata_scm.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/logging.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/uninative.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/reproducible_build.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/reproducible_build_simple.bbclass (from /home/taga/NuttX/poky/meta/classes/reproducible_build.bbclass:38)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/package_rpm.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/package.bbclass (from /home/taga/NuttX/poky/meta/classes/package_rpm.bbclass:1)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/packagedata.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/chrpath.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/package_pkgdata.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:43)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/insane.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:46)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/linuxloader.bbclass (from /home/taga/NuttX/poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/bb_unihashes.dat'
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/bb_codeparser.dat'
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/bb_unihashes.dat'
+DEBUG: BBCooker parsed base configuration 1575005131.5591557
+DEBUG: BBCooker startup complete 1575005131.5592947
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'prefile': [], 'debug_domains': [], 'dump_signatures': [], 'server_timeout': None, 'dry_run': False, 'verbose': False, 'force': False, 'profile': False, 'invalidate_stamp': None, 'postfile': [], 'debug': 0, 'extra_assume_provided': [], 'abort': True}, {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANG': 'ja_JP.UTF-8', 'GDM_LANG': 'ja', 'LC_ALL': 'en_US.UTF-8', 'GTK_IM_MODULE': 'fcitx', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK2_MODULES': 'overlay-scrollbar', 'HOME': '/home/taga', 'UPSTART_INSTANCE': '', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/taga', 'QT4_IM_MODULE': 'fcitx', 'UNZIP': '-O CP932', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1140', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop', 'WINDOWID': '69206026', 'XDG_SEAT': 'seat0', 'UPSTART_EVENTS': 'xsession started', 'XDG_SESSION_DESKTOP': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'CLUTTER_IM_MODULE': 'xim', 'VTE_VERSION': '4205', 'PWD': '/home/taga/NuttX/poky/build', 'XAUTHORITY': '/home/taga/.Xauthority', 'IM_CONFIG_PHASE': '1', 'XDG_CURRENT_DESKTOP': 'Unity', 'TERM': 'xterm-256color', 'GNOME_KEYRING_PID': '', 'XDG_VTNR': '7', 'ZIPINFO': '-O CP932', 'XDG_MENU_PREFIX': 'gnome-', 'SHLVL': '1', 'QT_IM_MODULE': 'fcitx', 'XDG_SESSION_TYPE': 'x11', 'LANGUAGE': 'ja', 'JAVA_HOME': '/usr/lib/jvm/java-8-openjdk-amd64', 'JOB': 'unity-settings-daemon', 'GNOME_KEYRING_CONTROL': '', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-W7fejd6h9u', 'SHELL': '/bin/bash', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'SESSIONTYPE': 'gnome-session', 'OLDPWD': '/home/taga/NuttX/poky', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'GPG_AGENT_INFO': '/home/taga/.gnupg/S.gpg-agent:0:1', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'USER': 'taga', 'BBPATH': '/home/taga/NuttX/poky/build', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'BUILDDIR': '/home/taga/NuttX/poky/build', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'UNITY_HAS_3D_SUPPORT': 'true', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'UPSTART_JOB': 'unity7', 'SESSION': 'ubuntu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'INSTANCE': '', 'PATH': '/home/taga/NuttX/poky/scripts:/home/taga/NuttX/poky/bitbake/bin:/home/taga/work/bin:/home/taga/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin:/home/taga/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin', '_': '/home/taga/NuttX/poky/bitbake/bin/bitbake', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_ID': 'c1', 'DISPLAY': ':0', 'GDMSESSION': 'ubuntu', 'LOGNAME': 'taga', 'DESKTOP_SESSION': 'ubuntu'}, ['/home/taga/NuttX/poky/bitbake/bin/bitbake']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting
+--- Starting bitbake server pid 10410 at 2019-11-29 14:25:56.580859 ---
+Started bitbake server pid 10410
+DEBUG: BBCooker starting 1575005156.5833483
+DEBUG: BBCooker pyinotify1 1575005156.5883358
+DEBUG: BBCooker pyinotify2 1575005156.5885918
+DEBUG: BBCooker pyinotify3 1575005156.592517
+DEBUG: BBCooker pyinotify complete 1575005156.5927484
+DEBUG: Found bblayers.conf (/home/taga/NuttX/poky/build/conf/bblayers.conf)
+DEBUG: Adding layer /home/taga/NuttX/poky/meta
+DEBUG: Adding layer /home/taga/NuttX/poky/meta-poky
+DEBUG: Adding layer /home/taga/NuttX/poky/meta-yocto-bsp
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:749: including conf/abi_version.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:750: including conf/site.conf
+DEBUG: CONF file 'conf/site.conf' not found
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:751: including conf/auto.conf
+DEBUG: CONF file 'conf/auto.conf' not found
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:752: including conf/local.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:753: including conf/multiconfig/default.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:754: including conf/machine/qemux86-64.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/qemux86-64.conf:10: including conf/machine/include/qemu.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/qemux86-64.conf:12: including conf/machine/include/tune-core2.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/include/tune-core2.inc:12: including conf/machine/include/tune-i686.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/include/tune-i686.inc:16: including conf/machine/include/tune-i586.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/include/tune-i586.inc:3: including conf/machine/include/x86/arch-x86.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/machine/qemux86-64.conf:13: including conf/machine/include/qemuboot-x86.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:755: including conf/machine-sdk/x86_64.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:756: including conf/distro/poky.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:85: including conf/distro/include/poky-world-exclude.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:86: including conf/distro/include/no-static-libs.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:87: including conf/distro/include/yocto-uninative.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta-poky/conf/distro/poky.conf:88: including conf/distro/include/security_flags.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:757: including conf/distro/defaultsetup.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:1: including conf/distro/include/default-providers.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:2: including conf/distro/include/default-versions.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:3: including conf/distro/include/default-distrovars.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:4: including conf/distro/include/maintainers.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:7: including conf/distro/include/tcmode-default.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:10: including conf/distro/include/tclibc-glibc.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:12: including conf/distro/include/uninative-flags.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/distro/defaultsetup.conf:27: including conf/distro/include/init-manager-none.inc
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:758: including conf/documentation.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:759: including conf/licenses.conf
+DEBUG: CONF /home/taga/NuttX/poky/meta/conf/bitbake.conf:760: including conf/sanity.conf
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/base.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/patch.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:4)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/terminal.bbclass (from /home/taga/NuttX/poky/meta/classes/patch.bbclass:11)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/staging.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:5)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/mirrors.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:7)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/utils.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:8)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/utility-tasks.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:9)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/metadata_scm.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:10)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/logging.bbclass (from /home/taga/NuttX/poky/meta/classes/base.bbclass:11)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta-poky/classes/poky-sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/uninative.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/reproducible_build.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/reproducible_build_simple.bbclass (from /home/taga/NuttX/poky/meta/classes/reproducible_build.bbclass:38)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/package_rpm.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/package.bbclass (from /home/taga/NuttX/poky/meta/classes/package_rpm.bbclass:1)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/packagedata.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:41)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/chrpath.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:42)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/package_pkgdata.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:43)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/insane.bbclass (from /home/taga/NuttX/poky/meta/classes/package.bbclass:46)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/buildstats.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/image-mklibs.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/linuxloader.bbclass (from /home/taga/NuttX/poky/meta/classes/image-mklibs.bbclass:5)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/image-prelink.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/debian.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/devshell.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/sstate.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/license.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/remove-libtool.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/blacklist.bbclass (from configuration INHERITs:0)
+DEBUG: Inheriting /home/taga/NuttX/poky/meta/classes/sanity.bbclass (from configuration INHERITs:0)
+DEBUG: Clearing SRCREV cache due to cache policy of: clear
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/local_file_checksum_cache.dat'
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/bb_unihashes.dat'
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/bb_codeparser.dat'
+DEBUG: Using cache in '/home/taga/NuttX/poky/build/cache/bb_unihashes.dat'
+DEBUG: BBCooker parsed base configuration 1575005156.8000424
+DEBUG: BBCooker startup complete 1575005156.8001983
+Entering server connection loop
+Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+Processing Client
+Connecting Client
+Running command ['setFeatures', [2]]
+Running command ['updateConfig', {'debug': 0, 'dump_signatures': [], 'abort': True, 'prefile': [], 'profile': False, 'extra_assume_provided': [], 'invalidate_stamp': None, 'dry_run': False, 'force': False, 'verbose': False, 'postfile': [], 'server_timeout': None, 'debug_domains': []}, {'GPG_AGENT_INFO': '/home/taga/.gnupg/S.gpg-agent:0:1', 'TERM': 'xterm-256color', 'CLUTTER_IM_MODULE': 'xim', 'JOB': 'unity-settings-daemon', 'UNITY_HAS_3D_SUPPORT': 'true', 'XMODIFIERS': '@im=fcitx', 'GNOME_KEYRING_CONTROL': '', 'INSTANCE': '', 'UPSTART_JOB': 'unity7', 'JAVA_HOME': '/usr/lib/jvm/java-8-openjdk-amd64', 'IM_CONFIG_PHASE': '1', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'DESKTOP_SESSION': 'ubuntu', 'SHLVL': '1', 'UPSTART_INSTANCE': '', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'PWD': '/home/taga/NuttX/poky', 'USER': 'taga', 'VTE_VERSION': '4205', 'WINDOWID': '69206026', 'XDG_CURRENT_DESKTOP': 'Unity', 'SESSIONTYPE': 'gnome-session', 'XDG_VTNR': '7', 'QT_LINUX_ACCESSIBILITY_ALWAYS_ON': '1', 'QT4_IM_MODULE': 'fcitx', 'LANGUAGE': 'ja', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OLDPWD': '/home/taga/NuttX/poky/build', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'UPSTART_EVENTS': 'xsession started', 'GNOME_KEYRING_PID': '', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'UPSTART_SESSION': 'unix:abstract=/com/ubuntu/upstart-session/1000/1140', 'XDG_SESSION_TYPE': 'x11', 'LC_ALL': 'en_US.UTF-8', 'PATH': '/home/taga/NuttX/poky/scripts:/home/taga/NuttX/poky/bitbake/bin:/home/taga/work/bin:/home/taga/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf/bin:/home/taga/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin', 'BB_ENV_EXTRAWHITE': 'ALL_PROXY BBPATH_EXTRA BB_NO_NETWORK BB_NUMBER_THREADS BB_SETSCENE_ENFORCE BB_SRCREV_POLICY DISTRO FTPS_PROXY FTP_PROXY GIT_PROXY_COMMAND HTTPS_PROXY HTTP_PROXY MACHINE NO_PROXY PARALLEL_MAKE SCREENDIR SDKMACHINE SOCKS5_PASSWD SOCKS5_USER SSH_AGENT_PID SSH_AUTH_SOCK STAMPS_DIR TCLIBC TCMODE all_proxy ftp_proxy ftps_proxy http_proxy https_proxy no_proxy ', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/var/lib/snapd/desktop', 'HOME': '/home/taga', 'UNZIP': '-O CP932', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'XDG_SEAT': 'seat0', 'XAUTHORITY': '/home/taga/.Xauthority', 'BUILDDIR': '/home/taga/NuttX/poky/build', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LOGNAME': 'taga', 'GDM_LANG': 'ja', '_': '/home/taga/NuttX/poky/bitbake/bin/bitbake', 'UNITY_DEFAULT_PROFILE': 'unity', 'QT_QPA_PLATFORMTHEME': 'appmenu-qt5', 'GDMSESSION': 'ubuntu', 'GTK_IM_MODULE': 'fcitx', 'XDG_MENU_PREFIX': 'gnome-', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'XDG_SESSION_ID': 'c1', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/taga', 'BBPATH': '/home/taga/NuttX/poky/build', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-W7fejd6h9u', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'QT_IM_MODULE': 'fcitx', 'ZIPINFO': '-O CP932', 'GTK2_MODULES': 'overlay-scrollbar', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg', 'DISPLAY': ':0', 'LANG': 'ja_JP.UTF-8'}, ['/home/taga/NuttX/poky/bitbake/bin/bitbake']]
+Running command ['getVariable', 'BBINCLUDELOGS']
+Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+Running command ['getSetVariable', 'BB_CONSOLELOG']
+Running command ['getUIHandlerNum']
+Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+Running command ['getVariable', 'BB_DEFAULT_TASK']
+Running command ['setConfig', 'cmd', 'build']
+Running command ['getVariable', 'BBTARGETS']
+Processing Client
+Disconnecting Client
+No timeout, exiting.
+Exiting

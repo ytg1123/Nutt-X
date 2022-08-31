@@ -1,0 +1,5 @@
+psci.c:168:15:sunxi_cpu_power_off	20	static
+psci.c:215:21:psci_fiq_enter	32	static
+psci.c:245:14:psci_cpu_on	16	static
+psci.c:279:15:psci_cpu_off	8	static
+psci.c:292:15:psci_arch_init	0	static

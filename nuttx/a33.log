@@ -1,0 +1,1016 @@
+LN: include/arch to arch/arm/include
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' に入ります
+LN: arch/arm/src/board to /home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src
+BOARD_DIR:  /home/taga/NuttX/nuttx/boards/arm/a3x
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' に入ります
+CONFIG_ARCH_BOARD: /vividnode-a33
+ARCH_DIR:  arch/arm
+LN: arch/arm/src/chip to arch/arm/src/a3x
+ARCH_SRC:  arch/arm/src
+ARCH_INC:  arch/arm/include
+CONFIG_ARCH_BOARD_CUSTOM: 
+CONFIG_ARCH_BOARD_CUSTOM_DIR: 
+CONFIG_ARCH_BOARD_CUSTOM_DIR_RELPATH: 
+CONFIG_ARCH_CHIP:  a3x
+CONFIG_ARCH:  arm
+CONFIG_ARCH_CHIP:  a3x
+LN: /home/taga/NuttX/nuttx/drivers/platform to /home/taga/NuttX/nuttx/boards/arm/a3x/drivers
+CONFIG_ARCH_BOARD:  vividnode-a33
+CONFIG_ARCH:  arm
+:  
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' に入ります
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' に入ります
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' から出ます
+LN: include/arch/board to /home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/include
+BOARD_DIR: </home/taga/NuttX/nuttx/boards/arm/a3x>
+CONFIG_ARCH_BOARD:   <vividnode-a33>
+CONFIG_ARCH_BOARD_CUSTOM:   
+CONFIG_ARCH_BOARD_CUSTOM_DIR_RELPATH:   
+CONFIG_ARCH_BOARD_CUSTOM_DIR:   
+CONFIG_ARCH:   arm
+CONFIG_ARCH_CHIP:   a3x
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' から出ます
+LN: include/arch/chip to arch/arm/include/a3x
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' に入ります
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/tools' から出ます
+Create version.h
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/openamp' に入ります
+make[1]: 'dirlinks' に対して行うべき事はありません.
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/openamp' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/apps/platform' に入ります
+LN: platform/board to /home/taga/NuttX/apps/platform/dummy
+make[2]: ディレクトリ '/home/taga/NuttX/apps/platform' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src' に入ります
+make[2]: 'context' に対して行うべき事はありません.
+make[2]: ディレクトリ '/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/nshlib' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/readline' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/readline' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/nshlib' から出ます
+Register: nsh
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/platform' に入ります
+make[4]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' に入ります
+make[4]: 'context' に対して行うべき事はありません.
+make[4]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin' から出ます
+LN: platform/board to /home/taga/NuttX/apps/platform/dummy
+make[3]: ディレクトリ '/home/taga/NuttX/apps/platform' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/sched' に入ります
+CC:  clock/clock_initialize.c
+CC:  clock/clock_gettime.c
+CC:  clock/clock_settime.c
+make[1]: ディレクトリ '/home/taga/NuttX/apps' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps' に入ります
+make[3]: ディレクトリ '/home/taga/NuttX/apps/nshlib' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/nshlib' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin' に入ります
+make[4]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' に入ります
+make[4]: 'context' に対して行うべき事はありません.
+make[4]: ディレクトリ '/home/taga/NuttX/apps/builtin/registry' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/builtin' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' に入ります
+Register: nsh
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/readline' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/system/readline' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' に入ります
+make[3]: 'context' に対して行うべき事はありません.
+make[3]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' から出ます
+make[3]: ディレクトリ '/home/taga/NuttX/apps/platform' に入ります
+LN: platform/board to /home/taga/NuttX/apps/platform/dummy
+CC:  clock/clock_getres.c
+make[3]: ディレクトリ '/home/taga/NuttX/apps/platform' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps' から出ます
+CC:  clock/clock_time2ticks.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/nshlib' に入ります
+CC:  clock/clock_abstime2ticks.c
+CC:  clock/clock_ticks2time.c
+CC:  clock/clock_systimer.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' に入ります
+CC:  clock/clock_systimespec.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/drivers' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' に入ります
+CC:  clock/clock_timespec_add.c
+CC:  bch/bchlib_setup.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/readline' に入ります
+CC:  clock/clock_timespec_subtract.c
+CC:  clock/clock.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/readline' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' に入ります
+CC:  bch/bchlib_teardown.c
+CC:  errno/errno_getptr.c
+CC:  group/group_create.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' から出ます
+CC:  bch/bchlib_read.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/platform' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/apps/platform' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' に入ります
+CC:  dummy.c
+CC:  group/group_join.c
+CC:  boardctl.c
+CC:  bch/bchlib_write.c
+AR:   dummy.o boardctl.o 
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' から出ます
+CC:  group/group_leave.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libc' に入ります
+CC:  builtin/lib_builtin_getname.c
+CC:  bch/bchlib_cache.c
+CC:  builtin/lib_builtin_isavail.c
+CC:  builtin/lib_builtin_forindex.c
+CC:  group/group_find.c
+make[2]: ディレクトリ '/home/taga/NuttX/apps/nshlib' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' から出ます
+CC:  dirent/lib_readdirr.c
+CC:  bch/bchlib_sem.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/sched' に入ります
+CC:  group/group_setupstreams.c
+CC:  dirent/lib_telldir.c
+CC:  bch/bchdev_register.c
+CC:  dirent/lib_alphasort.c
+CC:  group/group_setupidlefiles.c
+CC:  dirent/lib_scandir.c
+CC:  bch/bchdev_unregister.c
+CC:  group/group_setuptaskfiles.c
+CC:  endian/lib_swap16.c
+CC:  bch/bchdev_driver.c
+CC:  endian/lib_swap32.c
+CC:  group/group_foreachchild.c
+CC:  endian/lib_swap64.c
+CC:  fixedmath/lib_fixedmath.c
+CC:  group/group_killchildren.c
+CC:  fixedmath/lib_b16sin.c
+CC:  group/group_signal.c
+CC:  fixedmath/lib_b16cos.c
+CC:  loop/losetup.c
+CC:  fixedmath/lib_b16atan2.c
+CC:  group/group_waiter.c
+CC:  fixedmath/lib_ubsqrt.c
+CC:  init/nx_start.c
+CC:  grp/lib_getgrgid.c
+CC:  grp/lib_getgrgidr.c
+CC:  grp/lib_getgrnam.c
+CC:  pipes/pipe.c
+CC:  grp/lib_getgrnamr.c
+CC:  init/nx_bringup.c
+CC:  pipes/fifo.c
+CC:  grp/lib_initgroups.c
+CC:  irq/irq_initialize.c
+CC:  grp/lib_getgrbuf.c
+CC:  pipes/pipe_common.c
+CC:  grp/lib_getgrbufr.c
+CC:  irq/irq_attach.c
+CC:  serial/serial.c
+CC:  inttypes/lib_imaxabs.c
+CC:  inttypes/lib_strtoimax.c
+CC:  irq/irq_dispatch.c
+CC:  irq/irq_unexpectedisr.c
+CC:  inttypes/lib_strtoumax.c
+CC:  mqueue/mq_send.c
+CC:  libgen/lib_basename.c
+CC:  mqueue/mq_timedsend.c
+CC:  libgen/lib_dirname.c
+CC:  misc/lib_stream.c
+CC:  mqueue/mq_sndinternal.c
+CC:  serial/serial_io.c
+CC:  misc/lib_utsname.c
+CC:  misc/lib_xorshift128.c
+CC:  misc/lib_tea_encrypt.c
+CC:  serial/lowconsole.c
+CC:  mqueue/mq_receive.c
+CC:  misc/lib_tea_decrypt.c
+CC:  misc/lib_filesem.c
+CC:  syslog/vsyslog.c
+CC:  mqueue/mq_timedreceive.c
+CC:  syslog/syslog_stream.c
+CC:  misc/lib_umul32.c
+CC:  misc/lib_umul64.c
+CC:  mqueue/mq_rcvinternal.c
+CC:  misc/lib_umul32x64.c
+CC:  syslog/syslog_emergstream.c
+CC:  misc/lib_uadd32x64.c
+CC:  misc/lib_uadd64.c
+CC:  syslog/syslog_channel.c
+CC:  misc/lib_usub64x32.c
+CC:  mqueue/mq_initialize.c
+CC:  misc/lib_usub64.c
+CC:  syslog/syslog_putc.c
+CC:  misc/lib_sendfile.c
+CC:  mqueue/mq_descreate.c
+CC:  syslog/syslog_write.c
+CC:  misc/lib_streamsem.c
+CC:  mqueue/mq_desclose.c
+CC:  misc/lib_crc64.c
+CC:  syslog/syslog_force.c
+CC:  mqueue/mq_msgfree.c
+CC:  misc/lib_crc32.c
+CC:  syslog/syslog_flush.c
+CC:  mqueue/mq_msgqalloc.c
+CC:  misc/lib_crc16.c
+CC:  syslog/syslog_initialize.c
+CC:  misc/lib_crc8.c
+CC:  mqueue/mq_msgqfree.c
+CC:  misc/lib_crc8ccitt.c
+CC:  syslog/syslog_device.c
+CC:  misc/lib_dumpbuffer.c
+CC:  mqueue/mq_release.c
+CC:  mqueue/mq_recover.c
+CC:  misc/lib_match.c
+CC:  mqueue/mq_setattr.c
+CC:  syslog/syslog_consolechannel.c
+CC:  mqueue/mq_waitirq.c
+CC:  misc/lib_debug.c
+CC:  usbhost/hid_parser.c
+CC:  net/lib_addrconfig.c
+CC:  mqueue/mq_notify.c
+CC:  net/lib_etherntoa.c
+CC:  net/lib_htons.c
+CC:  mqueue/mq_getattr.c
+CC:  net/lib_htonl.c
+CC:  paging/pg_miss.c
+CC:  net/lib_inetaddr.c
+CC:  paging/pg_worker.c
+CC:  net/lib_inetaton.c
+CC:  pthread/pthread_keycreate.c
+CC:  dev_null.c
+CC:  net/lib_inetntoa.c
+CC:  pthread/pthread_setspecific.c
+CC:  dev_zero.c
+CC:  net/lib_inetntop.c
+CC:  pthread/pthread_getspecific.c
+CC:  net/lib_inetpton.c
+CC:  ramdisk.c
+CC:  pthread/pthread_keydelete.c
+CC:  pthread/pthread_attr_init.c
+CC:  pthread/pthread_attr_destroy.c
+CC:  pthread/pthread_create.c
+CC:  pthread/pthread_attr_setschedpolicy.c
+CC:  mkrd.c
+CC:  pthread/pthread_attr_getschedpolicy.c
+AR:   bchlib_setup.o bchlib_teardown.o bchlib_read.o bchlib_write.o bchlib_cache.o bchlib_sem.o bchdev_register.o bchdev_unregister.o bchdev_driver.o losetup.o pipe.o fifo.o pipe_common.o serial.o serial_io.o lowconsole.o vsyslog.o syslog_stream.o syslog_emergstream.o syslog_channel.o syslog_putc.o syslog_write.o syslog_force.o syslog_flush.o syslog_initialize.o syslog_device.o syslog_consolechannel.o hid_parser.o dev_null.o dev_zero.o ramdisk.o mkrd.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/drivers' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/mm' に入ります
+CC:  mm_heap/mm_initialize.c
+CC:  pthread/pthread_attr_setinheritsched.c
+CC:  pthread/pthread_exit.c
+CC:  pthread/pthread_attr_getinheritsched.c
+CC:  mm_heap/mm_sem.c
+CC:  pthread/pthread_attr_setstacksize.c
+CC:  pthread/pthread_join.c
+CC:  mm_heap/mm_addfreechunk.c
+CC:  pthread/pthread_attr_getstacksize.c
+CC:  mm_heap/mm_size2ndx.c
+CC:  pthread/pthread_attr_setstack.c
+CC:  mm_heap/mm_shrinkchunk.c
+CC:  pthread/pthread_detach.c
+CC:  pthread/pthread_attr_getstack.c
+CC:  mm_heap/mm_brkaddr.c
+CC:  pthread/pthread_attr_setschedparam.c
+CC:  mm_heap/mm_calloc.c
+CC:  pthread/pthread_getschedparam.c
+CC:  mm_heap/mm_extend.c
+CC:  pthread/pthread_attr_getschedparam.c
+CC:  pthread/pthread_setschedparam.c
+CC:  mm_heap/mm_free.c
+CC:  pthread/pthread_barrierattr_init.c
+CC:  pthread/pthread_mutexinit.c
+CC:  pthread/pthread_barrierattr_destroy.c
+CC:  mm_heap/mm_mallinfo.c
+CC:  pthread/pthread_barrierattr_getpshared.c
+CC:  pthread/pthread_mutexdestroy.c
+CC:  mm_heap/mm_malloc.c
+CC:  pthread/pthread_barrierattr_setpshared.c
+CC:  pthread/pthread_mutextimedlock.c
+CC:  pthread/pthread_barrierinit.c
+CC:  mm_heap/mm_memalign.c
+CC:  pthread/pthread_barrierdestroy.c
+CC:  pthread/pthread_mutextrylock.c
+CC:  mm_heap/mm_realloc.c
+CC:  pthread/pthread_barrierwait.c
+CC:  pthread/pthread_mutexunlock.c
+CC:  pthread/pthread_condattr_init.c
+CC:  mm_heap/mm_zalloc.c
+CC:  pthread/pthread_condattr_destroy.c
+CC:  pthread/pthread_condwait.c
+CC:  mm_heap/mm_heapmember.c
+CC:  pthread/pthread_condinit.c
+CC:  umm_heap/umm_initialize.c
+CC:  pthread/pthread_condsignal.c
+CC:  pthread/pthread_conddestroy.c
+CC:  umm_heap/umm_addregion.c
+CC:  pthread/pthread_mutexattr_init.c
+CC:  umm_heap/umm_sem.c
+CC:  pthread/pthread_condbroadcast.c
+CC:  umm_heap/umm_brkaddr.c
+CC:  pthread/pthread_mutexattr_destroy.c
+CC:  umm_heap/umm_calloc.c
+CC:  pthread/pthread_mutexattr_getpshared.c
+CC:  pthread/pthread_condtimedwait.c
+CC:  umm_heap/umm_extend.c
+CC:  pthread/pthread_mutexattr_setpshared.c
+CC:  umm_heap/umm_free.c
+CC:  pthread/pthread_mutexattr_setprotocol.c
+CC:  umm_heap/umm_mallinfo.c
+CC:  pthread/pthread_kill.c
+CC:  umm_heap/umm_malloc.c
+CC:  pthread/pthread_mutexattr_getprotocol.c
+CC:  umm_heap/umm_memalign.c
+CC:  pthread/pthread_mutexattr_settype.c
+CC:  pthread/pthread_sigmask.c
+CC:  umm_heap/umm_realloc.c
+CC:  pthread/pthread_mutexattr_gettype.c
+CC:  pthread/pthread_cancel.c
+CC:  umm_heap/umm_zalloc.c
+CC:  pthread/pthread_mutexattr_setrobust.c
+CC:  umm_heap/umm_heapmember.c
+CC:  pthread/pthread_mutexattr_getrobust.c
+CC:  umm_heap/umm_globals.c
+CC:  pthread/pthread_initialize.c
+AR:    bin/mm_initialize.o  bin/mm_sem.o  bin/mm_addfreechunk.o  bin/mm_size2ndx.o  bin/mm_shrinkchunk.o  bin/mm_brkaddr.o  bin/mm_calloc.o  bin/mm_extend.o  bin/mm_free.o  bin/mm_mallinfo.o  bin/mm_malloc.o  bin/mm_memalign.o  bin/mm_realloc.o  bin/mm_zalloc.o  bin/mm_heapmember.o  bin/umm_initialize.o  bin/umm_addregion.o  bin/umm_sem.o  bin/umm_brkaddr.o  bin/umm_calloc.o  bin/umm_extend.o  bin/umm_free.o  bin/umm_mallinfo.o  bin/umm_malloc.o  bin/umm_memalign.o  bin/umm_realloc.o  bin/umm_zalloc.o  bin/umm_heapmember.o  bin/umm_globals.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/mm' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/arch/arm/src' に入ります
+AS:  armv7-a/arm_head.S
+CC:  pthread/pthread_mutex_lock.c
+AS:  armv7-a/arm_vectors.S
+AS:  armv7-a/arm_fpuconfig.S
+CC:  pthread/pthread_setcancelstate.c
+AS:  armv7-a/arm_fullcontextrestore.S
+CC:  pthread/pthread_completejoin.c
+AS:  armv7-a/arm_saveusercontext.S
+AS:  armv7-a/arm_vectoraddrexcptn.S
+AS:  armv7-a/arm_vfork.S
+AS:  armv7-a/arm_testset.S
+CC:  pthread/pthread_setcanceltype.c
+AS:  armv7-a/arm_fetchadd.S
+AS:  armv7-a/cp15_coherent_dcache.S
+AS:  armv7-a/cp15_invalidate_dcache.S
+AS:  armv7-a/cp15_clean_dcache.S
+AS:  armv7-a/cp15_flush_dcache.S
+CC:  pthread/pthread_testcancel.c
+AS:  armv7-a/cp15_invalidate_dcache_all.S
+CC:  chip/a3x_boot.c
+CC:  pthread/pthread_findjoininfo.c
+CC:  pthread/pthread_rwlock.c
+CC:  chip/a3x_irq.c
+CC:  pthread/pthread_release.c
+CC:  pthread/pthread_rwlock_rdlock.c
+CC:  chip/a3x_pio.c
+CC:  pthread/pthread_setschedprio.c
+CC:  pthread/pthread_rwlock_wrlock.c
+CC:  pthread/pthread_get_stackaddr_np.c
+CC:  pthread/pthread_once.c
+CC:  chip/a3x_lowputc.c
+CC:  pthread/pthread_get_stacksize_np.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/sched' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/drivers' に入ります
+CC:  pthread/pthread_yield.c
+chip/a3x_lowputc.c: In function 'a3x_lowsetup':
+chip/a3x_lowputc.c:228:2: warning: #warning Missing logic [-Wcpp]
+ #warning Missing logic
+  ^~~~~~~
+CC:  chip/a3x_serial.c
+CC:  pthread/pthread_mutex.c
+CC:  pwd/lib_getpwnam.c
+chip/a3x_serial.c: In function 'a3x_uart0config':
+chip/a3x_serial.c:726:2: warning: #warning Missing logic [-Wcpp]
+ #warning Missing logic
+  ^~~~~~~
+chip/a3x_serial.c:729:2: warning: #warning Missing logic [-Wcpp]
+ #warning Missing logic
+  ^~~~~~~
+CC:  pwd/lib_getpwnamr.c
+CC:  pwd/lib_getpwuid.c
+CC:  pthread/pthread_mutexconsistent.c
+CC:  pwd/lib_getpwuidr.c
+CC:  pwd/lib_getpwbuf.c
+CC:  pthread/pthread_mutexinconsistent.c
+CC:  chip/a3x_timerisr.c
+CC:  pwd/lib_getpwbufr.c
+CC:  sched/sched_garbage.c
+CC:  queue/sq_addlast.c
+CC:  common/up_initialize.c
+CC:  queue/sq_addfirst.c
+CC:  sched/sched_getfiles.c
+CC:  queue/sq_addafter.c
+CC:  common/up_interruptcontext.c
+CC:  queue/sq_cat.c
+CC:  sched/sched_addreadytorun.c
+CC:  common/up_exit.c
+CC:  queue/sq_rem.c
+CC:  queue/sq_remlast.c
+CC:  sched/sched_removereadytorun.c
+CC:  common/up_createstack.c
+CC:  queue/sq_remfirst.c
+CC:  queue/sq_remafter.c
+CC:  sched/sched_addprioritized.c
+CC:  common/up_releasestack.c
+CC:  queue/sq_count.c
+CC:  queue/dq_addlast.c
+CC:  sched/sched_mergeprioritized.c
+CC:  common/up_usestack.c
+CC:  queue/dq_addfirst.c
+CC:  queue/dq_addafter.c
+CC:  sched/sched_mergepending.c
+CC:  common/up_vfork.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/drivers' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' に入ります
+CC:  queue/dq_addbefore.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/boards' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/arch/arm/src' に入ります
+CC:  queue/dq_cat.c
+make[2]: ディレクトリ '/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src' に入ります
+CC:  sched/sched_addblocked.c
+CC:  common/up_puts.c
+CC:  queue/dq_rem.c
+make[2]: ディレクトリ '/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src' から出ます
+CC:  queue/dq_remlast.c
+CC:  sched/sched_removeblocked.c
+CC:  common/up_mdelay.c
+CC:  queue/dq_remfirst.c
+CC:  sched/sched_free.c
+CC:  queue/dq_count.c
+CC:  common/up_stackframe.c
+CC:  sched/sched_getprioritymax.c
+CC:  common/up_udelay.c
+CC:  sched/sched_gettcb.c
+CC:  sched/sched_getprioritymin.c
+CC:  sched/sched_verifytcb.c
+CC:  common/up_modifyreg8.c
+CC:  sched/task_setcanceltype.c
+CC:  sched/sched_releasetcb.c
+CC:  common/up_modifyreg16.c
+CC:  sched/task_testcancel.c
+CC:  common/up_modifyreg32.c
+CC:  semaphore/sem_init.c
+CC:  sched/sched_getsockets.c
+CC:  semaphore/sem_getprotocol.c
+CC:  armv7-a/arm_assert.c
+CC:  sched/sched_getstreams.c
+CC:  semaphore/sem_getvalue.c
+CC:  semaphore/sem_setprotocol.c
+CC:  sched/sched_setparam.c
+CC:  signal/sig_addset.c
+CC:  armv7-a/arm_blocktask.c
+CC:  signal/sig_delset.c
+CC:  sched/sched_setpriority.c
+CC:  signal/sig_emptyset.c
+CC:  signal/sig_fillset.c
+CC:  armv7-a/arm_copyfullstate.c
+CC:  sched/sched_getparam.c
+CC:  signal/sig_hold.c
+CC:  armv7-a/arm_dataabort.c
+CC:  signal/sig_ignore.c
+CC:  signal/sig_ismember.c
+CC:  sched/sched_setscheduler.c
+CC:  armv7-a/arm_doirq.c
+CC:  signal/sig_pause.c
+CC:  sched/sched_getscheduler.c
+CC:  signal/sig_psignal.c
+CC:  armv7-a/arm_gicv2.c
+CC:  sched/sched_yield.c
+CC:  signal/sig_raise.c
+CC:  signal/sig_relse.c
+CC:  sched/sched_rrgetinterval.c
+CC:  armv7-a/arm_initialstate.c
+CC:  signal/sig_set.c
+CC:  sched/sched_foreach.c
+CC:  signal/sig_signal.c
+CC:  armv7-a/arm_mmu.c
+CC:  signal/sig_wait.c
+CC:  sched/sched_lock.c
+CC:  spawn/lib_psfa_addaction.c
+CC:  armv7-a/arm_prefetchabort.c
+CC:  sched/sched_unlock.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/arch/arm/src' から出ます
+CC:  spawn/lib_psfa_addclose.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/fs' に入ります
+CC:  armv7-a/arm_releasepending.c
+CC:  spawn/lib_psfa_adddup2.c
+CC:  sched/sched_lockcount.c
+CC:  armv7-a/arm_reprioritizertr.c
+CC:  spawn/lib_psfa_addopen.c
+CC:  sched/sched_idletask.c
+CC:  armv7-a/arm_schedulesigaction.c
+CC:  sched/sched_self.c
+CC:  spawn/lib_psfa_destroy.c
+CC:  sched/sched_waitpid.c
+CC:  spawn/lib_psfa_init.c
+CC:  armv7-a/arm_sigdeliver.c
+CC:  spawn/lib_psfa_dump.c
+CC:  armv7-a/arm_syscall.c
+CC:  sched/sched_roundrobin.c
+CC:  spawn/lib_psa_getflags.c
+CC:  armv7-a/arm_unblocktask.c
+CC:  sched/sched_resumescheduler.c
+CC:  spawn/lib_psa_getschedparam.c
+CC:  sched/sched_processtimer.c
+CC:  armv7-a/arm_undefinedinsn.c
+CC:  spawn/lib_psa_getschedpolicy.c
+CC:  common/up_idle.c
+CC:  semaphore/sem_destroy.c
+CC:  spawn/lib_psa_init.c
+CC:  common/up_allocateheap.c
+CC:  semaphore/sem_wait.c
+CC:  spawn/lib_psa_setflags.c
+CC:  armv7-a/arm_cache.c
+CC:  spawn/lib_psa_setschedparam.c
+CC:  semaphore/sem_trywait.c
+AR:  arm_head.o arm_vectors.o arm_fpuconfig.o arm_fullcontextrestore.o arm_saveusercontext.o arm_vectoraddrexcptn.o arm_vfork.o arm_testset.o arm_fetchadd.o cp15_coherent_dcache.o cp15_invalidate_dcache.o cp15_clean_dcache.o cp15_flush_dcache.o cp15_invalidate_dcache_all.o a3x_boot.o a3x_irq.o a3x_pio.o a3x_lowputc.o a3x_serial.o a3x_timerisr.o up_initialize.o up_interruptcontext.o up_exit.o up_createstack.o up_releasestack.o up_usestack.o up_vfork.o up_puts.o up_mdelay.o up_stackframe.o up_udelay.o up_modifyreg8.o up_modifyreg16.o up_modifyreg32.o arm_assert.o arm_blocktask.o arm_copyfullstate.o arm_dataabort.o arm_doirq.o arm_gicv2.o arm_initialstate.o arm_mmu.o arm_prefetchabort.o arm_releasepending.o arm_reprioritizertr.o arm_schedulesigaction.o arm_sigdeliver.o arm_syscall.o arm_unblocktask.o arm_undefinedinsn.o up_idle.o up_allocateheap.o arm_cache.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/arch/arm/src' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libxx' に入ります
+CXX:  libxx_cxapurevirtual.cxx
+CC:  spawn/lib_psa_setschedpolicy.c
+CXX:  libxx_eabi_atexit.cxx
+CC:  semaphore/sem_tickwait.c
+CXX:  libxx_cxa_atexit.cxx
+CC:  spawn/lib_psa_getsigmask.c
+CXX:  libxx_cxa_guard.cxx
+CC:  spawn/lib_psa_setsigmask.c
+CC:  semaphore/sem_timedwait.c
+CXX:  libxx_delete.cxx
+CXX:  libxx_delete_sized.cxx
+CC:  spawn/lib_psa_getstacksize.c
+CXX:  libxx_deletea.cxx
+CC:  semaphore/sem_timeout.c
+CXX:  libxx_deletea_sized.cxx
+CC:  spawn/lib_psa_setstacksize.c
+CXX:  libxx_new.cxx
+CC:  semaphore/sem_post.c
+CC:  spawn/lib_psa_dump.c
+CXX:  libxx_newa.cxx
+CXX:  libxx_stdthrow.cxx
+CC:  semaphore/sem_recover.c
+CC:  stdio/lib_fileno.c
+AR:    libxx_cxapurevirtual.o libxx_eabi_atexit.o libxx_cxa_atexit.o libxx_cxa_guard.o libxx_delete.o libxx_delete_sized.o libxx_deletea.o libxx_deletea_sized.o libxx_new.o libxx_newa.o libxx_stdthrow.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libxx' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' に入ります
+make[2]: ディレクトリ '/home/taga/NuttX/apps/nshlib' に入ります
+CC:  nsh_init.c
+CC:  semaphore/sem_reset.c
+CC:  stdio/lib_printf.c
+CC:  nsh_parse.c
+CC:  stdio/lib_sprintf.c
+CC:  semaphore/sem_waitirq.c
+CC:  stdio/lib_asprintf.c
+CC:  signal/sig_initialize.c
+nsh_parse.c:225:19: warning: 'g_nullstring' defined but not used [-Wunused-const-variable=]
+ static const char g_nullstring[]      = "";
+                   ^~~~~~~~~~~~
+CC:  stdio/lib_snprintf.c
+CC:  stdio/lib_libsprintf.c
+CC:  signal/sig_action.c
+CC:  stdio/lib_vsprintf.c
+CC:  signal/sig_procmask.c
+CC:  stdio/lib_vasprintf.c
+CC:  stdio/lib_vsnprintf.c
+CC:  signal/sig_pending.c
+CC:  stdio/lib_dprintf.c
+CC:  signal/sig_suspend.c
+CC:  stdio/lib_vdprintf.c
+CC:  signal/sig_kill.c
+CC:  stdio/lib_meminstream.c
+CC:  nsh_console.c
+CC:  stdio/lib_memoutstream.c
+CC:  signal/sig_queue.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/fs' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/binfmt' に入ります
+CC:  stdio/lib_memsistream.c
+CC:  signal/sig_waitinfo.c
+CC:  signal/sig_timedwait.c
+CC:  stdio/lib_memsostream.c
+CC:  nsh_script.c
+CC:  signal/sig_findaction.c
+CC:  stdio/lib_lowoutstream.c
+CC:  nsh_system.c
+CC:  signal/sig_allocpendingsigaction.c
+CC:  stdio/lib_zeroinstream.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/binfmt' から出ます
+CC:  nsh_command.c
+CC:  stdio/lib_nullinstream.c
+CC:  signal/sig_releasependingsigaction.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libc' に入ります
+CC:  stdio/lib_nulloutstream.c
+CC:  signal/sig_unmaskpendingsignal.c
+CC:  stdio/lib_sscanf.c
+CC:  signal/sig_removependingsignal.c
+CC:  stdio/lib_vsscanf.c
+CC:  nsh_fscmds.c
+CC:  signal/sig_releasependingsignal.c
+CC:  stdio/lib_libvscanf.c
+CC:  signal/sig_lowest.c
+CC:  signal/sig_notification.c
+CC:  signal/sig_cleanup.c
+CC:  signal/sig_dispatch.c
+CC:  signal/sig_deliver.c
+CC:  nsh_ddcmd.c
+CC:  stdio/lib_libnoflush.c
+CC:  signal/sig_pause.c
+CC:  stdio/lib_libsnoflush.c
+CC:  signal/sig_nanosleep.c
+CC:  stdio/lib_libvsprintf.c
+CC:  signal/sig_usleep.c
+CC:  nsh_proccmds.c
+CC:  signal/sig_sleep.c
+CC:  signal/sig_ppoll.c
+CC:  nsh_mmcmds.c
+CC:  signal/sig_pselect.c
+CC:  nsh_timcmds.c
+CC:  task/task_create.c
+CC:  stdio/lib_ultoa_invert.c
+CC:  nsh_envcmds.c
+CC:  stdio/lib_fopen.c
+CC:  task/task_init.c
+CC:  task/task_setup.c
+CC:  nsh_syscmds.c
+CC:  stdio/lib_freopen.c
+CC:  stdio/lib_fclose.c
+CC:  nsh_dbgcmds.c
+CC:  task/task_activate.c
+CC:  stdio/lib_fread.c
+CC:  task/task_start.c
+CC:  stdio/lib_libfread.c
+CC:  task/task_delete.c
+CC:  stdio/lib_fseek.c
+CC:  task/task_exit.c
+CC:  nsh_session.c
+CC:  stdio/lib_ftell.c
+CC:  task/task_exithook.c
+CC:  nsh_fsutils.c
+CC:  stdio/lib_fsetpos.c
+CC:  task/task_getgroup.c
+CC:  stdio/lib_getdelim.c
+CC:  task/task_getpid.c
+CC:  nsh_builtin.c
+CC:  stdio/lib_fgetpos.c
+CC:  task/task_prctl.c
+CC:  stdio/lib_fgetc.c
+CC:  nsh_mntcmds.c
+CC:  task/task_recover.c
+CC:  stdio/lib_fgets.c
+CC:  task/task_restart.c
+CC:  stdio/lib_gets_s.c
+CC:  nsh_consolemain.c
+CC:  task/task_spawnparms.c
+CC:  stdio/lib_gets.c
+CC:  nsh_test.c
+CC:  stdio/lib_libfgets.c
+CC:  task/task_setcancelstate.c
+CC:  task/task_terminate.c
+CC:  stdio/lib_fwrite.c
+AR:   nsh_init.o nsh_parse.o nsh_console.o nsh_script.o nsh_system.o nsh_command.o nsh_fscmds.o nsh_ddcmd.o nsh_proccmds.o nsh_mmcmds.o nsh_timcmds.o nsh_envcmds.o nsh_syscmds.o nsh_dbgcmds.o nsh_session.o nsh_fsutils.o nsh_builtin.o nsh_mntcmds.o nsh_consolemain.o nsh_test.o  
+make[2]: ディレクトリ '/home/taga/NuttX/apps/nshlib' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' に入ります
+CC:  builtin_list.c
+CC:  stdio/lib_libfwrite.c
+CC:  task/exit.c
+CC:  exec_builtin.c
+CC:  task/task_vfork.c
+CC:  stdio/lib_fflush.c
+AR:   builtin_list.o exec_builtin.o  
+make[2]: ディレクトリ '/home/taga/NuttX/apps/builtin' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' に入ります
+CC:  nsh_main.c
+CC:  stdio/lib_libflushall.c
+CC:  task/task_spawn.c
+AR:     nsh_main.o
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/nsh' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/readline' に入ります
+CC:  readline.c
+CC:  stdio/lib_libfflush.c
+CC:  stdio/lib_rdflush.c
+CC:  timer/timer_initialize.c
+CC:  readline_common.c
+CC:  timer/timer_create.c
+CC:  stdio/lib_wrflush.c
+AR:   readline.o readline_common.o  
+make[2]: ディレクトリ '/home/taga/NuttX/apps/system/readline' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' に入ります
+CC:  stdio/lib_fputc.c
+CC:  mkfatfs.c
+CC:  timer/timer_delete.c
+CC:  timer/timer_getoverrun.c
+CC:  stdio/lib_puts.c
+CC:  timer/timer_getitimer.c
+CC:  configfat.c
+CC:  stdio/lib_fputs.c
+CC:  timer/timer_gettime.c
+CC:  timer/timer_setitimer.c
+CC:  stdio/lib_ungetc.c
+CC:  stdio/lib_vprintf.c
+CC:  timer/timer_settime.c
+CC:  stdio/lib_fprintf.c
+CC:  timer/timer_release.c
+CC:  writefat.c
+CC:  stdio/lib_vfprintf.c
+CC:  wdog/wd_initialize.c
+CC:  stdio/lib_stdinstream.c
+CC:  wdog/wd_create.c
+CC:  stdio/lib_stdoutstream.c
+CC:  wdog/wd_start.c
+CC:  stdio/lib_stdsistream.c
+AR:   mkfatfs.o configfat.o writefat.o  
+make[2]: ディレクトリ '/home/taga/NuttX/apps/fsutils/mkfatfs' から出ます
+make[2]: ディレクトリ '/home/taga/NuttX/apps/platform' に入ります
+CC:  gnu/gnu_cxxinitialize.c
+AR:   gnu_cxxinitialize.o  
+make[2]: ディレクトリ '/home/taga/NuttX/apps/platform' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/apps' から出ます
+CC:  stdio/lib_stdsostream.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/fs' に入ります
+CC:  fs_initialize.c
+CC:  wdog/wd_cancel.c
+CC:  inode/fs_files.c
+CC:  stdio/lib_perror.c
+CC:  wdog/wd_delete.c
+CC:  stdio/lib_feof.c
+CC:  wdog/wd_gettime.c
+CC:  stdio/lib_ferror.c
+CC:  inode/fs_foreachinode.c
+CC:  wdog/wd_recover.c
+CC:  stdio/lib_rawinstream.c
+AR:   clock_initialize.o clock_settime.o clock_gettime.o clock_getres.o clock_time2ticks.o clock_abstime2ticks.o clock_ticks2time.o clock_systimer.o clock_systimespec.o clock_timespec_add.o clock_timespec_subtract.o clock.o errno_getptr.o group_create.o group_join.o group_leave.o group_find.o group_setupstreams.o group_setupidlefiles.o group_setuptaskfiles.o group_foreachchild.o group_killchildren.o group_signal.o group_waiter.o nx_start.o nx_bringup.o irq_initialize.o irq_attach.o irq_dispatch.o irq_unexpectedisr.o mq_send.o mq_timedsend.o mq_sndinternal.o mq_receive.o mq_timedreceive.o mq_rcvinternal.o mq_initialize.o mq_descreate.o mq_desclose.o mq_msgfree.o mq_msgqalloc.o mq_msgqfree.o mq_release.o mq_recover.o mq_setattr.o mq_waitirq.o mq_notify.o mq_getattr.o pg_miss.o pg_worker.o pthread_keycreate.o pthread_setspecific.o pthread_getspecific.o pthread_keydelete.o pthread_create.o pthread_exit.o pthread_join.o pthread_detach.o pthread_getschedparam.o pthread_setschedparam.o pthread_mutexinit.o pthread_mutexdestroy.o pthread_mutextimedlock.o pthread_mutextrylock.o pthread_mutexunlock.o pthread_condwait.o pthread_condsignal.o pthread_condbroadcast.o pthread_condtimedwait.o pthread_kill.o pthread_sigmask.o pthread_cancel.o pthread_initialize.o pthread_completejoin.o pthread_findjoininfo.o pthread_release.o pthread_setschedprio.o pthread_get_stackaddr_np.o pthread_get_stacksize_np.o pthread_mutex.o pthread_mutexconsistent.o pthread_mutexinconsistent.o sched_garbage.o sched_getfiles.o sched_addreadytorun.o sched_removereadytorun.o sched_addprioritized.o sched_mergeprioritized.o sched_mergepending.o sched_addblocked.o sched_removeblocked.o sched_free.o sched_gettcb.o sched_verifytcb.o sched_releasetcb.o sched_getsockets.o sched_getstreams.o sched_setparam.o sched_setpriority.o sched_getparam.o sched_setscheduler.o sched_getscheduler.o sched_yield.o sched_rrgetinterval.o sched_foreach.o sched_lock.o sched_unlock.o sched_lockcount.o sched_idletask.o sched_self.o sched_waitpid.o sched_roundrobin.o sched_resumescheduler.o sched_processtimer.o sem_destroy.o sem_wait.o sem_trywait.o sem_tickwait.o sem_timedwait.o sem_timeout.o sem_post.o sem_recover.o sem_reset.o sem_waitirq.o sig_initialize.o sig_action.o sig_procmask.o sig_pending.o sig_suspend.o sig_kill.o sig_queue.o sig_waitinfo.o sig_timedwait.o sig_findaction.o sig_allocpendingsigaction.o sig_releasependingsigaction.o sig_unmaskpendingsignal.o sig_removependingsignal.o sig_releasependingsignal.o sig_lowest.o sig_notification.o sig_cleanup.o sig_dispatch.o sig_deliver.o sig_pause.o sig_nanosleep.o sig_usleep.o sig_sleep.o sig_ppoll.o sig_pselect.o task_create.o task_init.o task_setup.o task_activate.o task_start.o task_delete.o task_exit.o task_exithook.o task_getgroup.o task_getpid.o task_prctl.o task_recover.o task_restart.o task_spawnparms.o task_setcancelstate.o task_terminate.o exit.o task_vfork.o task_spawn.o timer_initialize.o timer_create.o timer_delete.o timer_getoverrun.o timer_getitimer.o timer_gettime.o timer_setitimer.o timer_settime.o timer_release.o wd_initialize.o wd_create.o wd_start.o wd_cancel.o wd_delete.o wd_gettime.o wd_recover.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/sched' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/binfmt' に入ります
+CC:  inode/fs_inode.c
+CC:  binfmt_globals.c
+CC:  stdio/lib_rawoutstream.c
+CC:  binfmt_initialize.c
+CC:  inode/fs_inodeaddref.c
+CC:  stdio/lib_rawsistream.c
+CC:  binfmt_register.c
+CC:  inode/fs_inodebasename.c
+CC:  stdio/lib_rawsostream.c
+CC:  binfmt_unregister.c
+CC:  inode/fs_inodefind.c
+CC:  stdio/lib_remove.c
+CC:  binfmt_loadmodule.c
+CC:  inode/fs_inodefree.c
+CC:  stdio/lib_clearerr.c
+CC:  stdio/lib_scanf.c
+CC:  inode/fs_inoderelease.c
+CC:  binfmt_unloadmodule.c
+CC:  stdio/lib_fscanf.c
+CC:  inode/fs_inoderemove.c
+CC:  binfmt_execmodule.c
+CC:  stdio/lib_vfscanf.c
+CC:  inode/fs_inodereserve.c
+CC:  binfmt_exec.c
+CC:  stdio/lib_tempnam.c
+CC:  stdio/lib_tmpnam.c
+CC:  binfmt_copyargv.c
+CC:  inode/fs_inodesearch.c
+CC:  stdio/lib_setbuf.c
+CC:  binfmt_dumpmodule.c
+CC:  stdio/lib_setvbuf.c
+CC:  builtin.c
+CC:  inode/fs_fileopen.c
+CC:  stdlib/lib_abs.c
+AR:   binfmt_globals.o binfmt_initialize.o binfmt_register.o binfmt_unregister.o binfmt_loadmodule.o binfmt_unloadmodule.o binfmt_execmodule.o binfmt_exec.o binfmt_copyargv.o binfmt_dumpmodule.o builtin.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/binfmt' から出ます
+IN: sched/libsched.a -> staging/libsched.a
+IN: drivers/libdrivers.a -> staging/libdrivers.a
+IN: boards/libboards.a -> staging/libboards.a
+IN: mm/libmm.a -> staging/libmm.a
+IN: arch/arm/src/libarch.a -> staging/libarch.a
+CC:  inode/fs_filedetach.c
+CC:  inode/fs_fileclose.c
+CC:  stdlib/lib_abort.c
+CC:  stdlib/lib_div.c
+CC:  vfs/fs_close.c
+CC:  stdlib/lib_ldiv.c
+IN: libs/libxx/libxx.a -> staging/libxx.a
+IN: ../apps/libapps.a -> staging/libapps.a
+IN: binfmt/libbinfmt.a -> staging/libbinfmt.a
+CC:  stdlib/lib_lldiv.c
+CC:  stdlib/lib_itoa.c
+CC:  stdlib/lib_labs.c
+CC:  vfs/fs_dup.c
+CC:  stdlib/lib_llabs.c
+CC:  stdlib/lib_bsearch.c
+CC:  stdlib/lib_rand.c
+CC:  vfs/fs_dup2.c
+CC:  stdlib/lib_qsort.c
+CC:  vfs/fs_fcntl.c
+CC:  vfs/fs_dupfd.c
+CC:  vfs/fs_dupfd2.c
+CC:  vfs/fs_epoll.c
+CC:  stdlib/lib_srand.c
+CC:  stdlib/lib_strtol.c
+CC:  stdlib/lib_strtoll.c
+CC:  vfs/fs_fstat.c
+CC:  stdlib/lib_strtoul.c
+CC:  stdlib/lib_strtoull.c
+CC:  vfs/fs_fstatfs.c
+CC:  stdlib/lib_strtod.c
+CC:  vfs/fs_getfilep.c
+CC:  stdlib/lib_strtof.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libc' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/mm' に入ります
+CC:  stdlib/lib_strtold.c
+CC:  vfs/fs_ioctl.c
+CC:  vfs/fs_lseek.c
+CC:  vfs/fs_mkdir.c
+CC:  stdlib/lib_checkbase.c
+CC:  vfs/fs_open.c
+CC:  vfs/fs_poll.c
+CC:  stdlib/lib_mktemp.c
+CC:  stdlib/lib_mkstemp.c
+CC:  vfs/fs_read.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/mm' から出ます
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libxx' に入ります
+CC:  vfs/fs_rename.c
+CC:  string/lib_ffs.c
+CC:  vfs/fs_rmdir.c
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libxx' から出ます
+CC:  vfs/fs_statfs.c
+CC:  string/lib_ffsl.c
+CC:  string/lib_ffsll.c
+CC:  string/lib_fls.c
+CC:  vfs/fs_stat.c
+CC:  string/lib_flsl.c
+CC:  string/lib_flsll.c
+CC:  string/lib_isbasedigit.c
+CC:  string/lib_memset.c
+CC:  vfs/fs_select.c
+CC:  string/lib_memchr.c
+CC:  vfs/fs_unlink.c
+CC:  string/lib_memccpy.c
+CC:  string/lib_memcmp.c
+CC:  string/lib_memmove.c
+CC:  string/lib_memrchr.c
+CC:  vfs/fs_write.c
+CC:  string/lib_skipspace.c
+CC:  string/lib_stpcpy.c
+CC:  vfs/fs_fsync.c
+CC:  string/lib_stpncpy.c
+CC:  string/lib_strcasecmp.c
+CC:  vfs/fs_truncate.c
+CC:  string/lib_strcat.c
+CC:  string/lib_strchr.c
+CC:  vfs/fs_pread.c
+CC:  string/lib_strcpy.c
+CC:  string/lib_strcmp.c
+CC:  string/lib_strcspn.c
+CC:  vfs/fs_pwrite.c
+CC:  vfs/fs_link.c
+CC:  string/lib_strdup.c
+CC:  string/lib_strerror.c
+CC:  vfs/fs_readlink.c
+CC:  string/lib_strlen.c
+CC:  vfs/fs_fdopen.c
+CC:  string/lib_strnlen.c
+CC:  string/lib_strncasecmp.c
+CC:  string/lib_strncat.c
+CC:  driver/fs_registerdriver.c
+CC:  string/lib_strncmp.c
+CC:  string/lib_strncpy.c
+CC:  driver/fs_unregisterdriver.c
+CC:  string/lib_strndup.c
+CC:  string/lib_strcasestr.c
+CC:  driver/fs_registerblockdriver.c
+CC:  driver/fs_unregisterblockdriver.c
+CC:  string/lib_strpbrk.c
+CC:  string/lib_strrchr.c
+CC:  driver/fs_findblockdriver.c
+CC:  string/lib_strspn.c
+CC:  driver/fs_openblockdriver.c
+CC:  driver/fs_closeblockdriver.c
+CC:  string/lib_strstr.c
+CC:  string/lib_strtok.c
+CC:  driver/fs_blockpartition.c
+CC:  string/lib_strtokr.c
+CC:  driver/fs_findmtddriver.c
+CC:  string/lib_strsep.c
+CC:  string/lib_strerrorr.c
+CC:  string/lib_explicit_bzero.c
+CC:  driver/fs_blockproxy.c
+CC:  string/lib_strsignal.c
+CC:  string/lib_anbstr2cstr.c
+CC:  string/lib_ancstr2bstr.c
+CC:  dirent/fs_closedir.c
+CC:  string/lib_bmem2cmem.c
+CC:  string/lib_bstrnlen.c
+CC:  dirent/fs_opendir.c
+CC:  dirent/fs_readdir.c
+CC:  string/lib_cmem2bmem.c
+CC:  string/lib_nbstr2cstr.c
+CC:  dirent/fs_rewinddir.c
+CC:  string/lib_ncstr2bstr.c
+CC:  string/lib_memcpy.c
+CC:  dirent/fs_seekdir.c
+CC:  mmap/fs_mmap.c
+CC:  symtab/symtab_findbyname.c
+CC:  mqueue/mq_open.c
+CC:  symtab/symtab_findbyvalue.c
+CC:  mqueue/mq_close.c
+CC:  mqueue/mq_unlink.c
+CC:  symtab/symtab_findorderedbyname.c
+CC:  mount/fs_mount.c
+CC:  symtab/symtab_sortbyname.c
+CC:  mount/fs_umount2.c
+CC:  mount/fs_foreachmountpoint.c
+CC:  syslog/lib_syslog.c
+CC:  syslog/lib_setlogmask.c
+CC:  partition/fs_partition.c
+CC:  fat/fs_fat32.c
+CC:  fat/fs_fat32dirent.c
+CC:  time/lib_strftime.c
+CC:  fat/fs_fat32attrib.c
+CC:  time/lib_calendar2utc.c
+CC:  fat/fs_fat32util.c
+CC:  time/lib_daysbeforemonth.c
+CC:  time/lib_gettimeofday.c
+CC:  time/lib_isleapyear.c
+CC:  time/lib_settimeofday.c
+CC:  time/lib_time.c
+CC:  time/lib_nanosleep.c
+CC:  time/lib_difftime.c
+CC:  time/lib_mktime.c
+CC:  time/lib_gmtime.c
+CC:  time/lib_gmtimer.c
+CC:  uio/lib_readv.c
+CC:  uio/lib_writev.c
+CC:  unistd/lib_access.c
+CC:  unistd/lib_daemon.c
+CC:  unistd/lib_swab.c
+CC:  unistd/lib_sysconf.c
+CC:  unistd/lib_getopt.c
+CC:  unistd/lib_getoptargp.c
+CC:  unistd/lib_getoptindp.c
+CC:  unistd/lib_getoptoptp.c
+CC:  unistd/lib_alarm.c
+CC:  unistd/lib_sleep.c
+AR:   fs_initialize.o fs_files.o fs_foreachinode.o fs_inode.o fs_inodeaddref.o fs_inodebasename.o fs_inodefind.o fs_inodefree.o fs_inoderelease.o fs_inoderemove.o fs_inodereserve.o fs_inodesearch.o fs_fileopen.o fs_filedetach.o fs_fileclose.o fs_close.o fs_dup.o fs_dup2.o fs_fcntl.o fs_dupfd.o fs_dupfd2.o fs_epoll.o fs_fstat.o fs_fstatfs.o fs_getfilep.o fs_ioctl.o fs_lseek.o fs_mkdir.o fs_open.o fs_poll.o fs_read.o fs_rename.o fs_rmdir.o fs_statfs.o fs_stat.o fs_select.o fs_unlink.o fs_write.o fs_fsync.o fs_truncate.o fs_pread.o fs_pwrite.o fs_link.o fs_readlink.o fs_fdopen.o fs_registerdriver.o fs_unregisterdriver.o fs_registerblockdriver.o fs_unregisterblockdriver.o fs_findblockdriver.o fs_openblockdriver.o fs_closeblockdriver.o fs_blockpartition.o fs_findmtddriver.o fs_blockproxy.o fs_closedir.o fs_opendir.o fs_readdir.o fs_rewinddir.o fs_seekdir.o fs_mmap.o mq_open.o mq_close.o mq_unlink.o fs_mount.o fs_umount2.o fs_foreachmountpoint.o fs_partition.o fs_fat32.o fs_fat32dirent.o fs_fat32attrib.o fs_fat32util.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/fs' から出ます
+CC:  unistd/lib_usleep.c
+CC:  unistd/lib_seteuid.c
+CC:  unistd/lib_setegid.c
+CC:  unistd/lib_geteuid.c
+CC:  unistd/lib_getegid.c
+CC:  unistd/lib_setregid.c
+CC:  unistd/lib_setreuid.c
+CC:  unistd/lib_getrusage.c
+CC:  unistd/lib_setuid.c
+CC:  unistd/lib_setgid.c
+CC:  unistd/lib_getuid.c
+CC:  unistd/lib_getgid.c
+CC:  unistd/lib_truncate.c
+CC:  unistd/lib_gethostname.c
+CC:  unistd/lib_sethostname.c
+IN: fs/libfs.a -> staging/libfs.a
+AR:    bin/lib_builtin_getname.o  bin/lib_builtin_isavail.o  bin/lib_builtin_forindex.o  bin/lib_readdirr.o  bin/lib_telldir.o  bin/lib_alphasort.o  bin/lib_scandir.o  bin/lib_swap16.o  bin/lib_swap32.o  bin/lib_swap64.o  bin/lib_fixedmath.o  bin/lib_b16sin.o  bin/lib_b16cos.o  bin/lib_b16atan2.o  bin/lib_ubsqrt.o  bin/lib_getgrgid.o  bin/lib_getgrgidr.o  bin/lib_getgrnam.o  bin/lib_getgrnamr.o  bin/lib_initgroups.o  bin/lib_getgrbuf.o  bin/lib_getgrbufr.o  bin/lib_imaxabs.o  bin/lib_strtoimax.o  bin/lib_strtoumax.o  bin/lib_basename.o  bin/lib_dirname.o  bin/lib_stream.o  bin/lib_utsname.o  bin/lib_xorshift128.o  bin/lib_tea_encrypt.o  bin/lib_tea_decrypt.o  bin/lib_filesem.o  bin/lib_umul32.o  bin/lib_umul64.o  bin/lib_umul32x64.o  bin/lib_uadd32x64.o  bin/lib_uadd64.o  bin/lib_usub64x32.o  bin/lib_usub64.o  bin/lib_sendfile.o  bin/lib_streamsem.o  bin/lib_crc64.o  bin/lib_crc32.o  bin/lib_crc16.o  bin/lib_crc8.o  bin/lib_crc8ccitt.o  bin/lib_dumpbuffer.o  bin/lib_match.o  bin/lib_debug.o  bin/lib_addrconfig.o  bin/lib_etherntoa.o  bin/lib_htons.o  bin/lib_htonl.o  bin/lib_inetaddr.o  bin/lib_inetaton.o  bin/lib_inetntoa.o  bin/lib_inetntop.o  bin/lib_inetpton.o  bin/pthread_attr_init.o  bin/pthread_attr_destroy.o  bin/pthread_attr_setschedpolicy.o  bin/pthread_attr_getschedpolicy.o  bin/pthread_attr_setinheritsched.o  bin/pthread_attr_getinheritsched.o  bin/pthread_attr_setstacksize.o  bin/pthread_attr_getstacksize.o  bin/pthread_attr_setstack.o  bin/pthread_attr_getstack.o  bin/pthread_attr_setschedparam.o  bin/pthread_attr_getschedparam.o  bin/pthread_barrierattr_init.o  bin/pthread_barrierattr_destroy.o  bin/pthread_barrierattr_getpshared.o  bin/pthread_barrierattr_setpshared.o  bin/pthread_barrierinit.o  bin/pthread_barrierdestroy.o  bin/pthread_barrierwait.o  bin/pthread_condattr_init.o  bin/pthread_condattr_destroy.o  bin/pthread_condinit.o  bin/pthread_conddestroy.o  bin/pthread_mutexattr_init.o  bin/pthread_mutexattr_destroy.o  bin/pthread_mutexattr_getpshared.o  bin/pthread_mutexattr_setpshared.o  bin/pthread_mutexattr_setprotocol.o  bin/pthread_mutexattr_getprotocol.o  bin/pthread_mutexattr_settype.o  bin/pthread_mutexattr_gettype.o  bin/pthread_mutexattr_setrobust.o  bin/pthread_mutexattr_getrobust.o  bin/pthread_mutex_lock.o  bin/pthread_setcancelstate.o  bin/pthread_setcanceltype.o  bin/pthread_testcancel.o  bin/pthread_rwlock.o  bin/pthread_rwlock_rdlock.o  bin/pthread_rwlock_wrlock.o  bin/pthread_once.o  bin/pthread_yield.o  bin/lib_getpwnam.o  bin/lib_getpwnamr.o  bin/lib_getpwuid.o  bin/lib_getpwuidr.o  bin/lib_getpwbuf.o  bin/lib_getpwbufr.o  bin/sq_addlast.o  bin/sq_addfirst.o  bin/sq_addafter.o  bin/sq_cat.o  bin/sq_rem.o  bin/sq_remlast.o  bin/sq_remfirst.o  bin/sq_remafter.o  bin/sq_count.o  bin/dq_addlast.o  bin/dq_addfirst.o  bin/dq_addafter.o  bin/dq_addbefore.o  bin/dq_cat.o  bin/dq_rem.o  bin/dq_remlast.o  bin/dq_remfirst.o  bin/dq_count.o  bin/sched_getprioritymax.o  bin/sched_getprioritymin.o  bin/task_setcanceltype.o  bin/task_testcancel.o  bin/sem_init.o  bin/sem_getprotocol.o  bin/sem_getvalue.o  bin/sem_setprotocol.o  bin/sig_addset.o  bin/sig_delset.o  bin/sig_emptyset.o  bin/sig_fillset.o  bin/sig_hold.o  bin/sig_ignore.o  bin/sig_ismember.o  bin/sig_pause.o  bin/sig_psignal.o  bin/sig_raise.o  bin/sig_relse.o  bin/sig_set.o  bin/sig_signal.o  bin/sig_wait.o  bin/lib_psfa_addaction.o  bin/lib_psfa_addclose.o  bin/lib_psfa_adddup2.o  bin/lib_psfa_addopen.o  bin/lib_psfa_destroy.o  bin/lib_psfa_init.o  bin/lib_psfa_dump.o  bin/lib_psa_getflags.o  bin/lib_psa_getschedparam.o  bin/lib_psa_getschedpolicy.o  bin/lib_psa_init.o  bin/lib_psa_setflags.o  bin/lib_psa_setschedparam.o  bin/lib_psa_setschedpolicy.o  bin/lib_psa_getsigmask.o  bin/lib_psa_setsigmask.o  bin/lib_psa_getstacksize.o  bin/lib_psa_setstacksize.o  bin/lib_psa_dump.o  bin/lib_fileno.o  bin/lib_printf.o  bin/lib_sprintf.o  bin/lib_asprintf.o  bin/lib_snprintf.o  bin/lib_libsprintf.o  bin/lib_vsprintf.o  bin/lib_vasprintf.o  bin/lib_vsnprintf.o  bin/lib_dprintf.o  bin/lib_vdprintf.o  bin/lib_meminstream.o  bin/lib_memoutstream.o  bin/lib_memsistream.o  bin/lib_memsostream.o  bin/lib_lowoutstream.o  bin/lib_zeroinstream.o  bin/lib_nullinstream.o  bin/lib_nulloutstream.o  bin/lib_sscanf.o  bin/lib_vsscanf.o  bin/lib_libvscanf.o  bin/lib_libnoflush.o  bin/lib_libsnoflush.o  bin/lib_libvsprintf.o  bin/lib_ultoa_invert.o  bin/lib_fopen.o  bin/lib_freopen.o  bin/lib_fclose.o  bin/lib_fread.o  bin/lib_libfread.o  bin/lib_fseek.o  bin/lib_ftell.o  bin/lib_fsetpos.o  bin/lib_getdelim.o  bin/lib_fgetpos.o  bin/lib_fgetc.o  bin/lib_fgets.o  bin/lib_gets_s.o  bin/lib_gets.o  bin/lib_libfgets.o  bin/lib_fwrite.o  bin/lib_libfwrite.o  bin/lib_fflush.o  bin/lib_libflushall.o  bin/lib_libfflush.o  bin/lib_rdflush.o  bin/lib_wrflush.o  bin/lib_fputc.o  bin/lib_puts.o  bin/lib_fputs.o  bin/lib_ungetc.o  bin/lib_vprintf.o  bin/lib_fprintf.o  bin/lib_vfprintf.o  bin/lib_stdinstream.o  bin/lib_stdoutstream.o  bin/lib_stdsistream.o  bin/lib_stdsostream.o  bin/lib_perror.o  bin/lib_feof.o  bin/lib_ferror.o  bin/lib_rawinstream.o  bin/lib_rawoutstream.o  bin/lib_rawsistream.o  bin/lib_rawsostream.o  bin/lib_remove.o  bin/lib_clearerr.o  bin/lib_scanf.o  bin/lib_fscanf.o  bin/lib_vfscanf.o  bin/lib_tempnam.o  bin/lib_tmpnam.o  bin/lib_setbuf.o  bin/lib_setvbuf.o  bin/lib_abs.o  bin/lib_abort.o  bin/lib_div.o  bin/lib_ldiv.o  bin/lib_lldiv.o  bin/lib_itoa.o  bin/lib_labs.o  bin/lib_llabs.o  bin/lib_bsearch.o  bin/lib_rand.o  bin/lib_qsort.o  bin/lib_srand.o  bin/lib_strtol.o  bin/lib_strtoll.o  bin/lib_strtoul.o  bin/lib_strtoull.o  bin/lib_strtod.o  bin/lib_strtof.o  bin/lib_strtold.o  bin/lib_checkbase.o  bin/lib_mktemp.o  bin/lib_mkstemp.o  bin/lib_ffs.o  bin/lib_ffsl.o  bin/lib_ffsll.o  bin/lib_fls.o  bin/lib_flsl.o  bin/lib_flsll.o  bin/lib_isbasedigit.o  bin/lib_memset.o  bin/lib_memchr.o  bin/lib_memccpy.o  bin/lib_memcmp.o  bin/lib_memmove.o  bin/lib_memrchr.o  bin/lib_skipspace.o  bin/lib_stpcpy.o  bin/lib_stpncpy.o  bin/lib_strcasecmp.o  bin/lib_strcat.o  bin/lib_strchr.o  bin/lib_strcpy.o  bin/lib_strcmp.o  bin/lib_strcspn.o  bin/lib_strdup.o  bin/lib_strerror.o  bin/lib_strlen.o  bin/lib_strnlen.o  bin/lib_strncasecmp.o  bin/lib_strncat.o  bin/lib_strncmp.o  bin/lib_strncpy.o  bin/lib_strndup.o  bin/lib_strcasestr.o  bin/lib_strpbrk.o  bin/lib_strrchr.o  bin/lib_strspn.o  bin/lib_strstr.o  bin/lib_strtok.o  bin/lib_strtokr.o  bin/lib_strsep.o  bin/lib_strerrorr.o  bin/lib_explicit_bzero.o  bin/lib_strsignal.o  bin/lib_anbstr2cstr.o  bin/lib_ancstr2bstr.o  bin/lib_bmem2cmem.o  bin/lib_bstrnlen.o  bin/lib_cmem2bmem.o  bin/lib_nbstr2cstr.o  bin/lib_ncstr2bstr.o  bin/lib_memcpy.o  bin/symtab_findbyname.o  bin/symtab_findbyvalue.o  bin/symtab_findorderedbyname.o  bin/symtab_sortbyname.o  bin/lib_syslog.o  bin/lib_setlogmask.o  bin/lib_strftime.o  bin/lib_calendar2utc.o  bin/lib_daysbeforemonth.o  bin/lib_gettimeofday.o  bin/lib_isleapyear.o  bin/lib_settimeofday.o  bin/lib_time.o  bin/lib_nanosleep.o  bin/lib_difftime.o  bin/lib_mktime.o  bin/lib_gmtime.o  bin/lib_gmtimer.o  bin/lib_readv.o  bin/lib_writev.o  bin/lib_access.o  bin/lib_daemon.o  bin/lib_swab.o  bin/lib_sysconf.o  bin/lib_getopt.o  bin/lib_getoptargp.o  bin/lib_getoptindp.o  bin/lib_getoptoptp.o  bin/lib_alarm.o  bin/lib_sleep.o  bin/lib_usleep.o  bin/lib_seteuid.o  bin/lib_setegid.o  bin/lib_geteuid.o  bin/lib_getegid.o  bin/lib_setreuid.o  bin/lib_setregid.o  bin/lib_getrusage.o  bin/lib_setuid.o  bin/lib_setgid.o  bin/lib_getuid.o  bin/lib_getgid.o  bin/lib_truncate.o  bin/lib_gethostname.o  bin/lib_sethostname.o
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/libs/libc' から出ます
+IN: libs/libc/libc.a -> staging/libc.a
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/arch/arm/src' に入ります
+AS:  armv7-a/arm_vectortab.S
+make[2]: ディレクトリ '/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src' に入ります
+CC:  a3x_boot.c
+CC:  a3x_bringup.c
+CC:  a3x_leds.c
+CC:  a3x_appinit.c
+AR:   a3x_boot.o a3x_bringup.o a3x_leds.o a3x_appinit.o
+make[2]: ディレクトリ '/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/src' から出ます
+LD: nuttx
+ tagashira --entry=__start -nostartfiles -nodefaultlibs -T/home/taga/NuttX/nuttx/boards/arm/a3x/vividnode-a33/scripts/sdram.ld
+ tagashira LIBPATHS -L/home/taga/NuttX/nuttx/staging -L/home/taga/NuttX/nuttx/arch/arm/src/board 
+ tagashira EXTRA_LIBPATHS  
+ tagashira -o /home/taga/NuttX/nuttx/nuttx 
+ tagashira HEAD_OBJ arm_vectortab.o 
+ tagashira EXTRA_OBJS  
+ tagashira LDSTARTGROUP --start-group 
+ tagashira LDLIBS -lsched -ldrivers -lboards -lc -lmm -larch -lxx -lapps -lfs -lbinfmt -lboard 
+ tagashira EXRTA_LIBS  
+ tagashira LDENDGROUP --end-group 
+make[1]: ディレクトリ '/home/taga/NuttX/nuttx/arch/arm/src' から出ます
+CP: nuttx.hex
+CP: nuttx.bin

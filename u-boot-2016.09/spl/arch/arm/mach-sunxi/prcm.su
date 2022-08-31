@@ -1,0 +1,2 @@
+prcm.c:24:6:prcm_apb0_enable	0	static
+prcm.c:36:6:prcm_apb0_disable	0	static

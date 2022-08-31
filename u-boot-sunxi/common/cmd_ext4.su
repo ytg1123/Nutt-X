@@ -1,0 +1,2 @@
+cmd_ext4.c:68:5:do_ext4_ls	8	static
+cmd_ext4.c:59:5:do_ext4_load	8	static

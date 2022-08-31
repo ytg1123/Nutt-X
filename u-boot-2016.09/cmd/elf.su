@@ -1,0 +1,4 @@
+elf.c:146:22:load_elf_image_phdr	32	static
+elf.c:248:5:valid_elf_image	8	static
+elf.c:268:5:do_bootelf	56	static
+elf.c:324:5:do_bootvx	152	static

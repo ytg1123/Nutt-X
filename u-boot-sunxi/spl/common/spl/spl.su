@@ -1,0 +1,7 @@
+swab.h:112:48:__fswab32	0	static
+image.h:382:1:image_get_load	0	static
+image.h:381:1:image_get_size	0	static
+spl.c:51:13:hang	8	static
+spl.c:77:6:spl_parse_image_header	16	static
+spl.c:148:6:board_init_r	8	static
+spl.c:233:6:preloader_console_init	8	static

@@ -1,0 +1,273 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+LOAD /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                0x00002000                . = 0x2000
+                0x00002000                . = ALIGN (0x4)
+
+.head           0x00002000      0x2f8
+ main/fes_head.o(.rodata)
+ .rodata        0x00002000      0x2f8 main/fes_head.o
+                0x00002000                fes1_head
+
+.hash           0x000022f8       0x40
+ main/fes_hash.o(.data)
+ .data          0x000022f8       0x40 main/fes_hash.o
+                0x000022f8                fes_hash_value
+
+.text           0x00002338     0x2504
+ main/fes1_entry.o(.text)
+ .text          0x00002338       0x40 main/fes1_entry.o
+                0x00002338                _start
+ *(.text)
+ .text          0x00002378     0x1af4 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                0x00002378                local_delay
+                0x0000237c                paraconfig
+                0x00002388                set_master_priority
+                0x000023ac                auto_set_timing_para
+                0x000029d0                ccm_set_pll_ddr_clk
+                0x00002a04                ccm_set_pll_ddr1_clk
+                0x00002a3c                mctl_sys_init
+                0x00002c94                mctl_com_init
+                0x00002d38                mctl_channel_init
+                0x000032d0                DRAMC_get_dram_size
+                0x000032f8                auto_detect_dram_size
+                0x00003464                init_DRAM
+                0x000035ec                mctl_init
+                0x00003658                binding_chip_id
+                0x000036fc                sunxi_rsb_init
+                0x0000389c                sunxi_rsb_config
+                0x000039d4                sunxi_rsb_exit
+                0x000039d8                sunxi_rsb_read
+                0x00003b6c                sunxi_rsb_write
+                0x00003d00                set_ddr_voltage
+                0x00003e18                get_axp_chip_id
+ .text          0x00003e6c       0x40 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .text          0x00003eac      0x5e0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+                0x00003eac                timer_init
+                0x00003ee8                __msdelay
+                0x00003f00                __usdelay
+                0x00003f18                timer_exit
+                0x00003f1a                get_ticks
+                0x00003f28                boot_set_gpio
+                0x000041b0                boot_set_one_gpio
+                0x000042e0                sunxi_serial_init
+                0x0000434c                sunxi_serial_putc
+                0x00004360                sunxi_serial_getc
+                0x00004374                sunxi_serial_tstc
+                0x00004384                set_pll
+                0x00004444                reset_pll
+                0x00004460                set_gpio_gate
+                0x00004480                set_ccmu_normal
+ .text          0x0000448c      0x3b0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                0x000044b6                int_to_string_dec
+                0x00004516                int_to_string_hex
+                0x00004538                vsprintf
+                0x000045d6                puts
+                0x000045ea                sprintf
+                0x00004602                printf
+                0x00004634                strcpy
+                0x00004644                strncpy
+                0x00004658                strcat
+                0x00004674                strncat
+                0x000046a0                strcmp
+                0x000046b6                strncmp
+                0x000046d4                strchr
+                0x000046ec                strlen
+                0x000046fc                strrchr
+                0x0000471c                strnlen
+                0x00004732                strspn
+                0x00004756                memset
+                0x00004764                memcpy
+                0x00004776                memmove
+                0x000047ae                memcmp
+                0x000047ca                memscan
+                0x000047e2                strstr
+                0x00004816                memchr
+                0x00004830                boot0_jump
+ .text          0x0000483c        0x0 main/fes_head.o
+ .text          0x0000483c        0x0 main/fes_hash.o
+
+.glue_7         0x0000483c        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x0000483c        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000483c        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x0000483c        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x0000483c        0x0
+ .iplt          0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+
+.text.startup   0x0000483c       0x70
+ .text.startup  0x0000483c       0x70 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+                0x0000483c                main
+                0x000048b0                . = ALIGN (0x10)
+
+.rodata         0x000048b0       0x59
+ *(.rodata)
+ .rodata        0x000048b0       0x48 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .rodata        0x000048f8       0x11 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+
+.rodata.str1.1  0x00004909      0x97e
+ .rodata.str1.1
+                0x00004909      0x93a /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                                0x93b (size before relaxing)
+ .rodata.str1.1
+                0x00005243       0x44 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+
+.rel.dyn        0x00005288        0x0
+ .rel.iplt      0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                0x00005290                . = ALIGN (0x10)
+
+.data           0x00005290       0x30
+ *(.data)
+ .data          0x00005290       0x2c /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .data          0x000052bc        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .data          0x000052bc        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .data          0x000052bc        0x4 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                0x000052bc                debug_mode
+ .data          0x000052c0        0x0 main/fes_head.o
+ .data          0x000052c0        0x0 main/fes1_entry.o
+
+.igot.plt       0x000052c0        0x0
+ .igot.plt      0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                0x000052c0                . = ALIGN (0x4)
+
+.bss            0x000052c0        0x4
+                0x000052c0                __bss_start = .
+ *(.bss)
+ .bss           0x000052c0        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .bss           0x000052c0        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .bss           0x000052c0        0x4 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .bss           0x000052c4        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .bss           0x000052c4        0x0 main/fes_head.o
+ .bss           0x000052c4        0x0 main/fes_hash.o
+ .bss           0x000052c4        0x0 main/fes1_entry.o
+                0x000052c4                . = ALIGN (0x4)
+                0x000052c4                __bss_end = .
+                0x000052c4                _end = .
+OUTPUT(fes1.axf elf32-littlearm)
+
+.comment        0x00000000       0x64
+ .comment       0x00000000       0x64 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                                0x12f (size before relaxing)
+ .comment       0x00000000       0x65 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .comment       0x00000000      0x194 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .comment       0x00000000      0x12f /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .comment       0x00000000       0x65 main/fes_head.o
+ .comment       0x00000000       0x65 main/fes_hash.o
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .note.GNU-stack
+                0x00000000        0x0 main/fes_head.o
+ .note.GNU-stack
+                0x00000000        0x0 main/fes_hash.o
+
+.ARM.attributes
+                0x00000000       0x3d
+ .ARM.attributes
+                0x00000000       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .ARM.attributes
+                0x0000003b       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .ARM.attributes
+                0x00000076       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .ARM.attributes
+                0x000000b1       0x3b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .ARM.attributes
+                0x000000ec       0x3b main/fes_head.o
+ .ARM.attributes
+                0x00000127       0x3b main/fes_hash.o
+ .ARM.attributes
+                0x00000162       0x2d main/fes1_entry.o
+
+.debug_aranges  0x00000000      0x188
+ .debug_aranges
+                0x00000000       0x60 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_aranges
+                0x00000060       0x28 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_aranges
+                0x00000088       0x80 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .debug_aranges
+                0x00000108       0x60 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_aranges
+                0x00000168       0x20 main/fes1_entry.o
+
+.debug_info     0x00000000     0x39a5
+ .debug_info    0x00000000     0x14be /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_info    0x000014be      0x449 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_info    0x00001907     0x11a2 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .debug_info    0x00002aa9      0xa7d /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_info    0x00003526      0x378 main/fes_head.o
+ .debug_info    0x0000389e       0x95 main/fes_hash.o
+ .debug_info    0x00003933       0x72 main/fes1_entry.o
+
+.debug_abbrev   0x00000000      0xf8a
+ .debug_abbrev  0x00000000      0x579 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_abbrev  0x00000579      0x112 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_abbrev  0x0000068b      0x4d4 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .debug_abbrev  0x00000b5f      0x32b /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_abbrev  0x00000e8a       0x9f main/fes_head.o
+ .debug_abbrev  0x00000f29       0x4d main/fes_hash.o
+ .debug_abbrev  0x00000f76       0x14 main/fes1_entry.o
+
+.debug_line     0x00000000     0x1546
+ .debug_line    0x00000000      0xa5e /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_line    0x00000a5e       0xfe /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_line    0x00000b5c      0x4b7 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .debug_line    0x00001013      0x402 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+ .debug_line    0x00001415       0xbb main/fes_head.o
+ .debug_line    0x000014d0       0x2b main/fes_hash.o
+ .debug_line    0x000014fb       0x4b main/fes1_entry.o
+
+.debug_frame    0x00000000      0x708
+ .debug_frame   0x00000000      0x28c /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_frame   0x0000028c       0x44 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_frame   0x000002d0      0x178 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .debug_frame   0x00000448      0x2c0 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+
+.debug_str      0x00000000      0xe10
+ .debug_str     0x00000000      0x656 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+                                0x937 (size before relaxing)
+ .debug_str     0x00000656      0x254 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+                                0x36f (size before relaxing)
+ .debug_str     0x000008aa      0x3bb /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+                                0x7e9 (size before relaxing)
+ .debug_str     0x00000c65      0x18c /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+                                0x44c (size before relaxing)
+ .debug_str     0x00000df1       0x14 main/fes_head.o
+                                0x2e6 (size before relaxing)
+ .debug_str     0x00000e05        0xb main/fes_hash.o
+                                0x104 (size before relaxing)
+
+.debug_loc      0x00000000     0x4639
+ .debug_loc     0x00000000     0x2882 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_loc     0x00002882       0x88 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_loc     0x0000290a     0x11dd /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o
+ .debug_loc     0x00003ae7      0xb52 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/spl/lib/libgeneric.o
+
+.debug_ranges   0x00000000      0x2a0
+ .debug_ranges  0x00000000      0x1f8 /home/taga/NuttX/brandy/u-boot-2011.09/arch/arm/cpu/armv7/sun8iw5/dram/libdram.o
+ .debug_ranges  0x000001f8       0x18 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/main/libmain.o
+ .debug_ranges  0x00000210       0x90 /home/taga/NuttX/brandy/u-boot-2011.09/sunxi_spl/fes_init/spl/libsource_spl.o

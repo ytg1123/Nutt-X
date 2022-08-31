@@ -1,0 +1,1 @@
+cmd_drivers/power/built-in.o :=  /home/taga/NuttX/brandy/u-boot-2014.07/../gcc-linaro/bin/arm-linux-gnueabi-ld.bfd     -r -o drivers/power/built-in.o drivers/power/sunxi/axp_null.o drivers/power/sunxi/axp_supply_null.o drivers/power/sunxi/axp.o drivers/power/sunxi/axp20.o drivers/power/sunxi/axp20_supply.o drivers/power/sunxi/axp22.o drivers/power/sunxi/axp22_supply.o 

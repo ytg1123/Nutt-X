@@ -1,0 +1,2 @@
+key_burn.c:161:5:do_efuse_read	40	static
+key_burn.c:58:5:sunxi_keydata_burn_by_usb	536	static
