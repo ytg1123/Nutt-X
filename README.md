@@ -1,6 +1,5 @@
 ■ Create a new repository
 
-
 <pre>
 git clone https://github.com/ytg1123/Nutt_X.git
 cd NuttX
